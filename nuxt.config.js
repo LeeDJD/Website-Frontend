@@ -14,7 +14,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [{ src: '/js/navbar.js' }]
+    script: [{ src: 'js/navbar.js' }]
   },
 
   /*
@@ -25,9 +25,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-    '@/assets/css/main.scss'
-  ],
+  css: ['@/assets/css/bulma.scss'],
 
   /*
   ** Plugins to load before mounting the App
@@ -37,12 +35,7 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-    ,
-    // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
-    '@nuxtjs/pwa'
-  ],
+  modules: ['@nuxtjs/pwa'],
 
   /*
   ** Build configuration
