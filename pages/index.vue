@@ -1,7 +1,18 @@
 <template>
   <div>
     <Header />
-    <h1>Example Header! i think</h1>
+    <div class="container is-fluid has-text-white content">
+      <h1 class="has-text-white is-large">
+        About me
+      </h1>
+      <p>Hi there! My name's <strong class="has-text-white">Leon Kappes</strong>,</p><p>
+        a self-taught "software developer" from western Germany!<br>
+        I started teaching programming to myself when I was 102 and I am learning ever<br>
+        What started with me trying to get basic minecraft plugins working developed into now writing bigger applications in teams.<br><br>
+        By now I'm somewhat fluent with <strong class="has-text-white">Java, Javascript, Go</strong>, and a basic understanding of several other programming languages.<br>
+        Currently I am just learning some new concepts of good programming, looking at different Libaries and Frameworks and building myself a portfolio.
+      </p>
+    </div>
     <Footer />
   </div>
 </template>
@@ -18,5 +29,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="scss">
+.container {
+  height: 100%;
+  position: relative;
+  padding-top: 1%;
+  @media only screen and (max-width: 600px) {
+    padding-left: 3%;
+  }
+}
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
 </style>
