@@ -12,7 +12,8 @@
         By now I'm somewhat fluent with <strong class="has-text-white">Java, Javascript, Go</strong>, and a basic understanding of several other programming languages.<br>
         Currently I am just learning some new concepts of good programming, looking at different Libaries and Frameworks and building myself a portfolio.<br>
         Primarily I write server side code in <strong class="has-text-white">Go or Node.js</strong>, storing everything in a <strong class="has-text-white">Cassandra</strong> CQL Database and <strong class="has-text-white">Redis</strong> as a cache.
-        My Website is build in <strong class="has-text-white">Vue</strong> with <strong class="has-text-white">Nuxt.js</strong>
+        My Website is build in <strong class="has-text-white">Vue</strong> with <strong class="has-text-white">Nuxt.js</strong>.<br>
+        Everything is hosted on an <strong class="has-text-white">Home Server</strong> which is using a Tiny <strong class="has-text-white">VPS</strong> as a <strong class="has-text-white">VPN</strong> for public connections.
       </p>
     </div>
     <Footer />
