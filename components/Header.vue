@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar">
-    <p class="brand">Lee</p>
-    <div class="spacer"/>
+    <p class="brand">
+      Lee
+    </p>
+    <div class="spacer" />
     <ul class="nav-wrapper">
       <li class="nav-item">
         <a class="nav-link" href="/">Home</a>
@@ -13,15 +15,16 @@
         <a class="nav-link" href="/">Projects</a>
       </li>
     </ul>
-    <div @click="toggleHamburger()">
+    <div type="button" @click="toggleHamburger()">
       <div id="mobile-hamburger" class="hamburger">
-        <span/>
-        <span/>
-        <span/>
+        <span />
+        <span />
+        <span />
       </div>
     </div>
   </nav>
 </template>
+
 <script>
 export default {
   name: 'Header',
@@ -89,8 +92,8 @@ export default {
       height: 3px;
       width: 100%;
       border-radius: 5px;
-      margin-top: 5px;
-      transition: 1s ease-in-out;
+      margin-top: 4px;
+      transition: background-color 0s 0.13s linear;
     }
 
     span:nth-child(1) {
@@ -107,8 +110,9 @@ export default {
 
     &.enabled {
       span:nth-child(1) {
-        transform: rotate(-150deg);
-        transition: 1s ease-in-out;
+        transform: translate3d(0, 10px, 0) rotate(45deg);
+        transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+          transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
       }
 
       span:nth-child(2) {
@@ -118,8 +122,9 @@ export default {
       }
 
       span:nth-child(3) {
-        transform: rotate(157deg);
-        transition: 1s ease-in-out;
+        transform: translate3d(0, 10px, 0) rotate(-45deg);
+        transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+          transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
       }
     }
 
