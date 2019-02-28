@@ -19,7 +19,7 @@
         </nuxt-link>
       </li>
     </ul>
-    <div class="spacer" />
+    <div class="spacer2"></div>
     <div id="mobile-hamburger" class="hamburger" @click="toggleHamburger()">
       <span />
       <span />
@@ -53,6 +53,11 @@ export default {
     flex-grow: 1;
     @media screen and (max-width: 500px) {
       flex-grow: 0.5;
+    }
+  }
+  .spacer2 {
+    @media screen and (max-width: 500px) {
+      flex-grow: 1;
     }
   }
   .brand {
