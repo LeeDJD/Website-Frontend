@@ -3,7 +3,7 @@
     <p class="mainline">
       <strong class="has-text-white">© Copyright(2019)</strong>
       <a href="/">Leon Kappes</a> available on
-      <a href="https://github.com/LeeDJD/Website-Frontend">Github</a>
+      <a href="https://github.com/LeeDJD/Website-Frontend" target="_blank">Github</a>
     </p>
   </footer>
 </template>
@@ -22,6 +22,15 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+
+  @media screen and (max-width: 500px) {
+    position: relative;
+    margin-top: 15px;
+  }
+
   .mainline {
     text-align: center;
     color: rgba(255, 255, 255, 0.9);

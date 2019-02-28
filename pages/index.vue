@@ -34,16 +34,11 @@ export default {
 
 <style scoped lang="scss">
 .container {
-  height: 100%;
+  height: 90%;
   position: relative;
   padding-top: 1%;
   @media only screen and (max-width: 600px) {
     padding-left: 3%;
   }
-}
-footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
 }
 </style>

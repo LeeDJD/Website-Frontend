@@ -1,26 +1,29 @@
 <template>
   <nav class="navbar">
-    <p class="brand">
+    <h1 class="brand">
       Lee
-    </p>
+    </h1>
     <div class="spacer" />
-    <ul class="nav-wrapper">
+    <ul id="wrapper" class="nav-wrapper">
       <li class="nav-item">
-        <a class="nav-link" href="/">Home</a>
+        <nuxt-link class="nav-link" to="/">
+          Home
+        </nuxt-link>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/">Blog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/">Projects</a>
+        <nuxt-link class="nav-link" to="/">
+          Projects
+        </nuxt-link>
       </li>
     </ul>
-    <div type="button" @click="toggleHamburger()">
-      <div id="mobile-hamburger" class="hamburger">
-        <span />
-        <span />
-        <span />
-      </div>
+    <div class="spacer" />
+    <div id="mobile-hamburger" class="hamburger" @click="toggleHamburger()">
+      <span />
+      <span />
+      <span />
     </div>
   </nav>
 </template>
@@ -31,6 +34,7 @@ export default {
   methods: {
     toggleHamburger() {
       document.getElementById('mobile-hamburger').classList.toggle('enabled')
+      document.getElementById('wrapper').classList.toggle('mobile')
     }
   }
 }
@@ -42,13 +46,24 @@ export default {
   background: hsl(0, 0, 21%);
   align-items: center;
   padding: 0 1.5rem;
+  @media screen and (max-width: 500px) {
+    padding-left: 1rem;
+  }
   .spacer {
     flex-grow: 1;
+    @media screen and (max-width: 500px) {
+      flex-grow: 0.5;
+    }
   }
   .brand {
     color: #fff;
     text-transform: uppercase;
     font-size: 1.1rem;
+    font-weight: 900;
+    padding-left: 2.7rem;
+    @media screen and (max-width: 500px) {
+      padding-left: 0;
+    }
   }
   .nav-wrapper {
     display: flex;
@@ -57,87 +72,90 @@ export default {
     list-style: none;
     align-items: center;
 
+    @media screen and (max-width: 500px) {
+      display: none;
+      &.mobile {
+        display: flex;
+        flex-direction: column;
+        top: 1rem;
+        .nav-item {
+          border-bottom: 2px solid #272725;
+        }
+      }
+    }
+
     .nav-item {
       margin: 0.5rem 0;
       padding: 0.5rem 1rem;
       text-decoration: none;
       .nav-link {
         color: rgba(255, 255, 255, 0.7);
-        transition-duration: 200ms;
         text-transform: uppercase;
         font-size: 0.9rem;
         &:hover {
           color: white;
-          transition-duration: 200ms;
+          transition-duration: 1s;
         }
-      }
-      .nav-link:last-child {
-        transition-duration: 5s;
-        //margin-right: 10rem;
       }
     }
   }
   .hamburger {
+    position: flex;
+    display: none;
     color: transparent;
-    width: 25px;
-    height: 25px;
-    top: 0;
+    width: 33px;
+    height: 30px;
+    top: 0.7rem;
     right: 1rem;
     cursor: pointer;
-    vertical-align: baseline;
     background: none;
+
     span {
-      background: rgba(255, 255, 255, 0.7);
+      background: white;
       display: block;
       height: 3px;
       width: 100%;
       border-radius: 5px;
-      margin-top: 4px;
-      transition: background-color 0s 0.13s linear;
+      margin-top: 5px;
     }
 
     span:nth-child(1) {
-      top: 0;
+      transition: 100ms ease-in-out;
     }
 
     span:nth-child(2) {
-      top: 7px;
+      transition: ease-in-out 200ms;
     }
 
     span:nth-child(3) {
-      top: 14px;
+      transition: 200ms ease-in-out;
     }
 
     &.enabled {
+      span {
+        background: white;
+      }
+
       span:nth-child(1) {
-        transform: translate3d(0, 10px, 0) rotate(45deg);
-        transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
-          transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transform: translateY(8px) rotate(-45deg);
+        transition: 100ms ease-in-out;
       }
 
       span:nth-child(2) {
-        display: none;
-        transform: rotate(5000deg);
-        transition: 1s ease-in-out;
+        transform: translateY(-10px);
+        opacity: 0;
+        transition: ease-in-out 200ms;
       }
 
       span:nth-child(3) {
-        transform: translate3d(0, 10px, 0) rotate(-45deg);
-        transition: top 0.1s 0.15s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
-          transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transform: translateY(-9px) rotate(45deg);
+        transition: 200ms ease-in-out;
       }
     }
 
-    &:hover {
-      color: white;
-      transition-delay: 200ms;
+    @media screen and (max-width: 500px) {
+      display: block;
     }
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .navbar {
-    color: #fff;
   }
 }
 </style>
