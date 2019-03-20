@@ -3,11 +3,21 @@ image: node
 before_script:
   - npm install
 
+stages:
+  - test
+  - deploy
+
 cache:
   paths:
     - node_modules/
 
+test:
+  stage: test
+  script:
+    - npm run lint
+
 pages:
+  stage: deploy
   script:
     - npm run generate
   artifacts:
