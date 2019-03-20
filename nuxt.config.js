@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Leon Kappes | Backend Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,6 +19,13 @@ module.exports = {
   ** Customize the progress-bar color
   */
   loading: { color: '#272727' },
+
+  /*
+  ** Customize the generated output folder
+  */
+  generate: {
+    dir: 'public'
+  },
 
   /*
   ** Global CSS
