@@ -7,7 +7,7 @@
       </h1>
       <p>Hi there! My name's <strong class="has-text-white">Leon Kappes</strong>,</p><p>
         a self-taught "software developer" from western Germany!<br>
-        I started teaching programming to myself when I was 12 and I am learning ever<br>
+        I started teaching programming to myself when I was 12 and I am learning ever since.<br>
         What started with me trying to get basic minecraft plugins working developed into now writing bigger applications in teams.<br><br>
         By now I'm somewhat fluent with <strong class="has-text-white">Java, Javascript, Go</strong>, and a basic understanding of several other programming languages.<br>
         Currently I am just learning some new concepts of good programming, looking at different Libaries and Frameworks and building myself a portfolio.<br>
@@ -34,11 +34,10 @@ export default {
 
 <style scoped lang="scss">
 .container {
-  height: 90%;
   position: relative;
-  padding-top: 1%;
-  @media only screen and (max-width: 600px) {
-    padding-left: 3%;
+  padding-top: 1rem;
+  @media (max-width: 48em) {
+    padding-left: 1rem;
   }
 }
 </style>
