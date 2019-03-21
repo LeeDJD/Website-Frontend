@@ -4,11 +4,11 @@
       Lee
     </h1>
     <div class="right">
-      <nuxt-link class="link" to="/">
+      <nuxt-link class="link" :class="{ 'active': isActive == 'home' ? true : false }" to="/">
         Home
       </nuxt-link>
-      <a class="link" href="/">Blog</a>
-      <nuxt-link class="link" to="/">
+      <a class="link" :class="{ 'active': isActive == 'blog' ? true : false }" href="/">Blog</a>
+      <nuxt-link class="link" :class="{ 'active': isActive == 'projects' ? true : false }" to="/">
         Projects
       </nuxt-link>
     </div>
@@ -23,6 +23,7 @@
 <script>
 export default {
   name: 'Header',
+  props: { 'isActive': String, }, //eslint-disable-line
   methods: {
     toggleHamburger() {
       const burger = document.querySelector('#mobile-hamburger')
@@ -54,7 +55,8 @@ export default {
   color: rgba(255, 255, 255, 0.7);
 }
 .navbar .link:hover,
-.navbar .link:active {
+.navbar .link:active,
+.navbar .link.active {
   transition-duration: 1s;
   color: white;
 }

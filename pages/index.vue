@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header is-active="home" />
     <div class="container is-fluid has-text-white content">
       <h1 class="has-text-white is-large">
         About me
