@@ -16,7 +16,7 @@ test:
   script:
     - npm run lint
 
-pages:
+deploy:
   stage: deploy
   script:
     - npm run generate

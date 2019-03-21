@@ -26,9 +26,8 @@ export default {
   position: absolute;
   width: 100%;
 
-  @media (max-height: 520px) {
-    position: relative !important;
-    margin-top: 15px;
+  @media screen and (max-height: 700px) {
+    bottom: auto !important;
   }
 
   .mainline {
