@@ -1,16 +1,22 @@
 <template>
-  <footer class="custom-footer">
+  <footer class="custom-footer" :style="{ bottom: bottom }">
     <p class="mainline">
       <strong class="has-text-white">© Copyright(2019)</strong>
       <a href="/">Leon Kappes</a> available on
-      <a href="https://github.com/LeeDJD/Website-Frontend" target="_blank">Github</a>
+      <a href="https://github.com/LeeDJD/Website-Frontend" target="_blank">
+        <strong>Github</strong>
+      </a>.
+      <nuxt-link to="/legal">
+        <strong>Legals</strong>
+      </nuxt-link>
     </p>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  props: { bottom:String  } //eslint-disable-line
 }
 </script>
 
