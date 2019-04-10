@@ -5,7 +5,7 @@ before_script:
 
 stages:
   - test
-  - deploy
+  - pages
 
 cache:
   paths:
@@ -16,8 +16,8 @@ test:
   script:
     - npm run lint
 
-deploy:
-  stage: deploy
+pages:
+  stage: pages
   script:
     - npm run generate
   artifacts:
