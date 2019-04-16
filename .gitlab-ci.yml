@@ -10,9 +10,9 @@ variables:
     IMAGE: registry.gitlab.com/lee-websites/frontend/home
 
 stages:
-    -test
-    -build
-    -deploy
+    - test
+    - build
+    - deploy
 
 test:
     stage: test
