@@ -1,27 +1,48 @@
-image: node
+image: docker:dind
 
-before_script:
-  - npm install
+services:
+    - docker:dind
+    
+variables:
+    DOCKER_DRIVER: overlay2
+    DOCKER_HOST: tcp://localhost:2375
+    
+    IMAGE: registry.gitlab.com/lee-websites/frontend/home
 
 stages:
-  - test
-  - pages
-
-cache:
-  paths:
-    - node_modules/
+    -test
+    -build
+    -deploy
 
 test:
-  stage: test
-  script:
-    - npm run lint
+    stage: test
+    image: node
+    script:
+        - npm run lint
 
-pages:
-  stage: pages
-  script:
-    - npm run generate
-  artifacts:
-    paths:
-      - public
-  only:
+build_site:
+    stage: build
+    script:
+      - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+      - docker build -t ${IMAGE} . -f Dockerfile
+      - docker tag ${IMAGE} ${IMAGE}:${CI_COMMIT_SHORT_SHA}
+      - docker tag ${IMAGE} ${IMAGE}:latest
+      - docker push ${IMAGE}
+      
+deploy_staging_site:
+    stage: deploy
+    image: dtzar/helm-kubectl
+    script:
+      - kubectl config set-cluster k8s --server="${KUBE_URL}"
+      - kubectl config set clusters.k8s.certificate-authority ${KUBE_CA_PEM_FILE}
+      - kubectl config set-credentials gitlab --token="${KUBE_TOKEN}"
+      - kubectl config set-context default --cluster=k8s --user=gitlab
+      - kubectl config use-context default
+      - kubectl apply -f k8s/kubernetes.yml
+    environment:
+      name: staging
+    only:
     - master
+
+
+
