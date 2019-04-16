@@ -1,13 +1,13 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: home_site
-  namespace: leon_kappes_space
+  name: home-site
+  namespace: leon-kappes-space
 spec:
   replicas: 4
   selector:
     matchLabels:
-      app: home_site
+      app: home-site
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -16,10 +16,10 @@ spec:
   template:
     metadata:
       labels:
-        app: home_site
+        app: home-site
     spec:
       containers:
-      - name: home_site
+      - name: home-site
         image: registry.gitlab.com/lee-websites/frontend/home
         imagePullPolicy: always
         ports:
@@ -30,8 +30,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: home_site-service
-  namespace: leon_kappes_space
+  name: home-site-service
+  namespace: leon-kappes-space
 spec:
   ports:
   - name: http
@@ -39,5 +39,5 @@ spec:
     protocol: TCP
     targetPort: 5000
   selector:
-    app: home_site
+    app: home-site
   type: LoadBalancer
