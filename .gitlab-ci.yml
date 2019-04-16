@@ -3,8 +3,6 @@ image: docker:dind
 services:
     - docker:dind
     
-before_script:
-  - npm install
 cache:
   paths:
     - node_modules/
@@ -25,6 +23,7 @@ test:
     stage: test
     image: node
     script:
+        - npm install
         - npm run lint
 
 build_site:
