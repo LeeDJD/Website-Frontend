@@ -1,0 +1,43 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: home_site
+  namespace: leon_kappes_space
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: home_site
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 25%
+  template:
+    metadata:
+      labels:
+        app: home_site
+    spec:
+      containers:
+      - name: home_site
+        image: registry.gitlab.com/lee-websites/frontend/home
+        imagePullPolicy: always
+        ports:
+          - containerPort: 5000
+      imagePullSecrets:
+      - name: gitlab-auth
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: home_site-service
+  namespace: leon_kappes_space
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: home_site
+  type: LoadBalancer
