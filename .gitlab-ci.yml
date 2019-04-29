@@ -24,7 +24,7 @@ stages:
 
 setup:
     stage: setup
-    image: node
+    image: node:latest
     script:
         - npm install
     artifacts:
@@ -33,7 +33,7 @@ setup:
 
 test:
     stage: test
-    image: node
+    image: node:latest
     script:
         - npm run lint
 
