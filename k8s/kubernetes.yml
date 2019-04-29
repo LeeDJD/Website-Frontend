@@ -1,13 +1,13 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: home-site-deployment
+  name: site
   namespace: leon-kappes-space
 spec:
   replicas: 4
   selector:
     matchLabels:
-      app: home-site
+      app: site
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -16,21 +16,22 @@ spec:
   template:
     metadata:
       labels:
-        app: home-site
+        app: site
     spec:
       containers:
-      - name: home-site
+      - name: site
         image: registry.gitlab.com/lee-websites/frontend/home
         imagePullPolicy: always
         ports:
           - containerPort: 5000
       imagePullSecrets:
       - name: gitlab-auth
+
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: home-site-service
+  name: site
   namespace: leon-kappes-space
 spec:
   ports:
@@ -39,16 +40,16 @@ spec:
     protocol: TCP
     targetPort: 5000
   selector:
-    app: home-site
+    app: site
   type: LoadBalancer
----
+  
+  ---
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: home-site-ingress
-  namespace: leon-kappes-space
   annotations:
-   kubernetes.io/ingress.class: "traefik"
+    kubernetes.io/ingress.class: traefik
+  name: site
 spec:
   rules:
   - host: kappes.space
@@ -56,5 +57,5 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: home-site-service
+          serviceName: site
           servicePort: 80
