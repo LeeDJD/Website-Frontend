@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: home-site
+  name: home-site-deployment
   namespace: leon-kappes-space
 spec:
   replicas: 4
@@ -45,8 +45,8 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: traefik-dashboard
-  namespace: kube-system
+  name: home-site-ingress
+  namespace: leon-kappes-space
   annotations:
    kubernetes.io/ingress.class: "traefik"
 spec:
