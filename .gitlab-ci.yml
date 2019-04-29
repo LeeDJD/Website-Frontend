@@ -24,7 +24,7 @@ stages:
 
 setup:
     stage: setup
-    image: node:latest
+    image: node:12.0.0-alpine
     script:
         - npm install
     artifacts:
@@ -33,7 +33,7 @@ setup:
 
 test:
     stage: test
-    image: node:latest
+    image: node:12.0.0-alpine
     script:
         - npm run lint
 
