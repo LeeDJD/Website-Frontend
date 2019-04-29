@@ -4,4 +4,4 @@ ADD . .
 RUN yarn
 RUN yarn run build
 
-RUN yarn run start
+CMD yarn run start
