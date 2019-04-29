@@ -1,4 +1,4 @@
-FROM tarampampam/node:alpine
+FROM node:alpine
 ADD . .
 RUN npm install
 RUN npm run build
