@@ -40,7 +40,7 @@ spec:
     app: site
   type: LoadBalancer
   
-  ---
+---
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
