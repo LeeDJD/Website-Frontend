@@ -50,6 +50,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
   name: leon-kappes-space-home-ingress
+  namespace: leon-kappes-space
 spec:
   rules:
   - host: kappes.space
