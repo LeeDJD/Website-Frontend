@@ -38,7 +38,7 @@ spec:
   - name: http
     port: 80
     protocol: TCP
-    targetPort: 3000
+    targetPort: 5000
   selector:
     app: leon-kappes-space-home
 
