@@ -1,24 +1,27 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: site
+  name: leon-kappes-space-home-deployment
   namespace: leon-kappes-space
 spec:
   replicas: 4
   selector:
     matchLabels:
-      app: site
+      app: leon-kappes-space-home
   strategy:
     type: RollingUpdate
     rollingUpdate:
       maxSurge: 1
       maxUnavailable: 25%
   template:
+    metadata:
+      labels:
+        app: leon-kappes-space-home
     spec:
       containers:
       - name: site
         image: registry.gitlab.com/lee-websites/frontend/home
-        imagePullPolicy: always
+        imagePullPolicy: Always
         ports:
           - containerPort: 5000
       imagePullSecrets:
@@ -28,7 +31,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: site
+  name: leon-kappes-space-home-service
   namespace: leon-kappes-space
 spec:
   ports:
@@ -37,7 +40,7 @@ spec:
     protocol: TCP
     targetPort: 5000
   selector:
-    app: site
+    app: leon-kappes-space-home
   type: LoadBalancer
   
 ---
@@ -46,7 +49,7 @@ kind: Ingress
 metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
-  name: site
+  name: leon-kappes-space-home-ingress
 spec:
   rules:
   - host: kappes.space
@@ -54,5 +57,5 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: site
+          serviceName: leon-kappes-space-home
           servicePort: 80
