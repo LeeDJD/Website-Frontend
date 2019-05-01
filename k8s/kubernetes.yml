@@ -39,6 +39,7 @@ spec:
     port: 5000
   selector:
     app: leon-kappes-space-home
+  type: LoadBalancer    
 
 ---
 apiVersion: extensions/v1beta1
