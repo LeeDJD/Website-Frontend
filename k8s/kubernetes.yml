@@ -52,7 +52,7 @@ metadata:
   namespace: leon-kappes-space
 spec:
   rules:
-  - host: leon.kappes.space
+  - host: kappes.space
     http:
       paths:
       - path: /
