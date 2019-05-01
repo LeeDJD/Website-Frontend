@@ -56,4 +56,4 @@ spec:
       - path: /
         backend:
           serviceName: leon-kappes-space-home-service
-          servicePort: 80
+          servicePort: 5000
