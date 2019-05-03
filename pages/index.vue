@@ -25,9 +25,8 @@
         <strong class="has-text-white">Vue</strong> with
         <strong class="has-text-white">Nuxt.js</strong>.
         <br>Everything is hosted on an
-        <strong class="has-text-white">Home Server</strong> which is using a Tiny
-        <strong class="has-text-white">VPS</strong> as a
-        <strong class="has-text-white">VPN</strong> for public connections.
+        <strong class="has-text-white">VPS</strong> which is located at
+        <a href="contabo.com" target="_blank" rel="noopener noreferrer"><strong class="has-text-white">Contabo</strong></a>.
       </p>
     </div>
     <Footer />
