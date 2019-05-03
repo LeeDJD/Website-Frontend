@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: leon-kappes-space-dev
+  name: leon-kappes-space
 
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: leon-kappes-space-home-deployment
-  namespace: leon-kappes-space-dev
+  name: leon-kappes-space-home-deployment-dev
+  namespace: leon-kappes-space
 spec:
   replicas: 4
   selector:
@@ -32,8 +32,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: leon-kappes-space-home-service
-  namespace: leon-kappes-space-dev
+  name: leon-kappes-space-home-service-dev
+  namespace: leon-kappes-space
 spec:
   ports:
    - name: http
@@ -46,11 +46,11 @@ spec:
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
-metadata:
+metadata:‚
   annotations:
     kubernetes.io/ingress.class: traefik
-  name: leon-kappes-space-home-ingress
-  namespace: leon-kappes-space-dev
+  name: leon-kappes-space-home-ingress-dev
+  namespace: leon-kappes-space
 spec:
   rules:
   - host: develop.kappes.space
@@ -58,5 +58,5 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: leon-kappes-space-home-service
+          serviceName: leon-kappes-space-home-service-dev
           servicePort: 80
