@@ -60,6 +60,3 @@ deploy_staging_site:
       name: staging
     only:
     - master
-
-
-

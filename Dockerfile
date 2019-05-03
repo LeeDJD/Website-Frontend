@@ -1,5 +1,5 @@
-FROM node:12.0.0-alpine
-RUN apk add --no-cache ca-certificates
+FROM node:12.1.0-alpine
+RUN apk --no-cache add ca-certificates
 ADD . .
 RUN yarn
 RUN yarn run build
