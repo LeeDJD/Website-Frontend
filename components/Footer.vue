@@ -3,7 +3,7 @@
     <p class="mainline">
       <strong class="has-text-white">© Copyright(2019)</strong>
       <a href="/">Leon Kappes</a> available on
-      <a href="https://github.com/LeeDJD/Website-Frontend" target="_blank">
+      <a href="https://github.com/LeeDJD/Website-Frontend" target="_blank" rel="noopener noreferrer">
         <strong>Github</strong>
       </a>.
       <nuxt-link to="/legal">
