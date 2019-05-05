@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: leon-kappes-space-home-deployment
-  namespace: leon-kappes-space
 spec:
   replicas: 4
   selector:
@@ -32,7 +31,6 @@ apiVersion: v1
 kind: Service
 metadata:
   name: leon-kappes-space-home-service
-  namespace: leon-kappes-space
 spec:
   ports:
    - name: http
@@ -49,7 +47,6 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
   name: leon-kappes-space-home-ingress
-  namespace: leon-kappes-space
 spec:
   rules:
   - host: kappes.space
