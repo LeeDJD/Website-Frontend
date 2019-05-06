@@ -18,7 +18,6 @@ spec:
       labels:
         app: leon-kappes-space-home
     spec:
-      serviceAccountName: leon-kappes-space-gitlab
       containers:
       - name: site
         image: registry.gitlab.com/lee-websites/frontend/home
