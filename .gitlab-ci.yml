@@ -1,27 +1,22 @@
 image: docker:dind
-
 services:
     - docker:dind
-    
 cache:
   untracked: true
   key: "$CI_BUILD_REF_NAME"
   paths:
     - node_modules/
-
     
 variables:
-    DOCKER_DRIVER: overlay2
-    DOCKER_HOST: tcp://localhost:2375
-    
-    IMAGE: registry.gitlab.com/lee-websites/frontend/home
-
+  DOCKER_DRIVER: overlay2
+  DOCKER_HOST: tcp://localhost:2375
+  KUBECONFIG: "/etc/deploy/config"
+  IMAGE: registry.gitlab.com/lee-websites/frontend/home
 stages:
     - setup
     - test
     - build
     - deploy
-
 setup:
     stage: setup
     image: node:12.0.0-alpine
@@ -30,13 +25,11 @@ setup:
     artifacts:
         paths:
             - node_modules/
-
 test:
     stage: test
     image: node:12.0.0-alpine
     script:
         - npm run lint
-
 build_site:
     stage: build
     script:
@@ -45,33 +38,21 @@ build_site:
       - docker tag ${IMAGE} ${IMAGE}:${CI_COMMIT_SHORT_SHA}
       - docker tag ${IMAGE} ${IMAGE}:latest
       - docker push ${IMAGE}
-      
-deploy_staging_site:
+.k8s-deploy: &k8s-deploy
+  image: dtzar/helm-kubectl
+  before_script:
+    - mkdir -p /etc/deploy
+    - echo ${KUBE_CONFIG} | base64 -d > ${KUBECONFIG}
+  script:
+    - kubectl config use-context $KUBECONTEXT
+    - helm init --client-only
+    - helm upgrade kappes-space ./ --install --namespace kappes-space --set image.tag=${CI_COMMIT_SHORT_SHA}
+deploy_production_site:
     stage: deploy
-    image: dtzar/helm-kubectl
-    script:
-      - kubectl config set-cluster k8s --server="${KUBE_URL}"
-      - kubectl config set clusters.k8s.certificate-authority ${KUBE_CA_PEM_FILE}
-      - kubectl config set-credentials gitlab --token="${KUBE_TOKEN}"
-      - kubectl config set-context default --cluster=k8s --user=gitlab
-      - kubectl config use-context default
-      - kubectl apply -f k8s/kubernetes.yml
+    variables:
+      KUBECONTEXT: "kappes-space"
+    <<: *k8s-deploy
     environment:
-      name: staging
+      name: production
     only:
     - master
-
-deploy_develop_site:
-    stage: deploy
-    image: dtzar/helm-kubectl
-    script:
-      - kubectl config set-cluster k8s --server="${KUBE_URL}"
-      - kubectl config set clusters.k8s.certificate-authority ${KUBE_CA_PEM_FILE}
-      - kubectl config set-credentials gitlab --token="${KUBE_TOKEN}"
-      - kubectl config set-context default --cluster=k8s --user=gitlab
-      - kubectl config use-context default
-      - kubectl apply -f k8s/kubernetes-dev.yml
-    environment:
-        name: develop
-    only:
-    - develop
