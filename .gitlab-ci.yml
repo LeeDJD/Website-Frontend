@@ -1,6 +1,8 @@
 image: docker:dind
 services:
-    - docker:dind
+    - name: docker:dind
+      command: ["--mtu=1450"]
+    
 cache:
   untracked: true
   key: "$CI_BUILD_REF_NAME"
