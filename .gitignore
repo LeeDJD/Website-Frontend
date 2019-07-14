@@ -231,3 +231,4 @@ modules.xml
 
 # End of https://www.gitignore.io/api/vim,node,sass,nuxt,linux,nuxtjs,webstorm+all
 yarn.lock
+.vscode/*

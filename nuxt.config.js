@@ -4,8 +4,8 @@ module.exports = {
   mode: 'universal',
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: 'Leon Kappes | Backend Developer',
     meta: [
@@ -13,39 +13,40 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description },
       { name: 'robots', content: 'noindex' }
-    ]
+    ],
+    link: [{ rel: 'stylesheet', href: '/css/all.min.css' }]
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#272727' },
 
   /*
-  ** Customize the generated output folder
-  */
+   ** Customize the generated output folder
+   */
   generate: {
     dir: 'public'
   },
 
   /*
-  ** Global CSS
-  */
+   ** Global CSS
+   */
   css: ['@/assets/css/bulma.scss'],
 
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins to load before mounting the App
+   */
   plugins: [],
 
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: ['@nuxtjs/pwa'],
 
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     postcss: {
       preset: {
@@ -55,8 +56,8 @@ module.exports = {
       }
     },
     /*
-    ** You can extend webpack config here
-    */
+     ** You can extend webpack config here
+     */
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
