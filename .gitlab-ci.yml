@@ -47,7 +47,6 @@ build_site:
     - echo ${KUBE_CONFIG} | base64 -d > ${KUBECONFIG}
   script:
     - kubectl config use-context $KUBECONTEXT
-    - helm init --client-only
     - helm upgrade kappes-space-home ./ --install --namespace kappes-space --set image.tag=${CI_COMMIT_SHORT_SHA}
 deploy_production_site:
     stage: deploy
