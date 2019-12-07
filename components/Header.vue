@@ -4,11 +4,23 @@
       Lee
     </h1>
     <div class="right">
-      <nuxt-link class="link" :class="{ 'active': isActive == 'home' ? true : false }" to="/">
+      <nuxt-link
+        class="link"
+        :class="{ active: isActive == 'home' ? true : false }"
+        to="/"
+      >
         Home
       </nuxt-link>
-      <a class="link" :class="{ 'active': isActive == 'blog' ? true : false }" href="/">Blog</a>
-      <nuxt-link class="link" :class="{ 'active': isActive == 'projects' ? true : false }" to="/">
+      <a
+        class="link"
+        :class="{ active: isActive == 'blog' ? true : false }"
+        href="/"
+      >Blog</a>
+      <nuxt-link
+        class="link"
+        :class="{ active: isActive == 'projects' ? true : false }"
+        to="/"
+      >
         Projects
       </nuxt-link>
     </div>
