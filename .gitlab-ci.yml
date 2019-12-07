@@ -7,6 +7,8 @@ cache:
     - node_modules/
     
 variables:
+  DOCKER_DRIVER: overlay2
+  DOCKER_HOST: tcp://localhost:2375
   KUBECONFIG: "/etc/deploy/config"
   IMAGE: registry.gitlab.com/lee-websites/frontend/home
 stages:
