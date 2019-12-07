@@ -14,7 +14,17 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description },
       { name: 'robots', content: 'noindex' }
     ],
-    link: [{ rel: 'stylesheet', href: '/css/all.min.css' }]
+    link: [
+      {
+        rel: 'stylesheet',
+        href:
+          'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/all.min.css'
+      }
+    ]
   },
 
   /*
@@ -32,7 +42,7 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: ['@/assets/css/bulma.scss'],
+  css: [],
 
   /*
    ** Plugins to load before mounting the App
