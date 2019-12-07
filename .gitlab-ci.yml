@@ -1,7 +1,4 @@
 image: docker:dind
-services:
-    - name: docker:dind
-      command: ["--mtu=1450"]
     
 cache:
   untracked: true
@@ -10,8 +7,6 @@ cache:
     - node_modules/
     
 variables:
-  DOCKER_DRIVER: overlay2
-  DOCKER_HOST: tcp://localhost:2375
   KUBECONFIG: "/etc/deploy/config"
   IMAGE: registry.gitlab.com/lee-websites/frontend/home
 stages:
@@ -36,7 +31,7 @@ build_site:
     stage: build
     script:
       - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
-      - docker build -t ${IMAGE} . -f Dockerfile
+      - docker build --network host -t ${IMAGE} . -f Dockerfile
       - docker tag ${IMAGE} ${IMAGE}:${CI_COMMIT_SHORT_SHA}
       - docker tag ${IMAGE} ${IMAGE}:latest
       - docker push ${IMAGE}
