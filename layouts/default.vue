@@ -31,4 +31,16 @@ li {
   -moz-transition: all 300ms;
   -o-transition: all 300ms;
 }
+::-webkit-scrollbar-thumb {
+  background-color: #2a2c2e;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
+}
+::-webkit-scrollbar {
+  background-color: #1c1e1f;
+  color: #c5c1b9;
+  width: 7px;
+}
 </style>
