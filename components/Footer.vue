@@ -44,7 +44,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                 ></a>
               </li>
               <li>
-                <a href="https://discord.gg/FXMvCh" target="_blank"
+                <a href="https://discord.gg/tyB74AZ" target="_blank"
                   ><i class="fab fa-discord fa-2x"></i
                 ></a>
               </li>
