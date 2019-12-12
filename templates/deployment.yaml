@@ -2,6 +2,12 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kappes-space-deployment
+  labels:
+    keel.sh/trigger: poll
+    keel.sh/match-tag: "true"
+    keel.sh/policy: "force"
+  annotations:
+    keel.sh/pollSchedule: "@every 1m"
 spec:
   replicas: 4
   selector:
@@ -19,10 +25,8 @@ spec:
     spec:
       containers:
       - name: site
-        image: registry.gitlab.com/lee-websites/frontend/home:{{ .Values.image.tag }}
+        image: theleede/website-frontend:latest
         imagePullPolicy: Always
         ports:
           - containerPort: 5000
-      imagePullSecrets:
-      - name: gitlab-auth
 
