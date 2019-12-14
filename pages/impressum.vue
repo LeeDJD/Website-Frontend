@@ -1,33 +1,20 @@
 <!--
 Leon Kappes Homepage
 Copyright (C) 2019  Leon Kappes
-
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
 by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Affero General Public License for more details.
-
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 -->
 
 <template>
   <div>
-    <Header />
-    <div class="container is-fluid has-text-white content">
-      <h1 class="has-text-white">
-        Important Notice
-      </h1>
-      <p>
-        This wall of text is required because i live in the dumbster of Germany
-        so feel free to ignore it.(It is in german, too!)
-      </p>
-    </div>
     <h2>Datenschutzerklärung</h2>
     <h3 id="dsg-general-intro" />
     <p>
@@ -39,30 +26,30 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im
       Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“
       oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der
-      Datenschutzgrundverordnung (DSGVO). <br>
-      <br>
+      Datenschutzgrundverordnung (DSGVO). <br />
+      <br />
     </p>
     <h3 id="dsg-general-controller">
       Verantwortlicher
     </h3>
     <p>
-      <span
-        class="tsmcontroller"
-      >Leon Kappess<br>
-        Thomas-Mann-Str. 27<br>
-        41469 Neuss<br>
-        Deutschland<br>
-        E-Mailadresse: leon@kappes.spacee</span>
+      <span class="tsmcontroller"
+        >Leon Kappess<br />
+        Thomas-Mann-Str. 27<br />
+        41469 Neuss<br />
+        Deutschland<br />
+        E-Mailadresse: leon@kappes.spacee</span
+      >
     </p>
     <h3 id="dsg-general-datatype">
       Arten der verarbeiteten Daten
     </h3>
     <p>
-      - Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br>
-      - Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
-      - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
+      - Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br />
+      - Kontaktdaten (z.B., E-Mail, Telefonnummern).<br />
+      - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br />
       - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten,
-      Zugriffszeiten).<br>
+      Zugriffszeiten).<br />
       - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
     </p>
     <h3 id="dsg-general-datasubjects">
@@ -70,17 +57,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p>
       Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die
-      betroffenen Personen zusammenfassend auch als „Nutzer“).<br>
+      betroffenen Personen zusammenfassend auch als „Nutzer“).<br />
     </p>
     <h3 id="dsg-general-purpose">
       Zweck der Verarbeitung
     </h3>
     <p>
       - Zurverfügungstellung des Onlineangebotes, seiner Funktionen und
-      Inhalte.<br>
-      - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br>
-      - Sicherheitsmaßnahmen.<br>
-      - Reichweitenmessung/Marketing<br>
+      Inhalte.<br />
+      - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br />
+      - Sicherheitsmaßnahmen.<br />
+      - Reichweitenmessung/Marketing<br />
       <span class="tsmcom" />
     </p>
     <h3 id="dsg-general-terms">
@@ -95,13 +82,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren
       besonderen Merkmalen identifiziert werden kann, die Ausdruck der
       physischen, physiologischen, genetischen, psychischen, wirtschaftlichen,
-      kulturellen oder sozialen Identität dieser natürlichen Person sind.<br>
-      <br>
+      kulturellen oder sozialen Identität dieser natürlichen Person sind.<br />
+      <br />
       „Verarbeitung“ ist jeder mit oder ohne Hilfe automatisierter Verfahren
       ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit
       personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch
-      jeden Umgang mit Daten.<br>
-      <br>
+      jeden Umgang mit Daten.<br />
+      <br />
       „Pseudonymisierung“ die Verarbeitung personenbezogener Daten in einer
       Weise, dass die personenbezogenen Daten ohne Hinzuziehung zusätzlicher
       Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet
@@ -109,24 +96,24 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       aufbewahrt werden und technischen und organisatorischen Maßnahmen
       unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht
       einer identifizierten oder identifizierbaren natürlichen Person zugewiesen
-      werden.<br>
-      <br>
+      werden.<br />
+      <br />
       „Profiling“ jede Art der automatisierten Verarbeitung personenbezogener
       Daten, die darin besteht, dass diese personenbezogenen Daten verwendet
       werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche
       Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich
       Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben,
       Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel
-      dieser natürlichen Person zu analysieren oder vorherzusagen.<br>
-      <br>
+      dieser natürlichen Person zu analysieren oder vorherzusagen.<br />
+      <br />
       Als „Verantwortlicher“ wird die natürliche oder juristische Person,
       Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit
       anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen
-      Daten entscheidet, bezeichnet.<br>
-      <br>
+      Daten entscheidet, bezeichnet.<br />
+      <br />
       „Auftragsverarbeiter“ eine natürliche oder juristische Person, Behörde,
       Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des
-      Verantwortlichen verarbeitet.<br>
+      Verantwortlichen verarbeitet.<br />
     </p>
     <h3 id="dsg-general-legalbasis">
       Maßgebliche Rechtsgrundlagen
@@ -136,30 +123,30 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       unserer Datenverarbeitungen mit. Für Nutzer aus dem Geltungsbereich der
       Datenschutzgrundverordnung (DSGVO), d.h. der EU und des EWG gilt, sofern
       die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird,
-      Folgendes: <br>
+      Folgendes: <br />
       Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1
-      lit. a und Art. 7 DSGVO;<br>
+      lit. a und Art. 7 DSGVO;<br />
       Die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen
       und Durchführung vertraglicher Maßnahmen sowie Beantwortung von Anfragen
-      ist Art. 6 Abs. 1 lit. b DSGVO;<br>
+      ist Art. 6 Abs. 1 lit. b DSGVO;<br />
       Die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen
-      Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO;<br>
+      Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO;<br />
       Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder
       einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten
       erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als
-      Rechtsgrundlage.<br>
+      Rechtsgrundlage.<br />
       Die Rechtsgrundlage für die erforderliche Verarbeitung zur Wahrnehmung
       einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung
       öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde ist
-      Art. 6 Abs. 1 lit. e DSGVO. <br>
+      Art. 6 Abs. 1 lit. e DSGVO. <br />
       Die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten
-      Interessen ist Art. 6 Abs. 1 lit. f DSGVO. <br>
+      Interessen ist Art. 6 Abs. 1 lit. f DSGVO. <br />
       Die Verarbeitung von Daten zu anderen Zwecken als denen, zu denen sie
       erhoben wurden, bestimmt sich nach den Vorgaben des Art 6 Abs. 4 DSGVO.
-      <br>
+      <br />
       Die Verarbeitung von besonderen Kategorien von Daten (entsprechend Art. 9
       Abs. 1 DSGVO) bestimmt sich nach den Vorgaben des Art. 9 Abs. 2 DSGVO.
-      <br>
+      <br />
     </p>
     <h3 id="dsg-general-securitymeasures">
       Sicherheitsmaßnahmen
@@ -171,8 +158,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       unterschiedlichen Eintrittswahrscheinlichkeit und Schwere des Risikos für
       die Rechte und Freiheiten natürlicher Personen, geeignete technische und
       organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu
-      gewährleisten.<br>
-      <br>
+      gewährleisten.<br />
+      <br />
       Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit,
       Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen
       Zugangs zu den Daten, als auch des sie betreffenden Zugriffs, der Eingabe,
@@ -183,7 +170,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       personenbezogener Daten bereits bei der Entwicklung, bzw. Auswahl von
       Hardware, Software sowie Verfahren, entsprechend dem Prinzip des
       Datenschutzes durch Technikgestaltung und durch datenschutzfreundliche
-      Voreinstellungen.<br>
+      Voreinstellungen.<br />
     </p>
     <h3 id="dsg-general-coprocessing">
       Zusammenarbeit mit Auftragsverarbeitern, gemeinsam Verantwortlichen und
@@ -198,13 +185,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       Zahlungsdienstleister, zur Vertragserfüllung erforderlich ist), Nutzer
       eingewilligt haben, eine rechtliche Verpflichtung dies vorsieht oder auf
       Grundlage unserer berechtigten Interessen (z.B. beim Einsatz von
-      Beauftragten, Webhostern, etc.). <br>
-      <br>
+      Beauftragten, Webhostern, etc.). <br />
+      <br />
       Sofern wir Daten anderen Unternehmen unserer Unternehmensgruppe
       offenbaren, übermitteln oder ihnen sonst den Zugriff gewähren, erfolgt
       dies insbesondere zu administrativen Zwecken als berechtigtes Interesse
       und darüberhinausgehend auf einer den gesetzlichen Vorgaben entsprechenden
-      Grundlage. <br>
+      Grundlage. <br />
     </p>
     <h3 id="dsg-general-thirdparty">
       Übermittlungen in Drittländer
@@ -228,7 +215,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <a
         href="https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu_de"
         target="blank"
-      >Informationsseite der EU-Kommission</a>).
+        >Informationsseite der EU-Kommission</a
+      >).
     </p>
     <h3 id="dsg-general-rightssubject">
       Rechte der betroffenen Personen
@@ -237,27 +225,27 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       Auskunftsrecht: Sie haben das Recht, eine Bestätigung darüber zu
       verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über
       diese Daten sowie auf weitere Informationen und Kopie der Daten
-      entsprechend den gesetzlichen Vorgaben.<br>
-      <br>
+      entsprechend den gesetzlichen Vorgaben.<br />
+      <br />
       Recht auf Berichtigung: Sie haben entsprechend. den gesetzlichen Vorgaben
       das Recht, die Vervollständigung der Sie betreffenden Daten oder die
-      Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.<br>
-      <br>
+      Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.<br />
+      <br />
       Recht auf Löschung und Einschränkung der Verarbeitung: Sie haben nach
       Maßgabe der gesetzlichen Vorgaben das Recht zu verlangen, dass betreffende
       Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe der
       gesetzlichen Vorgaben eine Einschränkung der Verarbeitung der Daten zu
-      verlangen.<br>
-      <br>
+      verlangen.<br />
+      <br />
       Recht auf Datenübertragbarkeit: Sie haben das Recht, Sie betreffende
       Daten, die Sie uns bereitgestellt haben, nach Maßgabe der gesetzlichen
       Vorgaben in einem strukturierten, gängigen und maschinenlesbaren Format zu
       erhalten oder deren Übermittlung an einen anderen Verantwortlichen zu
-      fordern.<br>
-      <br>
+      fordern.<br />
+      <br />
       Beschwerde bei Aufsichtsbehörde: Sie haben ferner nach Maßgabe der
       gesetzlichen Vorgaben das Recht, eine Beschwerde bei der zuständigen
-      Aufsichtsbehörde einzureichen.<br>
+      Aufsichtsbehörde einzureichen.<br />
     </p>
     <h3 id="dsg-general-revokeconsent">
       Widerrufsrecht
@@ -270,7 +258,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       Widerspruchsrecht
     </h3>
     <p>
-      <strong>Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer
+      <strong
+        >Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer
         besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie
         betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1
         lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für
@@ -279,7 +268,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         betreiben, haben Sie das Recht, jederzeit Widerspruch gegen die
         Verarbeitung der Sie betreffenden personenbezogenen Daten zum Zwecke
         derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit
-        es mit solcher Direktwerbung in Verbindung steht.</strong>
+        es mit solcher Direktwerbung in Verbindung steht.</strong
+      >
     </p>
     <h3 id="dsg-general-cookies">
       Cookies und Widerspruchsrecht bei Direktwerbung
@@ -302,11 +292,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       oder Marketingzwecke verwendet werden. Als „Third-Party-Cookie“ werden
       Cookies bezeichnet, die von anderen Anbietern als dem Verantwortlichen,
       der das Onlineangebot betreibt, angeboten werden (andernfalls, wenn es nur
-      dessen Cookies sind spricht man von „First-Party Cookies“).<br>
-      <br>
+      dessen Cookies sind spricht man von „First-Party Cookies“).<br />
+      <br />
       Wir können temporäre und permanente Cookies einsetzen und klären hierüber
-      im Rahmen unserer Datenschutzerklärung auf.<br>
-      <br>
+      im Rahmen unserer Datenschutzerklärung auf.<br />
+      <br />
       Sofern wir die Nutzer um eine Einwilligung in den Einsatz von Cookies
       bitten (z.B. im Rahmen einer Cookie-Einwilligung), ist die Rechtsgrundlage
       dieser Verarbeitung Art. 6 Abs. 1 lit. a. DSGVO. Ansonsten werden die
@@ -319,25 +309,25 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       lit. b. DSGVO, bzw. sofern der Einsatz von Cookies für die Wahrnehmung
       einer Aufgabe, die im öffentlichen Interesse liegt erforderlich ist oder
       in Ausübung öffentlicher Gewalt erfolgt, gem. Art. 6 Abs. 1 lit. e. DSGVO,
-      verarbeitet.<br>
-      <br>
+      verarbeitet.<br />
+      <br />
       Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert
       werden, werden sie gebeten die entsprechende Option in den
       Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte Cookies
       können in den Systemeinstellungen des Browsers gelöscht werden. Der
       Ausschluss von Cookies kann zu Funktionseinschränkungen dieses
-      Onlineangebotes führen.<br>
-      <br>
+      Onlineangebotes führen.<br />
+      <br />
       Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des
       Onlinemarketing eingesetzten Cookies kann bei einer Vielzahl der Dienste,
       vor allem im Fall des Trackings, über die US-amerikanische Seite
-      <a
-        href="http://www.aboutads.info/choices/"
-      >http://www.aboutads.info/choices/</a>
+      <a href="http://www.aboutads.info/choices/"
+        >http://www.aboutads.info/choices/</a
+      >
       oder die EU-Seite
-      <a
-        href="http://www.youronlinechoices.com/"
-      >http://www.youronlinechoices.com/</a>
+      <a href="http://www.youronlinechoices.com/"
+        >http://www.youronlinechoices.com/</a
+      >
       erklärt werden. Des Weiteren kann die Speicherung von Cookies mittels
       deren Abschaltung in den Einstellungen des Browsers erreicht werden. Bitte
       beachten Sie, dass dann gegebenenfalls nicht alle Funktionen dieses
@@ -352,8 +342,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die
       bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung
       nicht mehr erforderlich sind und der Löschung keine gesetzlichen
-      Aufbewahrungspflichten entgegenstehen. <br>
-      <br>
+      Aufbewahrungspflichten entgegenstehen. <br />
+      <br />
       Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich
       zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt.
       D.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet.
@@ -377,17 +367,16 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir nutzen die von Google angebotene Cloud und die
+      <span class="ts-muster-content"
+        >Wir nutzen die von Google angebotene Cloud und die
         Cloud-Softwaredienste (sog. Software as a Service, z.B. Google Suite)
         für die folgenden Zwecke: Dokumentenspeicherung und Verwaltung,
         Kalenderverwaltung, E-Mail-Versand, Tabellenkalkulationen und
         Präsentationen, Austausch von Dokumenten, Inhalten und Informationen mit
         bestimmten Empfängern oder Veröffentlichung von Webseiten, Formularen
         oder sonstigen Inhalten und Informationen sowie Chats und Teilnahme an
-        Audio- und Videokonferenzen.<br>
-        <br>
+        Audio- und Videokonferenzen.<br />
+        <br />
         Hierbei werden die personenbezogenen Daten der Nutzer verarbeitet,
         soweit diese Bestandteil der innerhalb der&nbsp; beschriebenen Dienste
         verarbeiteten Dokumente und Inhalte werden oder Teil von
@@ -395,13 +384,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Kontaktdaten der Nutzer, Daten zu Vorgängen, Verträgen, sonstigen
         Prozessen und deren Inhalte gehören. Google verarbeitet ferner
         Nutzungsdaten und Metadaten, die von Google zu Sicherheitszwecken und
-        Serviceoptimierung verwendet werden.<br>
-        <br>
+        Serviceoptimierung verwendet werden.<br />
+        <br />
         Im Rahmen der Nutzung öffentlich zugängliche&nbsp; Dokumente, Webseiten
         oder sonstige&nbsp; Inhalte, kann Google Cookies auf den Rechner der
         Nutzer für Zwecke der Webanalyse oder um sich Einstellungen der Nutzer
-        zu merken, speichern.<br>
-        <br>
+        zu merken, speichern.<br />
+        <br />
         Wir nutzen die Google Cloud-Dienste auf Grundlage unserer berechtigten
         Interessen gem. Art. 6 Abs. 1 lit. f DSGVO an effizienten und sicheren
         Verwaltungs- und Zusammenarbeitsprozessen. Ferner erfolgt die
@@ -409,31 +398,37 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Google (<a
           target="_blank"
           href="https://cloud.google.com/terms/data-processing-terms"
-        >https://cloud.google.com/terms/data-processing-terms</a>).<br>
-        <br>
+          >https://cloud.google.com/terms/data-processing-terms</a
+        >).<br />
+        <br />
         Weitere Hinweise erhalten Sie in der Datenschutzerklärung von Google (<a
           target="_blank"
           href="https://www.google.com/policies/privacy"
-        >https://www.google.com/policies/privacy</a>) und den Sicherheitshinweisen zu Google Cloud-Diensten (<a
+          >https://www.google.com/policies/privacy</a
+        >) und den Sicherheitshinweisen zu Google Cloud-Diensten (<a
           target="_blank"
           href="https://cloud.google.com/security/privacy/"
-        >https://cloud.google.com/security/privacy/</a>). Sie können der Verarbeitung Ihrer Daten in der Google Cloud uns
+          >https://cloud.google.com/security/privacy/</a
+        >). Sie können der Verarbeitung Ihrer Daten in der Google Cloud uns
         gegenüber entsprechend den gesetzlichen Vorgaben widersprechen. Im
         Übrigen bestimmt sich die Löschung der Daten innerhalb von Googles
         Cloud-Diensten nach den übrigen Verarbeitungsprozessen in deren Rahmen
         die Daten verarbeitet werden (z.B., Löschung für Vertragszwecke nicht
         mehr erforderlicher oder Speicherung für Zwecke der Besteuerung
-        erforderlicher Daten).<br>
-        <br>
+        erforderlicher Daten).<br />
+        <br />
         Die Google Cloud-Dienste werden von Google Irland Limited angeboten.
         Soweit eine Übermittlung in die USA stattfindet, verweisen wir auf die
         Zertifizierung von Google USA unter dem Privacy Shield(<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000000001L5AAI&amp;status=Aktive"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000000001L5AAI&amp;status=Aktive</a>) und Standardschutzklauseln (<a
+          >https://www.privacyshield.gov/participant?id=a2zt0000000000001L5AAI&amp;status=Aktive</a
+        >) und Standardschutzklauseln (<a
           target="_blank"
           href="https://cloud.google.com/terms/data-processing-terms"
-        >https://cloud.google.com/terms/data-processing-terms</a>).</span>
+          >https://cloud.google.com/terms/data-processing-terms</a
+        >).</span
+      >
     </p>
     <p />
     <h3 id="dsg-affiliate-general">
@@ -441,22 +436,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes setzen wir auf Grundlage unserer
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes setzen wir auf Grundlage unserer
         berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und
         wirtschaftlichem Betrieb unseres Onlineangebotes) gem. Art. 6 Abs. 1
         lit. f DSGVO branchenübliche Trackingmaßnahmen ein, soweit diese für den
         Betrieb des Affiliatesystems erforderlich sind. Nachfolgend klären wir
-        die Nutzer über die technischen Hintergründe auf.<br>
-        <br>
+        die Nutzer über die technischen Hintergründe auf.<br />
+        <br />
         Die von unseren Vertragspartnern angebotene Leistungen können auch auf
         anderen Webseiten beworben und verlinkt werden (sog. Affiliate-Links
         oder After-Buy-Systeme, wenn z.B. Links oder Leistungen Dritter nach
         einem Vertragsschluss angeboten werden). Die Betreiber der jeweiligen
         Webseiten erhalten eine Provision, wenn Nutzer den Affiliate-Links
-        folgen und anschließend die Angebote wahrnehmen.<br>
-        <br>
+        folgen und anschließend die Angebote wahrnehmen.<br />
+        <br />
         Zusammenfassend, ist es für unser Onlineangebot erforderlich, dass wir
         nachverfolgen können, ob Nutzer, die sich für Affiliate-Links und/oder
         die bei uns verfügbaren Angebote interessieren, die Angebote
@@ -468,8 +462,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Zeitpunkt, eine Online-Kennung der Betreiber der Webseite, auf der sich
         der Affiliate-Link befand, eine Online-Kennung des jeweiligen Angebotes,
         eine Online-Kennung des Nutzers, als auch Tracking-spezifische Werte wie
-        z.B. Werbemittel-ID, Partner-ID und Kategorisierungen.<br>
-        <br>
+        z.B. Werbemittel-ID, Partner-ID und Kategorisierungen.<br />
+        <br />
         Bei der von uns verwendeten Online-Kennungen der Nutzer, handelt es sich
         um pseudonyme Werte. D.h. die Online-Kennungen enthalten selbst keine
         personenbezogenen Daten wie Namen oder E-Mailadressen. Sie helfen uns
@@ -480,7 +474,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         personenbezogen, als dem Partnerunternehmen und auch uns, die
         Online-Kennung zusammen mit anderen Nutzerdaten vorliegen. Nur so kann
         das Partnerunternehmen uns mitteilen, ob derjenige Nutzer das Angebot
-        wahrgenommen hat und wir z.B. den Bonus auszahlen können.<br>
+        wahrgenommen hat und wir z.B. den Bonus auszahlen können.<br />
       </span>
     </p>
     <p />
@@ -489,31 +483,32 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir sind auf Grundlage unserer berechtigten Interessen (d.h. Interesse
+      <span class="ts-muster-content"
+        >Wir sind auf Grundlage unserer berechtigten Interessen (d.h. Interesse
         am wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6
         Abs. 1 lit. f. DSGVO) Teilnehmer des Partnerprogramms von Amazon EU, das
         zur Bereitstellung eines Mediums für Websites konzipiert wurde, mittels
         dessen durch die Platzierung von Werbeanzeigen und Links zu Amazon.de
         Werbekostenerstattung verdient werden kann (sog. Affiliate-System). D.h.
-        als Amazon-Partner verdienen wir an qualifizierten Käufen.<br>
-        <br>
+        als Amazon-Partner verdienen wir an qualifizierten Käufen.<br />
+        <br />
         Amazon setzt Cookies ein, um die Herkunft der Bestellungen
         nachvollziehen zu können. Unter anderem kann Amazon erkennen, dass Sie
         den Partnerlink auf dieser Website geklickt und anschließend ein Produkt
-        bei Amazon erworben haben.<br>
-        <br>
+        bei Amazon erworben haben.<br />
+        <br />
         Weitere Informationen zur Datennutzung durch Amazon und
         Widerspruchsmöglichkeiten erhalten Sie in der Datenschutzerklärung des
         Unternehmens:
         <a
           target="_blank"
           href="https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010"
-        >https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010</a>.<br>
-        <br>
+          >https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010</a
+        >.<br />
+        <br />
         Hinweis: Amazon und das Amazon-Logo sind Warenzeichen von Amazon.com,
-        Inc. oder eines seiner verbundenen Unternehmen.</span>
+        Inc. oder eines seiner verbundenen Unternehmen.</span
+      >
     </p>
     <p />
     <h3 id="dsg-registration">
@@ -521,17 +516,16 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Nutzer können ein Nutzerkonto anlegen. Im Rahmen der Registrierung
+      <span class="ts-muster-content"
+        >Nutzer können ein Nutzerkonto anlegen. Im Rahmen der Registrierung
         werden die erforderlichen Pflichtangaben den Nutzern mitgeteilt und auf
         Grundlage des Art. 6 Abs. 1 lit. b DSGVO zu Zwecken der Bereitstellung
         des Nutzerkontos verarbeitet. Zu den verarbeiteten Daten gehören
         insbesondere die Login-Informationen (Name, Passwort sowie eine
         E-Mailadresse). Die im Rahmen der Registrierung eingegebenen Daten
         werden für die Zwecke der Nutzung des Nutzerkontos und dessen Zwecks
-        verwendet. <br>
-        <br>
+        verwendet. <br />
+        <br />
         Die Nutzer können über Informationen, die für deren Nutzerkonto relevant
         sind, wie z.B. technische Änderungen, per E-Mail informiert werden. Wenn
         Nutzer ihr Nutzerkonto gekündigt haben, werden deren Daten im Hinblick
@@ -539,8 +533,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Aufbewahrungspflicht, gelöscht. Es obliegt den Nutzern, ihre Daten bei
         erfolgter Kündigung vor dem Vertragsende zu sichern. Wir sind
         berechtigt, sämtliche während der Vertragsdauer gespeicherten Daten des
-        Nutzers unwiederbringlich zu löschen.<br>
-        <br>
+        Nutzers unwiederbringlich zu löschen.<br />
+        <br />
         Im Rahmen der Inanspruchnahme unserer Registrierungs- und
         Anmeldefunktionen sowie der Nutzung des Nutzerkontos, speichern wir die
         IP-Adresse und den Zeitpunkt der jeweiligen Nutzerhandlung. Die
@@ -550,7 +544,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         nicht, außer sie ist zur Verfolgung unserer Ansprüche erforderlich oder
         es besteht hierzu besteht eine gesetzliche Verpflichtung gem. Art. 6
         Abs. 1 lit. c. DSGVO. Die IP-Adressen werden spätestens nach 7 Tagen
-        anonymisiert oder gelöscht.<br>
+        anonymisiert oder gelöscht.<br />
       </span>
     </p>
     <p />
@@ -559,9 +553,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen auf Grundlage unserer berechtigten Interessen an einer
+      <span class="ts-muster-content"
+        >Wir setzen auf Grundlage unserer berechtigten Interessen an einer
         effizienten, sicheren und nutzerfreundlichen Kommentarverwaltung gem.
         Art. 6 Abs. 1 lit. f. DSGVO den Kommentardienst DISQUS, angeboten von
         der DISQUS, Inc., 301 Howard St, Floor 3 San Francisco, California-
@@ -571,16 +564,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TRkEAAW&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TRkEAAW&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TRkEAAW&amp;status=Active</a
+        >.<br />
+        <br />
         Zur Nutzung der DISQUS Kommentarfunktion können Nutzer sich über ein
         eigenes DISQUS-Nutzer-Konto oder einen bestehende Social-Media-Konten
         (z.B. OpenID, Facebook, Twitter oder Google) anmelden. Hierbei werden
         die Anmeldedaten der Nutzer durch DISQUS von den Plattformen bezogen. Es
         ist ebenfalls möglich, die DISQUS-Kommentarfunktion als Gast, ohne
         Erstellung oder Verwendung Nutzerkontos bei DISQUS oder einem der
-        angegebenen Social-Media-Anbieter, zu nutzen.<br>
-        <br>
+        angegebenen Social-Media-Anbieter, zu nutzen.<br />
+        <br />
         Wir betten lediglich DISQUS mit seinen Funktionen in unsere Website ein,
         wobei wir auf die Kommentare der Nutzer Einfluss nehmen können. Die
         Nutzer treten jedoch in eine unmittelbare Vertragsbeziehung mit DISQUS,
@@ -590,17 +584,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <a
           target="_blank"
           href="https://help.disqus.com/terms-and-policies/disqus-privacy-policy"
-        >https://help.disqus.com/terms-and-policies/disqus-privacy-policy</a>
+          >https://help.disqus.com/terms-and-policies/disqus-privacy-policy</a
+        >
         und weisen die Nutzer ebenfalls darauf hin, dass sie davon ausgehen
         können, dass DISQUS neben dem Kommentarinhalt auch deren IP-Adresse und
         den Zeitpunkt des Kommentars speichert sowie Cookies auf den Rechnern
         der Nutzer speichert und zur Darstellung von Werbung nutzen kann. Nutzer
         können jedoch der Verarbeitung ihrer Daten zwecks Darstellung von
         Anzeigen widersprechen:
-        <a
-          target="_blank"
-          href="https://disqus.com/data-sharing-settings/"
-        >https://disqus.com/data-sharing-settings</a>. <br>
+        <a target="_blank" href="https://disqus.com/data-sharing-settings/"
+          >https://disqus.com/data-sharing-settings</a
+        >. <br />
       </span>
     </p>
     <p />
@@ -609,29 +603,29 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wenn Nutzer Kommentare oder sonstige Beiträge hinterlassen, können ihre
+      <span class="ts-muster-content"
+        >Wenn Nutzer Kommentare oder sonstige Beiträge hinterlassen, können ihre
         IP-Adressen auf Grundlage unserer berechtigten Interessen im Sinne des
         Art. 6 Abs. 1 lit. f. DSGVO für 7 Tage gespeichert werden. Das erfolgt
         zu unserer Sicherheit, falls jemand in Kommentaren und Beiträgen
         widerrechtliche Inhalte hinterlässt (Beleidigungen, verbotene politische
         Propaganda, etc.). In diesem Fall können wir selbst für den Kommentar
         oder Beitrag belangt werden und sind daher an der Identität des
-        Verfassers interessiert.<br>
-        <br>
+        Verfassers interessiert.<br />
+        <br />
         Des Weiteren behalten wir uns vor, auf Grundlage unserer berechtigten
         Interessen gem. Art. 6 Abs. 1 lit. f. DSGVO, die Angaben der Nutzer
-        zwecks Spamerkennung zu verarbeiten.<br>
-        <br>
+        zwecks Spamerkennung zu verarbeiten.<br />
+        <br />
         Auf derselben Rechtsgrundlage behalten wir uns vor, im Fall von Umfragen
         die IP-Adressen der Nutzer für deren Dauer zu speichern und Cookies zu
-        verwenden, um Mehrfachabstimmungen zu vermeiden.<br>
-        <br>
+        verwenden, um Mehrfachabstimmungen zu vermeiden.<br />
+        <br />
         Die im Rahmen der Kommentare und Beiträge mitgeteilte Informationen zur
         Person, etwaige Kontakt- sowie Websiteinformationen als auch die
         inhaltlichen Angaben, werden von uns bis zum Widerspruch der Nutzer
-        dauerhaft gespeichert.</span>
+        dauerhaft gespeichert.</span
+      >
     </p>
     <p />
     <h3 id="dsg-subscribetocomments">
@@ -639,9 +633,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Die Nachfolgekommentare können durch Nutzer mit deren Einwilligung gem.
+      <span class="ts-muster-content"
+        >Die Nachfolgekommentare können durch Nutzer mit deren Einwilligung gem.
         Art. 6 Abs. 1 lit. a DSGVO abonniert werden. Die Nutzer erhalten eine
         Bestätigungsemail, um zu überprüfen, ob sie der Inhaber der eingegebenen
         Emailadresse sind. Nutzer können laufende Kommentarabonnements jederzeit
@@ -649,8 +642,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Widerrufsmöglichkeiten enthalten. Für die Zwecke des Nachweises der
         Einwilligung der Nutzer, speichern wir den Anmeldezeitpunkt nebst der
         IP-Adresse der Nutzer und löschen diese Informationen, wenn Nutzer sich
-        von dem Abonnement abmelden.<br>
-        <br>
+        von dem Abonnement abmelden.<br />
+        <br />
         Sie können den Empfang unseres Abonnements jederzeit kündigen, d.h. Ihre
         Einwilligungen widerrufen. Wir können die ausgetragenen E-Mailadressen
         bis zu drei Jahren auf Grundlage unserer berechtigten Interessen
@@ -658,7 +651,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         nachweisen zu können. Die Verarbeitung dieser Daten wird auf den Zweck
         einer möglichen Abwehr von Ansprüchen beschränkt. Ein individueller
         Löschungsantrag ist jederzeit möglich, sofern zugleich das ehemalige
-        Bestehen einer Einwilligung bestätigt wird.</span>
+        Bestehen einer Einwilligung bestätigt wird.</span
+      >
     </p>
     <p />
     <h3 id="dsg-akismet">
@@ -666,9 +660,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Unser Onlineangebot nutzt den Dienst „Akismet“, der von der Automattic
+      <span class="ts-muster-content"
+        >Unser Onlineangebot nutzt den Dienst „Akismet“, der von der Automattic
         Inc., 60 29th Street #343, San Francisco, CA 94110, USA, angeboten wird.
         Die Nutzung erfolgt auf Grundlage unserer berechtigten Interessen im
         Sinne des Art. 6 Abs. 1 lit. f) DSGVO. Mit Hilfe dieses Dienstes werden
@@ -679,21 +672,20 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         über diese Zeit hinaus gespeichert. Zu diesen Angaben gehören der
         eingegebene Name, die Emailadresse, die IP-Adresse, der Kommentarinhalt,
         der Referrer, Angaben zum verwendeten Browser sowie dem Computersystem
-        und die Zeit des Eintrags.<br>
-        <br>
+        und die Zeit des Eintrags.<br />
+        <br />
         Nähere Informationen zur Erhebung und Nutzung der Daten durch Akismet
         finden sich in den Datenschutzhinweisen von Automattic:
-        <a
-          target="_blank"
-          href="https://automattic.com/privacy/"
-        >https://automattic.com/privacy/</a>.<br>
-        <br>
+        <a target="_blank" href="https://automattic.com/privacy/"
+          >https://automattic.com/privacy/</a
+        >.<br />
+        <br />
         Nutzer können gerne Pseudonyme nutzen, oder auf die Eingabe des Namens
         oder der Emailadresse verzichten. Sie können die Übertragung der Daten
         komplett verhindern, indem Sie unser Kommentarsystem nicht nutzen. Das
         wäre schade, aber leider sehen wir sonst keine Alternativen, die ebenso
-        effektiv arbeiten.<br>
-        <br>
+        effektiv arbeiten.<br />
+        <br />
       </span>
     </p>
     <p />
@@ -702,12 +694,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen innerhalb unseres Onlineangebotes und insbesondere im Blog
+      <span class="ts-muster-content"
+        >Wir setzen innerhalb unseres Onlineangebotes und insbesondere im Blog
         den Dienst Gravatar der Automattic Inc., 60 29th Street #343, San
-        Francisco, CA 94110, USA, ein.<br>
-        <br>
+        Francisco, CA 94110, USA, ein.<br />
+        <br />
         Gravatar ist ein Dienst, bei dem sich Nutzer anmelden und Profilbilder
         und ihre E-Mailadressen hinterlegen können. Wenn Nutzer mit der
         jeweiligen E-Mailadresse auf anderen Onlinepräsenzen (vor allem in
@@ -717,23 +708,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         zwecks Prüfung, ob zu ihr ein Profil gespeichert ist, verschlüsselt
         übermittelt. Dies ist der einzige Zweck der Übermittlung der
         E-Mailadresse und sie wird nicht für andere Zwecke verwendet, sondern
-        danach gelöscht.<br>
-        <br>
+        danach gelöscht.<br />
+        <br />
         Die Nutzung von Gravatar erfolgt auf Grundlage unserer berechtigten
         Interessen im Sinne des Art. 6 Abs. 1 lit. f) DSGVO, da wir mit Hilfe
         von Gravatar den Beitrags- und Kommentarverfassern die Möglichkeit
-        bieten ihre Beiträge mit einem Profilbild zu personalisieren.<br>
-        <br>
+        bieten ihre Beiträge mit einem Profilbild zu personalisieren.<br />
+        <br />
         Durch die Anzeige der Bilder bringt Gravatar die IP-Adresse der Nutzer
         in Erfahrung, da dies für eine Kommunikation zwischen einem Browser und
         einem Onlineservice notwendig ist. Nähere Informationen zur Erhebung und
         Nutzung der Daten durch Gravatar finden sich in den Datenschutzhinweisen
         von Automattic:
-        <a
-          target="_blank"
-          href="https://automattic.com/privacy/"
-        >https://automattic.com/privacy/</a>.<br>
-        <br>
+        <a target="_blank" href="https://automattic.com/privacy/"
+          >https://automattic.com/privacy/</a
+        >.<br />
+        <br />
         Wenn Nutzer nicht möchten, dass ein mit Ihrer E-Mail-Adresse bei
         Gravatar verknüpftes Benutzerbild in den Kommentaren erscheint, sollten
         Sie zum Kommentieren eine E-Mail-Adresse nutzen, welche nicht bei
@@ -741,7 +731,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         möglich ist eine anonyme oder gar keine E-Mailadresse zu verwenden,
         falls die Nutzer nicht wünschen, dass die eigene E-Mailadresse an
         Gravatar übersendet wird. Nutzer können die Übertragung der Daten
-        komplett verhindern, indem Sie unser Kommentarsystem nicht nutzen.</span>
+        komplett verhindern, indem Sie unser Kommentarsystem nicht nutzen.</span
+      >
     </p>
     <p />
     <h3 id="dsg-wordpress-emojis">
@@ -749,9 +740,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres WordPress-Blogs werden grafische Emojis (bzw.
+      <span class="ts-muster-content"
+        >Innerhalb unseres WordPress-Blogs werden grafische Emojis (bzw.
         Smilies), d.h. kleine grafische Dateien, die Gefühle ausdrücken,
         eingesetzt, die von externen Servern bezogen werden. Hierbei erheben die
         Anbieter der Server, die IP-Adressen der Nutzer. Dies ist notwendig,
@@ -759,15 +749,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         können. Der Emojie-Service wird von der Automattic Inc., 60 29th Street
         #343, San Francisco, CA 94110, USA, angeboten. Datenschutzhinweise von
         Automattic:
-        <a
-          target="_blank"
-          href="https://automattic.com/privacy/"
-        >https://automattic.com/privacy/</a>. Die verwendeten Server-Domains sind s.w.org und twemoji.maxcdn.com,
+        <a target="_blank" href="https://automattic.com/privacy/"
+          >https://automattic.com/privacy/</a
+        >. Die verwendeten Server-Domains sind s.w.org und twemoji.maxcdn.com,
         wobei es sich unseres Wissens nach um sog. Content-Delivery-Networks
         handelt, also Server, die lediglich einer schnellen und sicheren
         Übermittlung der Dateien dienen und die personenbezogenen Daten der
-        Nutzer nach der Übermittlung gelöscht werden.<br>
-        <br>
+        Nutzer nach der Übermittlung gelöscht werden.<br />
+        <br />
         Die Nutzung der Emojis erfolgt auf Grundlage unserer berechtigten
         Interessen, d.h. Interesse an einer attraktiven Gestaltung unseres
         Onlineangebotes gem. Art. 6 Abs. 1 lit. f. DSGVO.
@@ -779,12 +768,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Unsere Podcasts werden auf der Plattform „Soundcloud“, angeboten von
+      <span class="ts-muster-content"
+        >Unsere Podcasts werden auf der Plattform „Soundcloud“, angeboten von
         SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Deutschland
-        gespeichert und werden von dieser aus Platform wiedergegeben.<br>
-        <br>
+        gespeichert und werden von dieser aus Platform wiedergegeben.<br />
+        <br />
         Zu diesem Zweck binden wir sog. Soundcloud-Widgets in unsere Website
         ein. Dabei handelt es sich um Abspielsoftware, mit der Nutzer die
         Podcasts abspielen können. Hierbei kann Soundcloud messen, welche
@@ -794,19 +782,19 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         von Nutzerprofilen, z.B. für Zwecke der Ausgabee von Anzeigen, die den
         potentiellen Interessen der Nutzer entsprechen, verarbeitet werden. Im
         Fall von Nutzern, die bei Soundcloud registriert sind, kann Soundcloud
-        die Hörinformationen deren Profilen zuordnen.<br>
-        <br>
+        die Hörinformationen deren Profilen zuordnen.<br />
+        <br />
         Die Nutzung erfolgt auf Grundlage unserer berechtigten Interessen, d.h.
         Interesse an einer sicheren und effizienten Bereitstellung, Analyse
         sowie Optimierung unseres Audioangebotes gem. Art. 6 Abs. 1 lit. f.
-        DSGVO. <br>
-        <br>
+        DSGVO. <br />
+        <br />
         Weitere Informationen und Widerspruchsmöglichkeiten finden sich in der
         Datenschutzerklärung von Soundcloud:
-        <a
-          target="_blank"
-          href="https://soundcloud.com/pages/privacy"
-        >https://soundcloud.com/pages/privacy</a>.</span>
+        <a target="_blank" href="https://soundcloud.com/pages/privacy"
+          >https://soundcloud.com/pages/privacy</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-contact">
@@ -814,19 +802,19 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail,
+      <span class="ts-muster-content"
+        >Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail,
         Telefon oder via sozialer Medien) werden die Angaben des Nutzers zur
         Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1
         lit. b. (im Rahmen vertraglicher-/vorvertraglicher Beziehungen), Art. 6
         Abs. 1 lit. f. (andere Anfragen) DSGVO verarbeitet.. Die Angaben der
         Nutzer können in einem Customer-Relationship-Management System ("CRM
-        System") oder vergleichbarer Anfragenorganisation gespeichert werden.<br>
-        <br>
+        System") oder vergleichbarer Anfragenorganisation gespeichert werden.<br />
+        <br />
         Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir
         überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die
-        gesetzlichen Archivierungspflichten.</span>
+        gesetzlichen Archivierungspflichten.</span
+      >
     </p>
     <p />
     <h3 id="dsg-contact-crm-zendesk">
@@ -834,37 +822,39 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen das CRM-System „Zendesk“, des Anbieters Zendesk, Inc., 989
+      <span class="ts-muster-content"
+        >Wir setzen das CRM-System „Zendesk“, des Anbieters Zendesk, Inc., 989
         Market Street #300, San Francisco, CA 94102, USA ein, um Anfragen der
         Nutzer schneller und effizienter bearbeiten zu können (berechtigtes
-        Interesse gem.&nbsp;Art. 6 Abs. 1 lit. f. DSGVO&nbsp;).<br>
-        <br>
+        Interesse gem.&nbsp;Art. 6 Abs. 1 lit. f. DSGVO&nbsp;).<br />
+        <br />
         Zendesk ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet
         hierdurch eine zusätzliche Garantie, das europäische Datenschutzrecht
         einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TOjeAAG&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TOjeAAG&amp;status=Active</a>).<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TOjeAAG&amp;status=Active</a
+        >).<br />
+        <br />
         Zendesk nutzt die Daten der Nutzer nur zur technischen Verarbeitung der
         Anfragen und gibt sie nicht an Dritte weiter. Zur Verwendung von Zendesk
         ist mindestens die Angabe einer korrekten E-Mail-Adresse notwendig. Eine
         pseudonyme Nutzung ist möglich. Im Verlauf der Bearbeitung von
         Service-Anfragen kann es notwendig sein, dass weitere Daten erhoben
-        werden (Name, Adresse).<br>
-        <br>
+        werden (Name, Adresse).<br />
+        <br />
         Wenn Nutzer mit einer Datenerhebung über und einer Datenspeicherung im
         externen System von Zendesk nicht einverstanden sind, bieten wir ihnen
         alternative Kontaktmöglichkeiten zur Einreichung von Service-Anfragen
-        per E-Mail, Telefon, Telefax oder Post.<br>
-        <br>
+        per E-Mail, Telefon, Telefax oder Post.<br />
+        <br />
         Weitere Informationen erhalten die Nutzer in der Datenschutzerklärung
         von Zendesk:&nbsp;<a
           target="_blank"
           href="https://www.zendesk.de/company/customers-partners/privacy-policy/"
-        >https://www.zendesk.de/company/customers-partners/privacy-policy/</a>.</span>
+          >https://www.zendesk.de/company/customers-partners/privacy-policy/</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-newsletter-de">
@@ -872,22 +862,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Mit den nachfolgenden Hinweisen informieren wir Sie über die Inhalte
+      <span class="ts-muster-content"
+        >Mit den nachfolgenden Hinweisen informieren wir Sie über die Inhalte
         unseres Newsletters sowie das Anmelde-, Versand- und das statistische
         Auswertungsverfahren sowie Ihre Widerspruchsrechte auf. Indem Sie
         unseren Newsletter abonnieren, erklären Sie sich mit dem Empfang und den
-        beschriebenen Verfahren einverstanden.<br>
-        <br>
+        beschriebenen Verfahren einverstanden.<br />
+        <br />
         Inhalt des Newsletters: Wir versenden Newsletter, E-Mails und weitere
         elektronische Benachrichtigungen mit werblichen Informationen
         (nachfolgend „Newsletter“) nur mit der Einwilligung der Empfänger oder
         einer gesetzlichen Erlaubnis. Sofern im Rahmen einer Anmeldung zum
         Newsletter dessen Inhalte konkret umschrieben werden, sind sie für die
         Einwilligung der Nutzer maßgeblich. Im Übrigen enthalten unsere
-        Newsletter Informationen zu unseren Leistungen und uns.<br>
-        <br>
+        Newsletter Informationen zu unseren Leistungen und uns.<br />
+        <br />
         Double-Opt-In und Protokollierung: Die Anmeldung zu unserem Newsletter
         erfolgt in einem sog. Double-Opt-In-Verfahren. D.h. Sie erhalten nach
         der Anmeldung eine E-Mail, in der Sie um die Bestätigung Ihrer Anmeldung
@@ -897,26 +886,26 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Anforderungen nachweisen zu können. Hierzu gehört die Speicherung des
         Anmelde- und des Bestätigungszeitpunkts, als auch der IP-Adresse. Ebenso
         werden die Änderungen Ihrer bei dem Versanddienstleister gespeicherten
-        Daten protokolliert.<br>
-        <br>
+        Daten protokolliert.<br />
+        <br />
         Anmeldedaten: Um sich für den Newsletter anzumelden, reicht es aus, wenn
         Sie Ihre E-Mailadresse angeben. Optional bitten wir Sie einen Namen,
-        zwecks persönlicher Ansprache im Newsletters anzugeben.<br>
-        <br>
+        zwecks persönlicher Ansprache im Newsletters anzugeben.<br />
+        <br />
         Der Versand des Newsletters und die mit ihm verbundene Erfolgsmessung
         erfolgen auf Grundlage einer Einwilligung der Empfänger gem. Art. 6 Abs.
         1 lit. a, Art. 7 DSGVO i.V.m § 7 Abs. 2 Nr. 3 UWG oder falls eine
         Einwilligung nicht erforderlich ist, auf Grundlage unserer berechtigten
         Interessen am Direktmarketing gem. Art. 6 Abs. 1 lt. f. DSGVO i.V.m. § 7
-        Abs. 3 UWG. <br>
-        <br>
+        Abs. 3 UWG. <br />
+        <br />
         Die Protokollierung des Anmeldeverfahrens erfolgt auf Grundlage unserer
         berechtigten Interessen gem. Art. 6 Abs. 1 lit. f DSGVO. Unser Interesse
         richtet sich auf den Einsatz eines nutzerfreundlichen sowie sicheren
         Newslettersystems, das sowohl unseren geschäftlichen Interessen dient,
         als auch den Erwartungen der Nutzer entspricht und uns ferner den
-        Nachweis von Einwilligungen erlaubt.<br>
-        <br>
+        Nachweis von Einwilligungen erlaubt.<br />
+        <br />
         Kündigung/Widerruf - Sie können den Empfang unseres Newsletters
         jederzeit kündigen, d.h. Ihre Einwilligungen widerrufen. Einen Link zur
         Kündigung des Newsletters finden Sie am Ende eines jeden Newsletters.
@@ -926,7 +915,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Verarbeitung dieser Daten wird auf den Zweck einer möglichen Abwehr von
         Ansprüchen beschränkt. Ein individueller Löschungsantrag ist jederzeit
         möglich, sofern zugleich das ehemalige Bestehen einer Einwilligung
-        bestätigt wird.</span>
+        bestätigt wird.</span
+      >
     </p>
     <p />
     <h3 id="dsg-newsletter-provider-mailchimp">
@@ -934,33 +924,33 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Der Versand der Newsletter erfolgt mittels des Versanddienstleisters
+      <span class="ts-muster-content"
+        >Der Versand der Newsletter erfolgt mittels des Versanddienstleisters
         „MailChimp“, einer Newsletterversandplattform des US-Anbieters Rocket
         Science Group, LLC, 675 Ponce De Leon Ave NE #5000, Atlanta, GA 30308,
         USA. Die Datenschutzbestimmungen des Versanddienstleisters können Sie
         hier einsehen:
-        <a
-          target="_blank"
-          href="https://mailchimp.com/legal/privacy/"
-        >https://mailchimp.com/legal/privacy/</a>. The Rocket Science Group LLC d/b/a MailChimp ist unter dem
+        <a target="_blank" href="https://mailchimp.com/legal/privacy/"
+          >https://mailchimp.com/legal/privacy/</a
+        >. The Rocket Science Group LLC d/b/a MailChimp ist unter dem
         Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie,
         das europäisches Datenschutzniveau einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&amp;status=Active</a>). Der Versanddienstleister wird auf Grundlage unserer berechtigten
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&amp;status=Active</a
+        >). Der Versanddienstleister wird auf Grundlage unserer berechtigten
         Interessen gem. Art. 6 Abs. 1 lit. f. DSGVO und eines
         Auftragsverarbeitungsvertrages gem. Art. 28 Abs. 3 S. 1 DSGVO
-        eingesetzt.<br>
-        <br>
+        eingesetzt.<br />
+        <br />
         Der Versanddienstleister kann die Daten der Empfänger in pseudonymer
         Form, d.h. ohne Zuordnung zu einem Nutzer, zur Optimierung oder
         Verbesserung der eigenen Services nutzen, z.B. zur technischen
         Optimierung des Versandes und der Darstellung der Newsletter oder für
         statistische Zwecke verwenden. Der Versanddienstleister nutzt die Daten
         unserer Newsletterempfänger jedoch nicht, um diese selbst anzuschreiben
-        oder um die Daten an Dritte weiterzugeben.</span>
+        oder um die Daten an Dritte weiterzugeben.</span
+      >
     </p>
     <p />
     <h3 id="dsg-newsletter-analytics">
@@ -968,15 +958,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Die Newsletter enthalten einen sog. „web-beacon“, d.h. eine pixelgroße
+      <span class="ts-muster-content"
+        >Die Newsletter enthalten einen sog. „web-beacon“, d.h. eine pixelgroße
         Datei, die beim Öffnen des Newsletters von unserem Server, bzw. sofern
         wir einen Versanddienstleister einsetzen, von dessen Server abgerufen
         wird. Im Rahmen dieses Abrufs werden zunächst technische Informationen,
         wie Informationen zum Browser und Ihrem System, als auch Ihre IP-Adresse
-        und Zeitpunkt des Abrufs erhoben. <br>
-        <br>
+        und Zeitpunkt des Abrufs erhoben. <br />
+        <br />
         Diese Informationen werden zur technischen Verbesserung der Services
         anhand der technischen Daten oder der Zielgruppen und ihres
         Leseverhaltens anhand derer Abruforte (die mit Hilfe der IP-Adresse
@@ -989,8 +978,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         einzelne Nutzer zu beobachten. Die Auswertungen dienen uns viel mehr
         dazu, die Lesegewohnheiten unserer Nutzer zu erkennen und unsere Inhalte
         auf sie anzupassen oder unterschiedliche Inhalte entsprechend den
-        Interessen unserer Nutzer zu versenden.<br>
-        <br>
+        Interessen unserer Nutzer zu versenden.<br />
+        <br />
         Ein getrennter Widerruf der Erfolgsmessung ist leider nicht möglich, in
         diesem Fall muss das gesamte Newsletterabonnement gekündigt werden.
       </span>
@@ -1001,22 +990,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Die von uns in Anspruch genommenen Hosting-Leistungen dienen der
+      <span class="ts-muster-content"
+        >Die von uns in Anspruch genommenen Hosting-Leistungen dienen der
         Zurverfügungstellung der folgenden Leistungen: Infrastruktur- und
         Plattformdienstleistungen, Rechenkapazität, Speicherplatz und
         Datenbankdienste, E-Mail-Versand, Sicherheitsleistungen sowie technische
         Wartungsleistungen, die wir zum Zwecke des Betriebs dieses
-        Onlineangebotes einsetzen. <br>
-        <br>
+        Onlineangebotes einsetzen. <br />
+        <br />
         Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten,
         Kontaktdaten, Inhaltsdaten, Vertragsdaten, Nutzungsdaten, Meta- und
         Kommunikationsdaten von Kunden, Interessenten und Besuchern dieses
         Onlineangebotes auf Grundlage unserer berechtigten Interessen an einer
         effizienten und sicheren Zurverfügungstellung dieses Onlineangebotes
         gem. Art. 6 Abs. 1 lit. f DSGVO i.V.m. Art. 28 DSGVO (Abschluss
-        Auftragsverarbeitungsvertrag).</span>
+        Auftragsverarbeitungsvertrag).</span
+      >
     </p>
     <p />
     <h3 id="dsg-cdn-cloudflare">
@@ -1024,34 +1013,36 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen ein so genanntes "Content Delivery Network" (CDN), angeboten
+      <span class="ts-muster-content"
+        >Wir setzen ein so genanntes "Content Delivery Network" (CDN), angeboten
         von Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA,
         ein. Cloudflare ist unter dem Privacy-Shield-Abkommen zertifiziert und
         bietet hierdurch eine Garantie, das europäische Datenschutzrecht
         einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0&amp;status=Active</a>).<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0&amp;status=Active</a
+        >).<br />
+        <br />
         Ein CDN ist ein Dienst, mit dessen Hilfe Inhalte unseres
         Onlineangebotes, insbesondere große Mediendateien, wie Grafiken oder
         Skripte mit Hilfe regional verteilter und über das Internet verbundener
         Server, schneller ausgeliefert werden. Die Verarbeitung der Daten der
         Nutzer erfolgt alleine zu den vorgenannten Zwecken und der
-        Aufrechterhaltung der Sicherheit und Funktionsfähigkeit des CDN.<br>
-        <br>
+        Aufrechterhaltung der Sicherheit und Funktionsfähigkeit des CDN.<br />
+        <br />
         Die Nutzung erfolgt auf Grundlage unserer berechtigten Interessen, d.h.
         Interesse an einer sicheren und effizienten Bereitstellung, Analyse
         sowie Optimierung unseres Onlineangebotes gem. Art. 6 Abs. 1 lit. f.
-        DSGVO. <br>
-        <br>
+        DSGVO. <br />
+        <br />
         Weitere Informationen erhalten Sie in der Datenschutzerklärung von
         Cloudflare:&nbsp;<a
           target="_blank"
           href="https://www.cloudflare.com/security-policy"
-        >https://www.cloudflare.com/security-policy</a>.</span>
+          >https://www.cloudflare.com/security-policy</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-tracking-tagmanager">
@@ -1059,9 +1050,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Google Tag Manager ist eine Lösung, mit der wir sog. Website-Tags über
+      <span class="ts-muster-content"
+        >Google Tag Manager ist eine Lösung, mit der wir sog. Website-Tags über
         eine Oberfläche verwalten können (und so z.B. Google Analytics sowie
         andere Google-Marketing-Dienste in unser Onlineangebot einbinden). Der
         Tag Manager selbst (welches die Tags implementiert) verarbeitet keine
@@ -1071,7 +1061,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <a
           target="_blank"
           href="https://www.google.com/intl/de/tagmanager/use-policy.html"
-        >https://www.google.com/intl/de/tagmanager/use-policy.html</a>.<br>
+          >https://www.google.com/intl/de/tagmanager/use-policy.html</a
+        >.<br />
       </span>
     </p>
     <p />
@@ -1080,29 +1071,27 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir nutzen die Entwicklerplattform „Google Firebase“ und die mit ihr
+      <span class="ts-muster-content"
+        >Wir nutzen die Entwicklerplattform „Google Firebase“ und die mit ihr
         verbundenen Funktionen und Dienste, angeboten von Google Ireland
-        Limited, Gordon House, Barrow Street, Dublin 4, Irland.<br>
-        <br>
+        Limited, Gordon House, Barrow Street, Dublin 4, Irland.<br />
+        <br />
         Bei Google Firebase handelt es sich um eine Plattform für Entwickler von
         Applikationen (kurz „Apps“) für mobile Geräte und Webseiten. Google
         Firebase bietet eine Vielzahl von Funktionen, die auf der folgenden
         Übersichtsseite dargestellt werden:
-        <a
-          target="_blank"
-          href="https://firebase.google.com/products/"
-        >https://firebase.google.com/products/</a>.<br>
-        <br>
+        <a target="_blank" href="https://firebase.google.com/products/"
+          >https://firebase.google.com/products/</a
+        >.<br />
+        <br />
         Die Funktionen umfassen unter anderem die Speicherung von Apps inklusive
         personenbezogener Daten der Applikationsnutzer, wie z.B. von ihnen
         erstellter Inhalte oder Informationen betreffend ihre Interaktion mit
         den Apps (sog. „Cloud Computing“). Google Firebase bietet daneben
         Schnittstellen, die eine Interaktion zwischen den Nutzern der App und
         anderen Diensten erlauben, z.B. die Authentifizierung mittels Diensten
-        wie Facebook, Twitter oder mittels einer E-Mail-Passwort-Kombination.<br>
-        <br>
+        wie Facebook, Twitter oder mittels einer E-Mail-Passwort-Kombination.<br />
+        <br />
         Die Auswertung der Interaktionen der Nutzer kann mithilfe des
         Analyse-Dienstes „Firebase Analytics“ erfolgen. Firebase Analytics ist
         darauf gerichtet zu erfassen, wie Nutzer mit einer App interagieren.
@@ -1112,50 +1101,51 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         z.B. für bestimmte Funktionen der Applikationen oder bestimmte
         Themengebiete erfasst werden. Hierdurch können auch Nutzerprofile
         erstellt werden, die z.B. als Grundlage für die Darstellung von auf
-        Nutzer zugeschnittenen Werbehinweisen, verwendet werden können.<br>
-        <br>
+        Nutzer zugeschnittenen Werbehinweisen, verwendet werden können.<br />
+        <br />
         Google Firebase und die mittels von Google Firebase verarbeiteten
         personenbezogenen Daten der Nutzer können ferner zusammen mit weiteren
         Diensten von Google, wie z.B. Google Analytics und den
         Google-Marketing-Diensten und Google Analytics verwendet werden (in
         diesem Fall werden auch gerätebezogene Informationen, wie „Android
         Advertising ID“ and „Advertising Identifier for iOS“ verarbeitet, um
-        mobile Geräte der Nutzer zu identifizieren).<br>
-        <br>
+        mobile Geräte der Nutzer zu identifizieren).<br />
+        <br />
         Sofern wir die Nutzer um eine Einwilligung bitten (z.B. im Rahmen einer
         Cookie-Einwilligung), ist die Rechtsgrundlage dieser Verarbeitung Art. 6
         Abs. 1 lit. a. DSGVO. Ansonsten werden die personenbezogenen Daten der
         Nutzer auf Grundlage unserer berechtigten Interessen (d.h. Interesse an
         der Analyse, Optimierung und wirtschaftlichem Betrieb unseres
         Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO)
-        verarbeitet.<br>
-        <br>
+        verarbeitet.<br />
+        <br />
         Soweit Daten in den USA verarbeitet werden, weisen wir daraufhin, dass
         Google unter dem Privacy-Shield-Abkommen zertifiziert ist und hierdurch
         zusichert, das europäische Datenschutzrecht einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a>).<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a
+        >).<br />
+        <br />
         Die Datenschutzerklärung von Google ist unter
-        <a
-          target="_blank"
-          href="https://policies.google.com/privacy"
-        >https://policies.google.com/privacy</a>
+        <a target="_blank" href="https://policies.google.com/privacy"
+          >https://policies.google.com/privacy</a
+        >
         abrufbar. Weitere Informationen zur Datennutzung zu Marketingzwecken
         durch Google, erfahren Nutzer auf der Übersichtsseite:
         <a
           target="_blank"
           href="https://policies.google.com/technologies/ads?hl=de"
-        >https://policies.google.com/technologies/ads?hl=de</a>,<br>
-        <br>
+          >https://policies.google.com/technologies/ads?hl=de</a
+        >,<br />
+        <br />
         Wenn Nutzer der interessensbezogenen Werbung durch
         Google-Marketing-Dienste widersprechen möchten, können Nutzer die von
         Google gestellten Einstellungs- und Opt-Out-Möglichkeiten nutzen:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/"
-        >https://adssettings.google.com/</a></span>
+        <a target="_blank" href="https://adssettings.google.com/"
+          >https://adssettings.google.com/</a
+        ></span
+      >
     </p>
     <p />
     <h3 id="dsg-socialmedia">
@@ -1163,21 +1153,20 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und
+      <span class="ts-muster-content"
+        >Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und
         Plattformen, um mit den dort aktiven Kunden, Interessenten und Nutzern
         kommunizieren und sie dort über unsere Leistungen informieren zu
-        können.<br>
-        <br>
+        können.<br />
+        <br />
         Wir weisen darauf hin, dass dabei Daten der Nutzer außerhalb des Raumes
         der Europäischen Union verarbeitet werden können. Hierdurch können sich
         für die Nutzer Risiken ergeben, weil so z.B. die Durchsetzung der Rechte
         der Nutzer erschwert werden könnte. Im Hinblick auf US-Anbieter die
         unter dem Privacy-Shield zertifiziert sind, weisen wir darauf hin, dass
         sie sich damit verpflichten, die Datenschutzstandards der EU
-        einzuhalten.<br>
-        <br>
+        einzuhalten.<br />
+        <br />
         Ferner werden die Daten der Nutzer im Regelfall für Marktforschungs- und
         Werbezwecke verarbeitet. So können z.B. aus dem Nutzungsverhalten und
         sich daraus ergebenden Interessen der Nutzer Nutzungsprofile erstellt
@@ -1189,135 +1178,134 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         werden. Ferner können in den Nutzungsprofilen auch Daten unabhängig der
         von den Nutzern verwendeten Geräte gespeichert werden (insbesondere wenn
         die Nutzer Mitglieder der jeweiligen Plattformen sind und bei diesen
-        eingeloggt sind).<br>
-        <br>
+        eingeloggt sind).<br />
+        <br />
         Die Verarbeitung der personenbezogenen Daten der Nutzer erfolgt auf
         Grundlage unserer berechtigten Interessen an einer effektiven
         Information der Nutzer und Kommunikation mit den Nutzern gem. Art. 6
         Abs. 1 lit. f. DSGVO. Falls die Nutzer von den jeweiligen Anbietern der
         Plattformen um eine Einwilligung in die vorbeschriebene
         Datenverarbeitung gebeten werden, ist die Rechtsgrundlage der
-        Verarbeitung Art. 6 Abs. 1 lit. a., Art. 7 DSGVO.<br>
-        <br>
+        Verarbeitung Art. 6 Abs. 1 lit. a., Art. 7 DSGVO.<br />
+        <br />
         Für eine detaillierte Darstellung der jeweiligen Verarbeitungen und der
         Widerspruchsmöglichkeiten (Opt-Out), verweisen wir auf die nachfolgend
-        verlinkten Angaben der Anbieter.<br>
-        <br>
+        verlinkten Angaben der Anbieter.<br />
+        <br />
         Auch im Fall von Auskunftsanfragen und der Geltendmachung von
         Nutzerrechten, weisen wir darauf hin, dass diese am effektivsten bei den
         Anbietern geltend gemacht werden können. Nur die Anbieter haben jeweils
         Zugriff auf die Daten der Nutzer und können direkt entsprechende
         Maßnahmen ergreifen und Auskünfte geben. Sollten Sie dennoch Hilfe
-        benötigen, dann können Sie sich an uns wenden.<br>
-        <br>
+        benötigen, dann können Sie sich an uns wenden.<br />
+        <br />
         - Facebook, -Seiten, -Gruppen, (Facebook Ireland Ltd., 4 Grand Canal
         Square, Grand Canal Harbour, Dublin 2, Irland) auf Grundlage einer
         <a
           target="_blank"
           href="https://www.facebook.com/legal/terms/page_controller_addendum"
-        >Vereinbarung über gemeinsame Verarbeitung personenbezogener Daten</a>
+          >Vereinbarung über gemeinsame Verarbeitung personenbezogener Daten</a
+        >
         - Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.facebook.com/about/privacy/"
-        >https://www.facebook.com/about/privacy/</a>, speziell für Seiten:
+        <a target="_blank" href="https://www.facebook.com/about/privacy/"
+          >https://www.facebook.com/about/privacy/</a
+        >, speziell für Seiten:
         <a
           target="_blank"
           href="https://www.facebook.com/legal/terms/information_about_page_insights_data"
-        >https://www.facebook.com/legal/terms/information_about_page_insights_data</a>
+          >https://www.facebook.com/legal/terms/information_about_page_insights_data</a
+        >
         , Opt-Out:
-        <a
-          target="_blank"
-          href="https://www.facebook.com/settings?tab=ads"
-        >https://www.facebook.com/settings?tab=ads</a>
+        <a target="_blank" href="https://www.facebook.com/settings?tab=ads"
+          >https://www.facebook.com/settings?tab=ads</a
+        >
         und
-        <a
-          target="_blank"
-          href="http://www.youronlinechoices.com"
-        >http://www.youronlinechoices.com</a>, Privacy Shield:
+        <a target="_blank" href="http://www.youronlinechoices.com"
+          >http://www.youronlinechoices.com</a
+        >, Privacy Shield:
         <a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&amp;status=Active</a
+        >.<br />
+        <br />
         - Google/ YouTube (Google Ireland Limited, Gordon House, Barrow Street,
         Dublin 4, Irland) – Datenschutzerklärung: &nbsp;<a
           target="_blank"
           href="https://policies.google.com/privacy"
-        >https://policies.google.com/privacy</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/authenticated"
-        >https://adssettings.google.com/authenticated</a>, Privacy Shield:
+          >https://policies.google.com/privacy</a
+        >, Opt-Out:
+        <a target="_blank" href="https://adssettings.google.com/authenticated"
+          >https://adssettings.google.com/authenticated</a
+        >, Privacy Shield:
         <a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a
+        >.<br />
+        <br />
         - Instagram (Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025,
         USA) – Datenschutzerklärung/ Opt-Out:
-        <a
-          target="_blank"
-          href="http://instagram.com/about/legal/privacy/"
-        >http://instagram.com/about/legal/privacy/</a>.<br>
-        <br>
+        <a target="_blank" href="http://instagram.com/about/legal/privacy/"
+          >http://instagram.com/about/legal/privacy/</a
+        >.<br />
+        <br />
         - Twitter (Twitter Inc., 1355 Market Street, Suite 900, San Francisco,
         CA 94103, USA) - Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://twitter.com/de/privacy"
-        >https://twitter.com/de/privacy</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://twitter.com/personalization"
-        >https://twitter.com/personalization</a>, Privacy Shield:
+        <a target="_blank" href="https://twitter.com/de/privacy"
+          >https://twitter.com/de/privacy</a
+        >, Opt-Out:
+        <a target="_blank" href="https://twitter.com/personalization"
+          >https://twitter.com/personalization</a
+        >, Privacy Shield:
         <a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active</a
+        >.<br />
+        <br />
         - Pinterest (Pinterest Inc., 635 High Street, Palo Alto, CA, 94301, USA)
         – Datenschutzerklärung/ Opt-Out:
-        <a
-          target="_blank"
-          href="https://about.pinterest.com/de/privacy-policy"
-        >https://about.pinterest.com/de/privacy-policy</a>.<br>
-        <br>
+        <a target="_blank" href="https://about.pinterest.com/de/privacy-policy"
+          >https://about.pinterest.com/de/privacy-policy</a
+        >.<br />
+        <br />
         - LinkedIn (LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2,
         Irland) - Datenschutzerklärung
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/legal/privacy-policy"
-        >https://www.linkedin.com/legal/privacy-policy</a>
+        <a target="_blank" href="https://www.linkedin.com/legal/privacy-policy"
+          >https://www.linkedin.com/legal/privacy-policy</a
+        >
         , Opt-Out:
         <a
           target="_blank"
           href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out"
-        >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a>, Privacy Shield:&nbsp;<a
+          >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a
+        >, Privacy Shield:&nbsp;<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a
+        >.<br />
+        <br />
         - Xing (XING AG, Dammtorstraße 29-32, 20354 Hamburg, Deutschland) -
         Datenschutzerklärung/ Opt-Out:
         <a
           target="_blank"
           href="https://privacy.xing.com/de/datenschutzerklaerung"
-        >https://privacy.xing.com/de/datenschutzerklaerung</a>.<br>
-        <br>
+          >https://privacy.xing.com/de/datenschutzerklaerung</a
+        >.<br />
+        <br />
         - Wakalet (Wakelet Limited, 76 Quay Street, Manchester, M3 4PR, United
         Kingdom) - Datenschutzerklärung/ Opt-Out:
-        <a
-          target="_blank"
-          href="https://wakelet.com/privacy.html"
-        >https://wakelet.com/privacy.html</a>.<br>
-        <br>
+        <a target="_blank" href="https://wakelet.com/privacy.html"
+          >https://wakelet.com/privacy.html</a
+        >.<br />
+        <br />
         - Soundcloud (SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin,
         Deutschland) - Datenschutzerklärung/ Opt-Out:
-        <a
-          target="_blank"
-          href="https://soundcloud.com/pages/privacy"
-        >https://soundcloud.com/pages/privacy</a>.</span>
+        <a target="_blank" href="https://soundcloud.com/pages/privacy"
+          >https://soundcloud.com/pages/privacy</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-einleitung">
@@ -1325,15 +1313,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer
+      <span class="ts-muster-content"
+        >Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer
         berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und
         wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6
         Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern
         ein, um deren Inhalte und Services, wie z.B. Videos oder Schriftarten
-        einzubinden (nachfolgend einheitlich bezeichnet als “Inhalte”). <br>
-        <br>
+        einzubinden (nachfolgend einheitlich bezeichnet als “Inhalte”). <br />
+        <br />
         Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die
         IP-Adresse der Nutzer wahrnehmen, da sie ohne die IP-Adresse die Inhalte
         nicht an deren Browser senden könnten. Die IP-Adresse ist damit für die
@@ -1348,7 +1335,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         unter anderem technische Informationen zum Browser und Betriebssystem,
         verweisende Webseiten, Besuchszeit sowie weitere Angaben zur Nutzung
         unseres Onlineangebotes enthalten, als auch mit solchen Informationen
-        aus anderen Quellen verbunden werden.</span>
+        aus anderen Quellen verbunden werden.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-vimeo">
@@ -1356,26 +1344,28 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir können die Videos der Plattform “Vimeo” des Anbieters Vimeo Inc.,
+      <span class="ts-muster-content"
+        >Wir können die Videos der Plattform “Vimeo” des Anbieters Vimeo Inc.,
         Attention: Legal Department, 555 West 18th Street New York, New York
         10011, USA, einbinden. Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://vimeo.com/privacy"
-        >https://vimeo.com/privacy</a>. Wir weisen darauf hin, dass Vimeo Google Analytics einsetzen kann und
+        <a target="_blank" href="https://vimeo.com/privacy"
+          >https://vimeo.com/privacy</a
+        >. Wir weisen darauf hin, dass Vimeo Google Analytics einsetzen kann und
         verweisen hierzu auf die Datenschutzerklärung (<a
           target="_blank"
           href="https://policies.google.com/privacy"
-        >https://policies.google.com/privacy</a>) sowie Opt-Out-Möglichkeiten für Google-Analytics (<a
+          >https://policies.google.com/privacy</a
+        >) sowie Opt-Out-Möglichkeiten für Google-Analytics (<a
           target="_blank"
           href="http://tools.google.com/dlpage/gaoptout?hl=de"
-        >http://tools.google.com/dlpage/gaoptout?hl=de</a>) oder die Einstellungen von Google für die Datennutzung zu
+          >http://tools.google.com/dlpage/gaoptout?hl=de</a
+        >) oder die Einstellungen von Google für die Datennutzung zu
         Marketingzwecken (<a
           target="_blank"
           href="https://adssettings.google.com/"
-        >https://adssettings.google.com/</a>).</span>
+          >https://adssettings.google.com/</a
+        >).</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-youtube">
@@ -1383,19 +1373,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir binden die Videos der Plattform “YouTube” des Anbieters Google
+      <span class="ts-muster-content"
+        >Wir binden die Videos der Plattform “YouTube” des Anbieters Google
         Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, ein.
         Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.google.com/policies/privacy/"
-        >https://www.google.com/policies/privacy/</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/authenticated"
-        >https://adssettings.google.com/authenticated</a>.</span>
+        <a target="_blank" href="https://www.google.com/policies/privacy/"
+          >https://www.google.com/policies/privacy/</a
+        >, Opt-Out:
+        <a target="_blank" href="https://adssettings.google.com/authenticated"
+          >https://adssettings.google.com/authenticated</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-googlefonts">
@@ -1403,9 +1391,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir binden die Schriftarten ("Google Fonts") des Anbieters Google
+      <span class="ts-muster-content"
+        >Wir binden die Schriftarten ("Google Fonts") des Anbieters Google
         Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, ein.
         Nach Angaben von Google werden die Daten der Nutzer allein zu Zwecken
         der Darstellung der Schriftarten im Browser der Nutzer verwendet. Die
@@ -1414,10 +1401,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Schriftarten, deren einheitlicher Darstellung sowie Berücksichtigung
         möglicher lizenzrechtlicher Restriktionen für deren Einbindung.
         Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.google.com/policies/privacy/"
-        >https://www.google.com/policies/privacy/</a>.</span>
+        <a target="_blank" href="https://www.google.com/policies/privacy/"
+          >https://www.google.com/policies/privacy/</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-googlerecaptcha">
@@ -1425,20 +1412,18 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir binden die Funktion zur Erkennung von Bots, z.B. bei Eingaben in
+      <span class="ts-muster-content"
+        >Wir binden die Funktion zur Erkennung von Bots, z.B. bei Eingaben in
         Onlineformularen ("ReCaptcha") des Anbieters GGoogle Ireland Limited,
         Gordon House, Barrow Street, Dublin 4, Irland, ein.
         Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.google.com/policies/privacy/"
-        >https://www.google.com/policies/privacy/</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/authenticated"
-        >https://adssettings.google.com/authenticated</a>.</span>
+        <a target="_blank" href="https://www.google.com/policies/privacy/"
+          >https://www.google.com/policies/privacy/</a
+        >, Opt-Out:
+        <a target="_blank" href="https://adssettings.google.com/authenticated"
+          >https://adssettings.google.com/authenticated</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-googlemaps">
@@ -1446,23 +1431,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir binden die Landkarten des Dienstes “Google Maps” des Anbieters
+      <span class="ts-muster-content"
+        >Wir binden die Landkarten des Dienstes “Google Maps” des Anbieters
         Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland,
         ein. Zu den verarbeiteten Daten können insbesondere IP-Adressen und
         Standortdaten der Nutzer gehören, die jedoch nicht ohne deren
         Einwilligung (im Regelfall im Rahmen der Einstellungen ihrer Mobilgeräte
         vollzogen), erhoben werden. Die Daten können in den USA verarbeitet
         werden. Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.google.com/policies/privacy/"
-        >https://www.google.com/policies/privacy/</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/authenticated"
-        >https://adssettings.google.com/authenticated</a>.</span>
+        <a target="_blank" href="https://www.google.com/policies/privacy/"
+          >https://www.google.com/policies/privacy/</a
+        >, Opt-Out:
+        <a target="_blank" href="https://adssettings.google.com/authenticated"
+          >https://adssettings.google.com/authenticated</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-twitter">
@@ -1470,14 +1453,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
         Dienstes Twitter, angeboten durch die Twitter Inc., 1355 Market Street,
         Suite 900, San Francisco, CA 94103, USA, eingebunden werden. Hierzu
         können z.B. Inhalte wie Bilder, Videos oder Texte und Schaltflächen
         gehören, mit denen Nutzer Inhalte dieses Onlineangebotes innerhalb von
-        Twitter teilen können.<br>
+        Twitter teilen können.<br />
         Sofern die Nutzer Mitglieder der Plattform Twitter sind, kann Twitter
         den Aufruf der o.g. Inhalte und Funktionen den dortigen Profilen der
         Nutzer zuordnen. Twitter ist unter dem Privacy-Shield-Abkommen
@@ -1485,15 +1467,15 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Datenschutzrecht einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active</a>). Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://twitter.com/de/privacy"
-        >https://twitter.com/de/privacy</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://twitter.com/personalization"
-        >https://twitter.com/personalization</a>.</span>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active</a
+        >). Datenschutzerklärung:
+        <a target="_blank" href="https://twitter.com/de/privacy"
+          >https://twitter.com/de/privacy</a
+        >, Opt-Out:
+        <a target="_blank" href="https://twitter.com/personalization"
+          >https://twitter.com/personalization</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-instagram">
@@ -1501,9 +1483,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
         Dienstes Instagram, angeboten durch die Instagram Inc., 1601 Willow
         Road, Menlo Park, CA, 94025, USA, eingebunden werden. Hierzu können z.B.
         Inhalte wie Bilder, Videos oder Texte und Schaltflächen gehören, mit
@@ -1512,10 +1493,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         sind, kann Instagram den Aufruf der o.g. Inhalte und Funktionen den
         dortigen Profilen der Nutzer zuordnen. Datenschutzerklärung von
         Instagram:
-        <a
-          target="_blank"
-          href="http://instagram.com/about/legal/privacy/"
-        >http://instagram.com/about/legal/privacy/</a>.
+        <a target="_blank" href="http://instagram.com/about/legal/privacy/"
+          >http://instagram.com/about/legal/privacy/</a
+        >.
       </span>
     </p>
     <p />
@@ -1524,9 +1504,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
         Dienstes Pinterest, angeboten durch die Pinterest Inc., 635 High Street,
         Palo Alto, CA, 94301, USA, eingebunden werden. Hierzu können z.B.
         Inhalte wie Bilder, Videos oder Texte und Schaltflächen gehören, mit
@@ -1535,10 +1514,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         sind, kann Pinterest den Aufruf der o.g. Inhalte und Funktionen den
         dortigen Profilen der Nutzer zuordnen. Datenschutzerklärung von
         Pinterest:
-        <a
-          target="_blank"
-          href="https://about.pinterest.com/de/privacy-policy"
-        >https://about.pinterest.com/de/privacy-policy</a>.
+        <a target="_blank" href="https://about.pinterest.com/de/privacy-policy"
+          >https://about.pinterest.com/de/privacy-policy</a
+        >.
       </span>
     </p>
     <p />
@@ -1547,9 +1525,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
         Dienstes LinkedIn, angeboten durch die LinkedIn Ireland Unlimited
         Company Wilton Place, Dublin 2, Irland, eingebunden werden. Hierzu
         können z.B. Inhalte wie Bilder, Videos oder Texte und Schaltflächen
@@ -1558,30 +1535,32 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         LinkedIn sind, kann LinkedIn den Aufruf der o.g. Inhalte und Funktionen
         den dortigen Profilen der Nutzer zuordnen. Datenschutzerklärung von
         LinkedIn:
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/legal/privacy-policy"
-        >https://www.linkedin.com/legal/privacy-policy.</a>. LinkedIn ist unter dem Privacy-Shield-Abkommen zertifiziert und
+        <a target="_blank" href="https://www.linkedin.com/legal/privacy-policy"
+          >https://www.linkedin.com/legal/privacy-policy.</a
+        >. LinkedIn ist unter dem Privacy-Shield-Abkommen zertifiziert und
         bietet hierdurch eine Garantie, das europäische Datenschutzrecht
         einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a>). Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/legal/privacy-policy"
-        >https://www.linkedin.com/legal/privacy-policy</a>, Opt-Out:
+          >https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a
+        >). Datenschutzerklärung:
+        <a target="_blank" href="https://www.linkedin.com/legal/privacy-policy"
+          >https://www.linkedin.com/legal/privacy-policy</a
+        >, Opt-Out:
         <a
           target="_blank"
           href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out"
-        >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a>.</span>
+          >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a
+        >.</span
+      >
     </p>
     <a
       href="https://datenschutz-generator.de"
       class="dsg1-6"
       rel="nofollow"
       target="_blank"
-    >Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a>
+      >Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a
+    >
     <h2>Datenschutzerklärung</h2>
     <h3 id="dsg-general-intro" />
     <p>
@@ -1593,30 +1572,30 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im
       Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“
       oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der
-      Datenschutzgrundverordnung (DSGVO). <br>
-      <br>
+      Datenschutzgrundverordnung (DSGVO). <br />
+      <br />
     </p>
     <h3 id="dsg-general-controller">
       Verantwortlicher
     </h3>
     <p>
-      <span
-        class="tsmcontroller"
-      >Leon Kappess<br>
-        Thomas-Mann-Str. 27<br>
-        41469 Neuss<br>
-        Deutschland<br>
-        E-Mailadresse: leon@kappes.spacee</span>
+      <span class="tsmcontroller"
+        >Leon Kappess<br />
+        Thomas-Mann-Str. 27<br />
+        41469 Neuss<br />
+        Deutschland<br />
+        E-Mailadresse: leon@kappes.spacee</span
+      >
     </p>
     <h3 id="dsg-general-datatype">
       Arten der verarbeiteten Daten
     </h3>
     <p>
-      - Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br>
-      - Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
-      - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
+      - Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br />
+      - Kontaktdaten (z.B., E-Mail, Telefonnummern).<br />
+      - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br />
       - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten,
-      Zugriffszeiten).<br>
+      Zugriffszeiten).<br />
       - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
     </p>
     <h3 id="dsg-general-datasubjects">
@@ -1624,17 +1603,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p>
       Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die
-      betroffenen Personen zusammenfassend auch als „Nutzer“).<br>
+      betroffenen Personen zusammenfassend auch als „Nutzer“).<br />
     </p>
     <h3 id="dsg-general-purpose">
       Zweck der Verarbeitung
     </h3>
     <p>
       - Zurverfügungstellung des Onlineangebotes, seiner Funktionen und
-      Inhalte.<br>
-      - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br>
-      - Sicherheitsmaßnahmen.<br>
-      - Reichweitenmessung/Marketing<br>
+      Inhalte.<br />
+      - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br />
+      - Sicherheitsmaßnahmen.<br />
+      - Reichweitenmessung/Marketing<br />
       <span class="tsmcom" />
     </p>
     <h3 id="dsg-general-terms">
@@ -1649,13 +1628,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren
       besonderen Merkmalen identifiziert werden kann, die Ausdruck der
       physischen, physiologischen, genetischen, psychischen, wirtschaftlichen,
-      kulturellen oder sozialen Identität dieser natürlichen Person sind.<br>
-      <br>
+      kulturellen oder sozialen Identität dieser natürlichen Person sind.<br />
+      <br />
       „Verarbeitung“ ist jeder mit oder ohne Hilfe automatisierter Verfahren
       ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit
       personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch
-      jeden Umgang mit Daten.<br>
-      <br>
+      jeden Umgang mit Daten.<br />
+      <br />
       „Pseudonymisierung“ die Verarbeitung personenbezogener Daten in einer
       Weise, dass die personenbezogenen Daten ohne Hinzuziehung zusätzlicher
       Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet
@@ -1663,24 +1642,24 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       aufbewahrt werden und technischen und organisatorischen Maßnahmen
       unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht
       einer identifizierten oder identifizierbaren natürlichen Person zugewiesen
-      werden.<br>
-      <br>
+      werden.<br />
+      <br />
       „Profiling“ jede Art der automatisierten Verarbeitung personenbezogener
       Daten, die darin besteht, dass diese personenbezogenen Daten verwendet
       werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche
       Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich
       Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben,
       Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel
-      dieser natürlichen Person zu analysieren oder vorherzusagen.<br>
-      <br>
+      dieser natürlichen Person zu analysieren oder vorherzusagen.<br />
+      <br />
       Als „Verantwortlicher“ wird die natürliche oder juristische Person,
       Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit
       anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen
-      Daten entscheidet, bezeichnet.<br>
-      <br>
+      Daten entscheidet, bezeichnet.<br />
+      <br />
       „Auftragsverarbeiter“ eine natürliche oder juristische Person, Behörde,
       Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des
-      Verantwortlichen verarbeitet.<br>
+      Verantwortlichen verarbeitet.<br />
     </p>
     <h3 id="dsg-general-legalbasis">
       Maßgebliche Rechtsgrundlagen
@@ -1690,30 +1669,30 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       unserer Datenverarbeitungen mit. Für Nutzer aus dem Geltungsbereich der
       Datenschutzgrundverordnung (DSGVO), d.h. der EU und des EWG gilt, sofern
       die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird,
-      Folgendes: <br>
+      Folgendes: <br />
       Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1
-      lit. a und Art. 7 DSGVO;<br>
+      lit. a und Art. 7 DSGVO;<br />
       Die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen
       und Durchführung vertraglicher Maßnahmen sowie Beantwortung von Anfragen
-      ist Art. 6 Abs. 1 lit. b DSGVO;<br>
+      ist Art. 6 Abs. 1 lit. b DSGVO;<br />
       Die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen
-      Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO;<br>
+      Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO;<br />
       Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder
       einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten
       erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als
-      Rechtsgrundlage.<br>
+      Rechtsgrundlage.<br />
       Die Rechtsgrundlage für die erforderliche Verarbeitung zur Wahrnehmung
       einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung
       öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde ist
-      Art. 6 Abs. 1 lit. e DSGVO. <br>
+      Art. 6 Abs. 1 lit. e DSGVO. <br />
       Die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten
-      Interessen ist Art. 6 Abs. 1 lit. f DSGVO. <br>
+      Interessen ist Art. 6 Abs. 1 lit. f DSGVO. <br />
       Die Verarbeitung von Daten zu anderen Zwecken als denen, zu denen sie
       erhoben wurden, bestimmt sich nach den Vorgaben des Art 6 Abs. 4 DSGVO.
-      <br>
+      <br />
       Die Verarbeitung von besonderen Kategorien von Daten (entsprechend Art. 9
       Abs. 1 DSGVO) bestimmt sich nach den Vorgaben des Art. 9 Abs. 2 DSGVO.
-      <br>
+      <br />
     </p>
     <h3 id="dsg-general-securitymeasures">
       Sicherheitsmaßnahmen
@@ -1725,8 +1704,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       unterschiedlichen Eintrittswahrscheinlichkeit und Schwere des Risikos für
       die Rechte und Freiheiten natürlicher Personen, geeignete technische und
       organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu
-      gewährleisten.<br>
-      <br>
+      gewährleisten.<br />
+      <br />
       Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit,
       Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen
       Zugangs zu den Daten, als auch des sie betreffenden Zugriffs, der Eingabe,
@@ -1737,7 +1716,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       personenbezogener Daten bereits bei der Entwicklung, bzw. Auswahl von
       Hardware, Software sowie Verfahren, entsprechend dem Prinzip des
       Datenschutzes durch Technikgestaltung und durch datenschutzfreundliche
-      Voreinstellungen.<br>
+      Voreinstellungen.<br />
     </p>
     <h3 id="dsg-general-coprocessing">
       Zusammenarbeit mit Auftragsverarbeitern, gemeinsam Verantwortlichen und
@@ -1752,13 +1731,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       Zahlungsdienstleister, zur Vertragserfüllung erforderlich ist), Nutzer
       eingewilligt haben, eine rechtliche Verpflichtung dies vorsieht oder auf
       Grundlage unserer berechtigten Interessen (z.B. beim Einsatz von
-      Beauftragten, Webhostern, etc.). <br>
-      <br>
+      Beauftragten, Webhostern, etc.). <br />
+      <br />
       Sofern wir Daten anderen Unternehmen unserer Unternehmensgruppe
       offenbaren, übermitteln oder ihnen sonst den Zugriff gewähren, erfolgt
       dies insbesondere zu administrativen Zwecken als berechtigtes Interesse
       und darüberhinausgehend auf einer den gesetzlichen Vorgaben entsprechenden
-      Grundlage. <br>
+      Grundlage. <br />
     </p>
     <h3 id="dsg-general-thirdparty">
       Übermittlungen in Drittländer
@@ -1782,7 +1761,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <a
         href="https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu_de"
         target="blank"
-      >Informationsseite der EU-Kommission</a>).
+        >Informationsseite der EU-Kommission</a
+      >).
     </p>
     <h3 id="dsg-general-rightssubject">
       Rechte der betroffenen Personen
@@ -1791,27 +1771,27 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       Auskunftsrecht: Sie haben das Recht, eine Bestätigung darüber zu
       verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über
       diese Daten sowie auf weitere Informationen und Kopie der Daten
-      entsprechend den gesetzlichen Vorgaben.<br>
-      <br>
+      entsprechend den gesetzlichen Vorgaben.<br />
+      <br />
       Recht auf Berichtigung: Sie haben entsprechend. den gesetzlichen Vorgaben
       das Recht, die Vervollständigung der Sie betreffenden Daten oder die
-      Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.<br>
-      <br>
+      Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.<br />
+      <br />
       Recht auf Löschung und Einschränkung der Verarbeitung: Sie haben nach
       Maßgabe der gesetzlichen Vorgaben das Recht zu verlangen, dass betreffende
       Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe der
       gesetzlichen Vorgaben eine Einschränkung der Verarbeitung der Daten zu
-      verlangen.<br>
-      <br>
+      verlangen.<br />
+      <br />
       Recht auf Datenübertragbarkeit: Sie haben das Recht, Sie betreffende
       Daten, die Sie uns bereitgestellt haben, nach Maßgabe der gesetzlichen
       Vorgaben in einem strukturierten, gängigen und maschinenlesbaren Format zu
       erhalten oder deren Übermittlung an einen anderen Verantwortlichen zu
-      fordern.<br>
-      <br>
+      fordern.<br />
+      <br />
       Beschwerde bei Aufsichtsbehörde: Sie haben ferner nach Maßgabe der
       gesetzlichen Vorgaben das Recht, eine Beschwerde bei der zuständigen
-      Aufsichtsbehörde einzureichen.<br>
+      Aufsichtsbehörde einzureichen.<br />
     </p>
     <h3 id="dsg-general-revokeconsent">
       Widerrufsrecht
@@ -1824,7 +1804,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       Widerspruchsrecht
     </h3>
     <p>
-      <strong>Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer
+      <strong
+        >Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer
         besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie
         betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1
         lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für
@@ -1833,7 +1814,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         betreiben, haben Sie das Recht, jederzeit Widerspruch gegen die
         Verarbeitung der Sie betreffenden personenbezogenen Daten zum Zwecke
         derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit
-        es mit solcher Direktwerbung in Verbindung steht.</strong>
+        es mit solcher Direktwerbung in Verbindung steht.</strong
+      >
     </p>
     <h3 id="dsg-general-cookies">
       Cookies und Widerspruchsrecht bei Direktwerbung
@@ -1856,11 +1838,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       oder Marketingzwecke verwendet werden. Als „Third-Party-Cookie“ werden
       Cookies bezeichnet, die von anderen Anbietern als dem Verantwortlichen,
       der das Onlineangebot betreibt, angeboten werden (andernfalls, wenn es nur
-      dessen Cookies sind spricht man von „First-Party Cookies“).<br>
-      <br>
+      dessen Cookies sind spricht man von „First-Party Cookies“).<br />
+      <br />
       Wir können temporäre und permanente Cookies einsetzen und klären hierüber
-      im Rahmen unserer Datenschutzerklärung auf.<br>
-      <br>
+      im Rahmen unserer Datenschutzerklärung auf.<br />
+      <br />
       Sofern wir die Nutzer um eine Einwilligung in den Einsatz von Cookies
       bitten (z.B. im Rahmen einer Cookie-Einwilligung), ist die Rechtsgrundlage
       dieser Verarbeitung Art. 6 Abs. 1 lit. a. DSGVO. Ansonsten werden die
@@ -1873,25 +1855,25 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       lit. b. DSGVO, bzw. sofern der Einsatz von Cookies für die Wahrnehmung
       einer Aufgabe, die im öffentlichen Interesse liegt erforderlich ist oder
       in Ausübung öffentlicher Gewalt erfolgt, gem. Art. 6 Abs. 1 lit. e. DSGVO,
-      verarbeitet.<br>
-      <br>
+      verarbeitet.<br />
+      <br />
       Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert
       werden, werden sie gebeten die entsprechende Option in den
       Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte Cookies
       können in den Systemeinstellungen des Browsers gelöscht werden. Der
       Ausschluss von Cookies kann zu Funktionseinschränkungen dieses
-      Onlineangebotes führen.<br>
-      <br>
+      Onlineangebotes führen.<br />
+      <br />
       Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des
       Onlinemarketing eingesetzten Cookies kann bei einer Vielzahl der Dienste,
       vor allem im Fall des Trackings, über die US-amerikanische Seite
-      <a
-        href="http://www.aboutads.info/choices/"
-      >http://www.aboutads.info/choices/</a>
+      <a href="http://www.aboutads.info/choices/"
+        >http://www.aboutads.info/choices/</a
+      >
       oder die EU-Seite
-      <a
-        href="http://www.youronlinechoices.com/"
-      >http://www.youronlinechoices.com/</a>
+      <a href="http://www.youronlinechoices.com/"
+        >http://www.youronlinechoices.com/</a
+      >
       erklärt werden. Des Weiteren kann die Speicherung von Cookies mittels
       deren Abschaltung in den Einstellungen des Browsers erreicht werden. Bitte
       beachten Sie, dass dann gegebenenfalls nicht alle Funktionen dieses
@@ -1906,8 +1888,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die
       bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung
       nicht mehr erforderlich sind und der Löschung keine gesetzlichen
-      Aufbewahrungspflichten entgegenstehen. <br>
-      <br>
+      Aufbewahrungspflichten entgegenstehen. <br />
+      <br />
       Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich
       zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt.
       D.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet.
@@ -1931,17 +1913,16 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir nutzen die von Google angebotene Cloud und die
+      <span class="ts-muster-content"
+        >Wir nutzen die von Google angebotene Cloud und die
         Cloud-Softwaredienste (sog. Software as a Service, z.B. Google Suite)
         für die folgenden Zwecke: Dokumentenspeicherung und Verwaltung,
         Kalenderverwaltung, E-Mail-Versand, Tabellenkalkulationen und
         Präsentationen, Austausch von Dokumenten, Inhalten und Informationen mit
         bestimmten Empfängern oder Veröffentlichung von Webseiten, Formularen
         oder sonstigen Inhalten und Informationen sowie Chats und Teilnahme an
-        Audio- und Videokonferenzen.<br>
-        <br>
+        Audio- und Videokonferenzen.<br />
+        <br />
         Hierbei werden die personenbezogenen Daten der Nutzer verarbeitet,
         soweit diese Bestandteil der innerhalb der&nbsp; beschriebenen Dienste
         verarbeiteten Dokumente und Inhalte werden oder Teil von
@@ -1949,13 +1930,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Kontaktdaten der Nutzer, Daten zu Vorgängen, Verträgen, sonstigen
         Prozessen und deren Inhalte gehören. Google verarbeitet ferner
         Nutzungsdaten und Metadaten, die von Google zu Sicherheitszwecken und
-        Serviceoptimierung verwendet werden.<br>
-        <br>
+        Serviceoptimierung verwendet werden.<br />
+        <br />
         Im Rahmen der Nutzung öffentlich zugängliche&nbsp; Dokumente, Webseiten
         oder sonstige&nbsp; Inhalte, kann Google Cookies auf den Rechner der
         Nutzer für Zwecke der Webanalyse oder um sich Einstellungen der Nutzer
-        zu merken, speichern.<br>
-        <br>
+        zu merken, speichern.<br />
+        <br />
         Wir nutzen die Google Cloud-Dienste auf Grundlage unserer berechtigten
         Interessen gem. Art. 6 Abs. 1 lit. f DSGVO an effizienten und sicheren
         Verwaltungs- und Zusammenarbeitsprozessen. Ferner erfolgt die
@@ -1963,31 +1944,37 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Google (<a
           target="_blank"
           href="https://cloud.google.com/terms/data-processing-terms"
-        >https://cloud.google.com/terms/data-processing-terms</a>).<br>
-        <br>
+          >https://cloud.google.com/terms/data-processing-terms</a
+        >).<br />
+        <br />
         Weitere Hinweise erhalten Sie in der Datenschutzerklärung von Google (<a
           target="_blank"
           href="https://www.google.com/policies/privacy"
-        >https://www.google.com/policies/privacy</a>) und den Sicherheitshinweisen zu Google Cloud-Diensten (<a
+          >https://www.google.com/policies/privacy</a
+        >) und den Sicherheitshinweisen zu Google Cloud-Diensten (<a
           target="_blank"
           href="https://cloud.google.com/security/privacy/"
-        >https://cloud.google.com/security/privacy/</a>). Sie können der Verarbeitung Ihrer Daten in der Google Cloud uns
+          >https://cloud.google.com/security/privacy/</a
+        >). Sie können der Verarbeitung Ihrer Daten in der Google Cloud uns
         gegenüber entsprechend den gesetzlichen Vorgaben widersprechen. Im
         Übrigen bestimmt sich die Löschung der Daten innerhalb von Googles
         Cloud-Diensten nach den übrigen Verarbeitungsprozessen in deren Rahmen
         die Daten verarbeitet werden (z.B., Löschung für Vertragszwecke nicht
         mehr erforderlicher oder Speicherung für Zwecke der Besteuerung
-        erforderlicher Daten).<br>
-        <br>
+        erforderlicher Daten).<br />
+        <br />
         Die Google Cloud-Dienste werden von Google Irland Limited angeboten.
         Soweit eine Übermittlung in die USA stattfindet, verweisen wir auf die
         Zertifizierung von Google USA unter dem Privacy Shield(<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000000001L5AAI&amp;status=Aktive"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000000001L5AAI&amp;status=Aktive</a>) und Standardschutzklauseln (<a
+          >https://www.privacyshield.gov/participant?id=a2zt0000000000001L5AAI&amp;status=Aktive</a
+        >) und Standardschutzklauseln (<a
           target="_blank"
           href="https://cloud.google.com/terms/data-processing-terms"
-        >https://cloud.google.com/terms/data-processing-terms</a>).</span>
+          >https://cloud.google.com/terms/data-processing-terms</a
+        >).</span
+      >
     </p>
     <p />
     <h3 id="dsg-affiliate-general">
@@ -1995,22 +1982,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes setzen wir auf Grundlage unserer
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes setzen wir auf Grundlage unserer
         berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und
         wirtschaftlichem Betrieb unseres Onlineangebotes) gem. Art. 6 Abs. 1
         lit. f DSGVO branchenübliche Trackingmaßnahmen ein, soweit diese für den
         Betrieb des Affiliatesystems erforderlich sind. Nachfolgend klären wir
-        die Nutzer über die technischen Hintergründe auf.<br>
-        <br>
+        die Nutzer über die technischen Hintergründe auf.<br />
+        <br />
         Die von unseren Vertragspartnern angebotene Leistungen können auch auf
         anderen Webseiten beworben und verlinkt werden (sog. Affiliate-Links
         oder After-Buy-Systeme, wenn z.B. Links oder Leistungen Dritter nach
         einem Vertragsschluss angeboten werden). Die Betreiber der jeweiligen
         Webseiten erhalten eine Provision, wenn Nutzer den Affiliate-Links
-        folgen und anschließend die Angebote wahrnehmen.<br>
-        <br>
+        folgen und anschließend die Angebote wahrnehmen.<br />
+        <br />
         Zusammenfassend, ist es für unser Onlineangebot erforderlich, dass wir
         nachverfolgen können, ob Nutzer, die sich für Affiliate-Links und/oder
         die bei uns verfügbaren Angebote interessieren, die Angebote
@@ -2022,8 +2008,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Zeitpunkt, eine Online-Kennung der Betreiber der Webseite, auf der sich
         der Affiliate-Link befand, eine Online-Kennung des jeweiligen Angebotes,
         eine Online-Kennung des Nutzers, als auch Tracking-spezifische Werte wie
-        z.B. Werbemittel-ID, Partner-ID und Kategorisierungen.<br>
-        <br>
+        z.B. Werbemittel-ID, Partner-ID und Kategorisierungen.<br />
+        <br />
         Bei der von uns verwendeten Online-Kennungen der Nutzer, handelt es sich
         um pseudonyme Werte. D.h. die Online-Kennungen enthalten selbst keine
         personenbezogenen Daten wie Namen oder E-Mailadressen. Sie helfen uns
@@ -2034,7 +2020,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         personenbezogen, als dem Partnerunternehmen und auch uns, die
         Online-Kennung zusammen mit anderen Nutzerdaten vorliegen. Nur so kann
         das Partnerunternehmen uns mitteilen, ob derjenige Nutzer das Angebot
-        wahrgenommen hat und wir z.B. den Bonus auszahlen können.<br>
+        wahrgenommen hat und wir z.B. den Bonus auszahlen können.<br />
       </span>
     </p>
     <p />
@@ -2043,31 +2029,32 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir sind auf Grundlage unserer berechtigten Interessen (d.h. Interesse
+      <span class="ts-muster-content"
+        >Wir sind auf Grundlage unserer berechtigten Interessen (d.h. Interesse
         am wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6
         Abs. 1 lit. f. DSGVO) Teilnehmer des Partnerprogramms von Amazon EU, das
         zur Bereitstellung eines Mediums für Websites konzipiert wurde, mittels
         dessen durch die Platzierung von Werbeanzeigen und Links zu Amazon.de
         Werbekostenerstattung verdient werden kann (sog. Affiliate-System). D.h.
-        als Amazon-Partner verdienen wir an qualifizierten Käufen.<br>
-        <br>
+        als Amazon-Partner verdienen wir an qualifizierten Käufen.<br />
+        <br />
         Amazon setzt Cookies ein, um die Herkunft der Bestellungen
         nachvollziehen zu können. Unter anderem kann Amazon erkennen, dass Sie
         den Partnerlink auf dieser Website geklickt und anschließend ein Produkt
-        bei Amazon erworben haben.<br>
-        <br>
+        bei Amazon erworben haben.<br />
+        <br />
         Weitere Informationen zur Datennutzung durch Amazon und
         Widerspruchsmöglichkeiten erhalten Sie in der Datenschutzerklärung des
         Unternehmens:
         <a
           target="_blank"
           href="https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010"
-        >https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010</a>.<br>
-        <br>
+          >https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010</a
+        >.<br />
+        <br />
         Hinweis: Amazon und das Amazon-Logo sind Warenzeichen von Amazon.com,
-        Inc. oder eines seiner verbundenen Unternehmen.</span>
+        Inc. oder eines seiner verbundenen Unternehmen.</span
+      >
     </p>
     <p />
     <h3 id="dsg-registration">
@@ -2075,17 +2062,16 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Nutzer können ein Nutzerkonto anlegen. Im Rahmen der Registrierung
+      <span class="ts-muster-content"
+        >Nutzer können ein Nutzerkonto anlegen. Im Rahmen der Registrierung
         werden die erforderlichen Pflichtangaben den Nutzern mitgeteilt und auf
         Grundlage des Art. 6 Abs. 1 lit. b DSGVO zu Zwecken der Bereitstellung
         des Nutzerkontos verarbeitet. Zu den verarbeiteten Daten gehören
         insbesondere die Login-Informationen (Name, Passwort sowie eine
         E-Mailadresse). Die im Rahmen der Registrierung eingegebenen Daten
         werden für die Zwecke der Nutzung des Nutzerkontos und dessen Zwecks
-        verwendet. <br>
-        <br>
+        verwendet. <br />
+        <br />
         Die Nutzer können über Informationen, die für deren Nutzerkonto relevant
         sind, wie z.B. technische Änderungen, per E-Mail informiert werden. Wenn
         Nutzer ihr Nutzerkonto gekündigt haben, werden deren Daten im Hinblick
@@ -2093,8 +2079,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Aufbewahrungspflicht, gelöscht. Es obliegt den Nutzern, ihre Daten bei
         erfolgter Kündigung vor dem Vertragsende zu sichern. Wir sind
         berechtigt, sämtliche während der Vertragsdauer gespeicherten Daten des
-        Nutzers unwiederbringlich zu löschen.<br>
-        <br>
+        Nutzers unwiederbringlich zu löschen.<br />
+        <br />
         Im Rahmen der Inanspruchnahme unserer Registrierungs- und
         Anmeldefunktionen sowie der Nutzung des Nutzerkontos, speichern wir die
         IP-Adresse und den Zeitpunkt der jeweiligen Nutzerhandlung. Die
@@ -2104,7 +2090,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         nicht, außer sie ist zur Verfolgung unserer Ansprüche erforderlich oder
         es besteht hierzu besteht eine gesetzliche Verpflichtung gem. Art. 6
         Abs. 1 lit. c. DSGVO. Die IP-Adressen werden spätestens nach 7 Tagen
-        anonymisiert oder gelöscht.<br>
+        anonymisiert oder gelöscht.<br />
       </span>
     </p>
     <p />
@@ -2113,9 +2099,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen auf Grundlage unserer berechtigten Interessen an einer
+      <span class="ts-muster-content"
+        >Wir setzen auf Grundlage unserer berechtigten Interessen an einer
         effizienten, sicheren und nutzerfreundlichen Kommentarverwaltung gem.
         Art. 6 Abs. 1 lit. f. DSGVO den Kommentardienst DISQUS, angeboten von
         der DISQUS, Inc., 301 Howard St, Floor 3 San Francisco, California-
@@ -2125,16 +2110,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TRkEAAW&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TRkEAAW&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TRkEAAW&amp;status=Active</a
+        >.<br />
+        <br />
         Zur Nutzung der DISQUS Kommentarfunktion können Nutzer sich über ein
         eigenes DISQUS-Nutzer-Konto oder einen bestehende Social-Media-Konten
         (z.B. OpenID, Facebook, Twitter oder Google) anmelden. Hierbei werden
         die Anmeldedaten der Nutzer durch DISQUS von den Plattformen bezogen. Es
         ist ebenfalls möglich, die DISQUS-Kommentarfunktion als Gast, ohne
         Erstellung oder Verwendung Nutzerkontos bei DISQUS oder einem der
-        angegebenen Social-Media-Anbieter, zu nutzen.<br>
-        <br>
+        angegebenen Social-Media-Anbieter, zu nutzen.<br />
+        <br />
         Wir betten lediglich DISQUS mit seinen Funktionen in unsere Website ein,
         wobei wir auf die Kommentare der Nutzer Einfluss nehmen können. Die
         Nutzer treten jedoch in eine unmittelbare Vertragsbeziehung mit DISQUS,
@@ -2144,17 +2130,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <a
           target="_blank"
           href="https://help.disqus.com/terms-and-policies/disqus-privacy-policy"
-        >https://help.disqus.com/terms-and-policies/disqus-privacy-policy</a>
+          >https://help.disqus.com/terms-and-policies/disqus-privacy-policy</a
+        >
         und weisen die Nutzer ebenfalls darauf hin, dass sie davon ausgehen
         können, dass DISQUS neben dem Kommentarinhalt auch deren IP-Adresse und
         den Zeitpunkt des Kommentars speichert sowie Cookies auf den Rechnern
         der Nutzer speichert und zur Darstellung von Werbung nutzen kann. Nutzer
         können jedoch der Verarbeitung ihrer Daten zwecks Darstellung von
         Anzeigen widersprechen:
-        <a
-          target="_blank"
-          href="https://disqus.com/data-sharing-settings/"
-        >https://disqus.com/data-sharing-settings</a>. <br>
+        <a target="_blank" href="https://disqus.com/data-sharing-settings/"
+          >https://disqus.com/data-sharing-settings</a
+        >. <br />
       </span>
     </p>
     <p />
@@ -2163,29 +2149,29 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wenn Nutzer Kommentare oder sonstige Beiträge hinterlassen, können ihre
+      <span class="ts-muster-content"
+        >Wenn Nutzer Kommentare oder sonstige Beiträge hinterlassen, können ihre
         IP-Adressen auf Grundlage unserer berechtigten Interessen im Sinne des
         Art. 6 Abs. 1 lit. f. DSGVO für 7 Tage gespeichert werden. Das erfolgt
         zu unserer Sicherheit, falls jemand in Kommentaren und Beiträgen
         widerrechtliche Inhalte hinterlässt (Beleidigungen, verbotene politische
         Propaganda, etc.). In diesem Fall können wir selbst für den Kommentar
         oder Beitrag belangt werden und sind daher an der Identität des
-        Verfassers interessiert.<br>
-        <br>
+        Verfassers interessiert.<br />
+        <br />
         Des Weiteren behalten wir uns vor, auf Grundlage unserer berechtigten
         Interessen gem. Art. 6 Abs. 1 lit. f. DSGVO, die Angaben der Nutzer
-        zwecks Spamerkennung zu verarbeiten.<br>
-        <br>
+        zwecks Spamerkennung zu verarbeiten.<br />
+        <br />
         Auf derselben Rechtsgrundlage behalten wir uns vor, im Fall von Umfragen
         die IP-Adressen der Nutzer für deren Dauer zu speichern und Cookies zu
-        verwenden, um Mehrfachabstimmungen zu vermeiden.<br>
-        <br>
+        verwenden, um Mehrfachabstimmungen zu vermeiden.<br />
+        <br />
         Die im Rahmen der Kommentare und Beiträge mitgeteilte Informationen zur
         Person, etwaige Kontakt- sowie Websiteinformationen als auch die
         inhaltlichen Angaben, werden von uns bis zum Widerspruch der Nutzer
-        dauerhaft gespeichert.</span>
+        dauerhaft gespeichert.</span
+      >
     </p>
     <p />
     <h3 id="dsg-subscribetocomments">
@@ -2193,9 +2179,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Die Nachfolgekommentare können durch Nutzer mit deren Einwilligung gem.
+      <span class="ts-muster-content"
+        >Die Nachfolgekommentare können durch Nutzer mit deren Einwilligung gem.
         Art. 6 Abs. 1 lit. a DSGVO abonniert werden. Die Nutzer erhalten eine
         Bestätigungsemail, um zu überprüfen, ob sie der Inhaber der eingegebenen
         Emailadresse sind. Nutzer können laufende Kommentarabonnements jederzeit
@@ -2203,8 +2188,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Widerrufsmöglichkeiten enthalten. Für die Zwecke des Nachweises der
         Einwilligung der Nutzer, speichern wir den Anmeldezeitpunkt nebst der
         IP-Adresse der Nutzer und löschen diese Informationen, wenn Nutzer sich
-        von dem Abonnement abmelden.<br>
-        <br>
+        von dem Abonnement abmelden.<br />
+        <br />
         Sie können den Empfang unseres Abonnements jederzeit kündigen, d.h. Ihre
         Einwilligungen widerrufen. Wir können die ausgetragenen E-Mailadressen
         bis zu drei Jahren auf Grundlage unserer berechtigten Interessen
@@ -2212,7 +2197,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         nachweisen zu können. Die Verarbeitung dieser Daten wird auf den Zweck
         einer möglichen Abwehr von Ansprüchen beschränkt. Ein individueller
         Löschungsantrag ist jederzeit möglich, sofern zugleich das ehemalige
-        Bestehen einer Einwilligung bestätigt wird.</span>
+        Bestehen einer Einwilligung bestätigt wird.</span
+      >
     </p>
     <p />
     <h3 id="dsg-akismet">
@@ -2220,9 +2206,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Unser Onlineangebot nutzt den Dienst „Akismet“, der von der Automattic
+      <span class="ts-muster-content"
+        >Unser Onlineangebot nutzt den Dienst „Akismet“, der von der Automattic
         Inc., 60 29th Street #343, San Francisco, CA 94110, USA, angeboten wird.
         Die Nutzung erfolgt auf Grundlage unserer berechtigten Interessen im
         Sinne des Art. 6 Abs. 1 lit. f) DSGVO. Mit Hilfe dieses Dienstes werden
@@ -2233,21 +2218,20 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         über diese Zeit hinaus gespeichert. Zu diesen Angaben gehören der
         eingegebene Name, die Emailadresse, die IP-Adresse, der Kommentarinhalt,
         der Referrer, Angaben zum verwendeten Browser sowie dem Computersystem
-        und die Zeit des Eintrags.<br>
-        <br>
+        und die Zeit des Eintrags.<br />
+        <br />
         Nähere Informationen zur Erhebung und Nutzung der Daten durch Akismet
         finden sich in den Datenschutzhinweisen von Automattic:
-        <a
-          target="_blank"
-          href="https://automattic.com/privacy/"
-        >https://automattic.com/privacy/</a>.<br>
-        <br>
+        <a target="_blank" href="https://automattic.com/privacy/"
+          >https://automattic.com/privacy/</a
+        >.<br />
+        <br />
         Nutzer können gerne Pseudonyme nutzen, oder auf die Eingabe des Namens
         oder der Emailadresse verzichten. Sie können die Übertragung der Daten
         komplett verhindern, indem Sie unser Kommentarsystem nicht nutzen. Das
         wäre schade, aber leider sehen wir sonst keine Alternativen, die ebenso
-        effektiv arbeiten.<br>
-        <br>
+        effektiv arbeiten.<br />
+        <br />
       </span>
     </p>
     <p />
@@ -2256,12 +2240,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen innerhalb unseres Onlineangebotes und insbesondere im Blog
+      <span class="ts-muster-content"
+        >Wir setzen innerhalb unseres Onlineangebotes und insbesondere im Blog
         den Dienst Gravatar der Automattic Inc., 60 29th Street #343, San
-        Francisco, CA 94110, USA, ein.<br>
-        <br>
+        Francisco, CA 94110, USA, ein.<br />
+        <br />
         Gravatar ist ein Dienst, bei dem sich Nutzer anmelden und Profilbilder
         und ihre E-Mailadressen hinterlegen können. Wenn Nutzer mit der
         jeweiligen E-Mailadresse auf anderen Onlinepräsenzen (vor allem in
@@ -2271,23 +2254,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         zwecks Prüfung, ob zu ihr ein Profil gespeichert ist, verschlüsselt
         übermittelt. Dies ist der einzige Zweck der Übermittlung der
         E-Mailadresse und sie wird nicht für andere Zwecke verwendet, sondern
-        danach gelöscht.<br>
-        <br>
+        danach gelöscht.<br />
+        <br />
         Die Nutzung von Gravatar erfolgt auf Grundlage unserer berechtigten
         Interessen im Sinne des Art. 6 Abs. 1 lit. f) DSGVO, da wir mit Hilfe
         von Gravatar den Beitrags- und Kommentarverfassern die Möglichkeit
-        bieten ihre Beiträge mit einem Profilbild zu personalisieren.<br>
-        <br>
+        bieten ihre Beiträge mit einem Profilbild zu personalisieren.<br />
+        <br />
         Durch die Anzeige der Bilder bringt Gravatar die IP-Adresse der Nutzer
         in Erfahrung, da dies für eine Kommunikation zwischen einem Browser und
         einem Onlineservice notwendig ist. Nähere Informationen zur Erhebung und
         Nutzung der Daten durch Gravatar finden sich in den Datenschutzhinweisen
         von Automattic:
-        <a
-          target="_blank"
-          href="https://automattic.com/privacy/"
-        >https://automattic.com/privacy/</a>.<br>
-        <br>
+        <a target="_blank" href="https://automattic.com/privacy/"
+          >https://automattic.com/privacy/</a
+        >.<br />
+        <br />
         Wenn Nutzer nicht möchten, dass ein mit Ihrer E-Mail-Adresse bei
         Gravatar verknüpftes Benutzerbild in den Kommentaren erscheint, sollten
         Sie zum Kommentieren eine E-Mail-Adresse nutzen, welche nicht bei
@@ -2295,7 +2277,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         möglich ist eine anonyme oder gar keine E-Mailadresse zu verwenden,
         falls die Nutzer nicht wünschen, dass die eigene E-Mailadresse an
         Gravatar übersendet wird. Nutzer können die Übertragung der Daten
-        komplett verhindern, indem Sie unser Kommentarsystem nicht nutzen.</span>
+        komplett verhindern, indem Sie unser Kommentarsystem nicht nutzen.</span
+      >
     </p>
     <p />
     <h3 id="dsg-wordpress-emojis">
@@ -2303,9 +2286,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres WordPress-Blogs werden grafische Emojis (bzw.
+      <span class="ts-muster-content"
+        >Innerhalb unseres WordPress-Blogs werden grafische Emojis (bzw.
         Smilies), d.h. kleine grafische Dateien, die Gefühle ausdrücken,
         eingesetzt, die von externen Servern bezogen werden. Hierbei erheben die
         Anbieter der Server, die IP-Adressen der Nutzer. Dies ist notwendig,
@@ -2313,15 +2295,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         können. Der Emojie-Service wird von der Automattic Inc., 60 29th Street
         #343, San Francisco, CA 94110, USA, angeboten. Datenschutzhinweise von
         Automattic:
-        <a
-          target="_blank"
-          href="https://automattic.com/privacy/"
-        >https://automattic.com/privacy/</a>. Die verwendeten Server-Domains sind s.w.org und twemoji.maxcdn.com,
+        <a target="_blank" href="https://automattic.com/privacy/"
+          >https://automattic.com/privacy/</a
+        >. Die verwendeten Server-Domains sind s.w.org und twemoji.maxcdn.com,
         wobei es sich unseres Wissens nach um sog. Content-Delivery-Networks
         handelt, also Server, die lediglich einer schnellen und sicheren
         Übermittlung der Dateien dienen und die personenbezogenen Daten der
-        Nutzer nach der Übermittlung gelöscht werden.<br>
-        <br>
+        Nutzer nach der Übermittlung gelöscht werden.<br />
+        <br />
         Die Nutzung der Emojis erfolgt auf Grundlage unserer berechtigten
         Interessen, d.h. Interesse an einer attraktiven Gestaltung unseres
         Onlineangebotes gem. Art. 6 Abs. 1 lit. f. DSGVO.
@@ -2333,12 +2314,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Unsere Podcasts werden auf der Plattform „Soundcloud“, angeboten von
+      <span class="ts-muster-content"
+        >Unsere Podcasts werden auf der Plattform „Soundcloud“, angeboten von
         SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Deutschland
-        gespeichert und werden von dieser aus Platform wiedergegeben.<br>
-        <br>
+        gespeichert und werden von dieser aus Platform wiedergegeben.<br />
+        <br />
         Zu diesem Zweck binden wir sog. Soundcloud-Widgets in unsere Website
         ein. Dabei handelt es sich um Abspielsoftware, mit der Nutzer die
         Podcasts abspielen können. Hierbei kann Soundcloud messen, welche
@@ -2348,19 +2328,19 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         von Nutzerprofilen, z.B. für Zwecke der Ausgabee von Anzeigen, die den
         potentiellen Interessen der Nutzer entsprechen, verarbeitet werden. Im
         Fall von Nutzern, die bei Soundcloud registriert sind, kann Soundcloud
-        die Hörinformationen deren Profilen zuordnen.<br>
-        <br>
+        die Hörinformationen deren Profilen zuordnen.<br />
+        <br />
         Die Nutzung erfolgt auf Grundlage unserer berechtigten Interessen, d.h.
         Interesse an einer sicheren und effizienten Bereitstellung, Analyse
         sowie Optimierung unseres Audioangebotes gem. Art. 6 Abs. 1 lit. f.
-        DSGVO. <br>
-        <br>
+        DSGVO. <br />
+        <br />
         Weitere Informationen und Widerspruchsmöglichkeiten finden sich in der
         Datenschutzerklärung von Soundcloud:
-        <a
-          target="_blank"
-          href="https://soundcloud.com/pages/privacy"
-        >https://soundcloud.com/pages/privacy</a>.</span>
+        <a target="_blank" href="https://soundcloud.com/pages/privacy"
+          >https://soundcloud.com/pages/privacy</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-contact">
@@ -2368,19 +2348,19 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail,
+      <span class="ts-muster-content"
+        >Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail,
         Telefon oder via sozialer Medien) werden die Angaben des Nutzers zur
         Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1
         lit. b. (im Rahmen vertraglicher-/vorvertraglicher Beziehungen), Art. 6
         Abs. 1 lit. f. (andere Anfragen) DSGVO verarbeitet.. Die Angaben der
         Nutzer können in einem Customer-Relationship-Management System ("CRM
-        System") oder vergleichbarer Anfragenorganisation gespeichert werden.<br>
-        <br>
+        System") oder vergleichbarer Anfragenorganisation gespeichert werden.<br />
+        <br />
         Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir
         überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die
-        gesetzlichen Archivierungspflichten.</span>
+        gesetzlichen Archivierungspflichten.</span
+      >
     </p>
     <p />
     <h3 id="dsg-contact-crm-zendesk">
@@ -2388,37 +2368,39 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen das CRM-System „Zendesk“, des Anbieters Zendesk, Inc., 989
+      <span class="ts-muster-content"
+        >Wir setzen das CRM-System „Zendesk“, des Anbieters Zendesk, Inc., 989
         Market Street #300, San Francisco, CA 94102, USA ein, um Anfragen der
         Nutzer schneller und effizienter bearbeiten zu können (berechtigtes
-        Interesse gem.&nbsp;Art. 6 Abs. 1 lit. f. DSGVO&nbsp;).<br>
-        <br>
+        Interesse gem.&nbsp;Art. 6 Abs. 1 lit. f. DSGVO&nbsp;).<br />
+        <br />
         Zendesk ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet
         hierdurch eine zusätzliche Garantie, das europäische Datenschutzrecht
         einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TOjeAAG&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TOjeAAG&amp;status=Active</a>).<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TOjeAAG&amp;status=Active</a
+        >).<br />
+        <br />
         Zendesk nutzt die Daten der Nutzer nur zur technischen Verarbeitung der
         Anfragen und gibt sie nicht an Dritte weiter. Zur Verwendung von Zendesk
         ist mindestens die Angabe einer korrekten E-Mail-Adresse notwendig. Eine
         pseudonyme Nutzung ist möglich. Im Verlauf der Bearbeitung von
         Service-Anfragen kann es notwendig sein, dass weitere Daten erhoben
-        werden (Name, Adresse).<br>
-        <br>
+        werden (Name, Adresse).<br />
+        <br />
         Wenn Nutzer mit einer Datenerhebung über und einer Datenspeicherung im
         externen System von Zendesk nicht einverstanden sind, bieten wir ihnen
         alternative Kontaktmöglichkeiten zur Einreichung von Service-Anfragen
-        per E-Mail, Telefon, Telefax oder Post.<br>
-        <br>
+        per E-Mail, Telefon, Telefax oder Post.<br />
+        <br />
         Weitere Informationen erhalten die Nutzer in der Datenschutzerklärung
         von Zendesk:&nbsp;<a
           target="_blank"
           href="https://www.zendesk.de/company/customers-partners/privacy-policy/"
-        >https://www.zendesk.de/company/customers-partners/privacy-policy/</a>.</span>
+          >https://www.zendesk.de/company/customers-partners/privacy-policy/</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-newsletter-de">
@@ -2426,22 +2408,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Mit den nachfolgenden Hinweisen informieren wir Sie über die Inhalte
+      <span class="ts-muster-content"
+        >Mit den nachfolgenden Hinweisen informieren wir Sie über die Inhalte
         unseres Newsletters sowie das Anmelde-, Versand- und das statistische
         Auswertungsverfahren sowie Ihre Widerspruchsrechte auf. Indem Sie
         unseren Newsletter abonnieren, erklären Sie sich mit dem Empfang und den
-        beschriebenen Verfahren einverstanden.<br>
-        <br>
+        beschriebenen Verfahren einverstanden.<br />
+        <br />
         Inhalt des Newsletters: Wir versenden Newsletter, E-Mails und weitere
         elektronische Benachrichtigungen mit werblichen Informationen
         (nachfolgend „Newsletter“) nur mit der Einwilligung der Empfänger oder
         einer gesetzlichen Erlaubnis. Sofern im Rahmen einer Anmeldung zum
         Newsletter dessen Inhalte konkret umschrieben werden, sind sie für die
         Einwilligung der Nutzer maßgeblich. Im Übrigen enthalten unsere
-        Newsletter Informationen zu unseren Leistungen und uns.<br>
-        <br>
+        Newsletter Informationen zu unseren Leistungen und uns.<br />
+        <br />
         Double-Opt-In und Protokollierung: Die Anmeldung zu unserem Newsletter
         erfolgt in einem sog. Double-Opt-In-Verfahren. D.h. Sie erhalten nach
         der Anmeldung eine E-Mail, in der Sie um die Bestätigung Ihrer Anmeldung
@@ -2451,26 +2432,26 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Anforderungen nachweisen zu können. Hierzu gehört die Speicherung des
         Anmelde- und des Bestätigungszeitpunkts, als auch der IP-Adresse. Ebenso
         werden die Änderungen Ihrer bei dem Versanddienstleister gespeicherten
-        Daten protokolliert.<br>
-        <br>
+        Daten protokolliert.<br />
+        <br />
         Anmeldedaten: Um sich für den Newsletter anzumelden, reicht es aus, wenn
         Sie Ihre E-Mailadresse angeben. Optional bitten wir Sie einen Namen,
-        zwecks persönlicher Ansprache im Newsletters anzugeben.<br>
-        <br>
+        zwecks persönlicher Ansprache im Newsletters anzugeben.<br />
+        <br />
         Der Versand des Newsletters und die mit ihm verbundene Erfolgsmessung
         erfolgen auf Grundlage einer Einwilligung der Empfänger gem. Art. 6 Abs.
         1 lit. a, Art. 7 DSGVO i.V.m § 7 Abs. 2 Nr. 3 UWG oder falls eine
         Einwilligung nicht erforderlich ist, auf Grundlage unserer berechtigten
         Interessen am Direktmarketing gem. Art. 6 Abs. 1 lt. f. DSGVO i.V.m. § 7
-        Abs. 3 UWG. <br>
-        <br>
+        Abs. 3 UWG. <br />
+        <br />
         Die Protokollierung des Anmeldeverfahrens erfolgt auf Grundlage unserer
         berechtigten Interessen gem. Art. 6 Abs. 1 lit. f DSGVO. Unser Interesse
         richtet sich auf den Einsatz eines nutzerfreundlichen sowie sicheren
         Newslettersystems, das sowohl unseren geschäftlichen Interessen dient,
         als auch den Erwartungen der Nutzer entspricht und uns ferner den
-        Nachweis von Einwilligungen erlaubt.<br>
-        <br>
+        Nachweis von Einwilligungen erlaubt.<br />
+        <br />
         Kündigung/Widerruf - Sie können den Empfang unseres Newsletters
         jederzeit kündigen, d.h. Ihre Einwilligungen widerrufen. Einen Link zur
         Kündigung des Newsletters finden Sie am Ende eines jeden Newsletters.
@@ -2480,7 +2461,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Verarbeitung dieser Daten wird auf den Zweck einer möglichen Abwehr von
         Ansprüchen beschränkt. Ein individueller Löschungsantrag ist jederzeit
         möglich, sofern zugleich das ehemalige Bestehen einer Einwilligung
-        bestätigt wird.</span>
+        bestätigt wird.</span
+      >
     </p>
     <p />
     <h3 id="dsg-newsletter-provider-mailchimp">
@@ -2488,33 +2470,33 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Der Versand der Newsletter erfolgt mittels des Versanddienstleisters
+      <span class="ts-muster-content"
+        >Der Versand der Newsletter erfolgt mittels des Versanddienstleisters
         „MailChimp“, einer Newsletterversandplattform des US-Anbieters Rocket
         Science Group, LLC, 675 Ponce De Leon Ave NE #5000, Atlanta, GA 30308,
         USA. Die Datenschutzbestimmungen des Versanddienstleisters können Sie
         hier einsehen:
-        <a
-          target="_blank"
-          href="https://mailchimp.com/legal/privacy/"
-        >https://mailchimp.com/legal/privacy/</a>. The Rocket Science Group LLC d/b/a MailChimp ist unter dem
+        <a target="_blank" href="https://mailchimp.com/legal/privacy/"
+          >https://mailchimp.com/legal/privacy/</a
+        >. The Rocket Science Group LLC d/b/a MailChimp ist unter dem
         Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie,
         das europäisches Datenschutzniveau einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&amp;status=Active</a>). Der Versanddienstleister wird auf Grundlage unserer berechtigten
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG&amp;status=Active</a
+        >). Der Versanddienstleister wird auf Grundlage unserer berechtigten
         Interessen gem. Art. 6 Abs. 1 lit. f. DSGVO und eines
         Auftragsverarbeitungsvertrages gem. Art. 28 Abs. 3 S. 1 DSGVO
-        eingesetzt.<br>
-        <br>
+        eingesetzt.<br />
+        <br />
         Der Versanddienstleister kann die Daten der Empfänger in pseudonymer
         Form, d.h. ohne Zuordnung zu einem Nutzer, zur Optimierung oder
         Verbesserung der eigenen Services nutzen, z.B. zur technischen
         Optimierung des Versandes und der Darstellung der Newsletter oder für
         statistische Zwecke verwenden. Der Versanddienstleister nutzt die Daten
         unserer Newsletterempfänger jedoch nicht, um diese selbst anzuschreiben
-        oder um die Daten an Dritte weiterzugeben.</span>
+        oder um die Daten an Dritte weiterzugeben.</span
+      >
     </p>
     <p />
     <h3 id="dsg-newsletter-analytics">
@@ -2522,15 +2504,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Die Newsletter enthalten einen sog. „web-beacon“, d.h. eine pixelgroße
+      <span class="ts-muster-content"
+        >Die Newsletter enthalten einen sog. „web-beacon“, d.h. eine pixelgroße
         Datei, die beim Öffnen des Newsletters von unserem Server, bzw. sofern
         wir einen Versanddienstleister einsetzen, von dessen Server abgerufen
         wird. Im Rahmen dieses Abrufs werden zunächst technische Informationen,
         wie Informationen zum Browser und Ihrem System, als auch Ihre IP-Adresse
-        und Zeitpunkt des Abrufs erhoben. <br>
-        <br>
+        und Zeitpunkt des Abrufs erhoben. <br />
+        <br />
         Diese Informationen werden zur technischen Verbesserung der Services
         anhand der technischen Daten oder der Zielgruppen und ihres
         Leseverhaltens anhand derer Abruforte (die mit Hilfe der IP-Adresse
@@ -2543,8 +2524,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         einzelne Nutzer zu beobachten. Die Auswertungen dienen uns viel mehr
         dazu, die Lesegewohnheiten unserer Nutzer zu erkennen und unsere Inhalte
         auf sie anzupassen oder unterschiedliche Inhalte entsprechend den
-        Interessen unserer Nutzer zu versenden.<br>
-        <br>
+        Interessen unserer Nutzer zu versenden.<br />
+        <br />
         Ein getrennter Widerruf der Erfolgsmessung ist leider nicht möglich, in
         diesem Fall muss das gesamte Newsletterabonnement gekündigt werden.
       </span>
@@ -2555,22 +2536,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Die von uns in Anspruch genommenen Hosting-Leistungen dienen der
+      <span class="ts-muster-content"
+        >Die von uns in Anspruch genommenen Hosting-Leistungen dienen der
         Zurverfügungstellung der folgenden Leistungen: Infrastruktur- und
         Plattformdienstleistungen, Rechenkapazität, Speicherplatz und
         Datenbankdienste, E-Mail-Versand, Sicherheitsleistungen sowie technische
         Wartungsleistungen, die wir zum Zwecke des Betriebs dieses
-        Onlineangebotes einsetzen. <br>
-        <br>
+        Onlineangebotes einsetzen. <br />
+        <br />
         Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten,
         Kontaktdaten, Inhaltsdaten, Vertragsdaten, Nutzungsdaten, Meta- und
         Kommunikationsdaten von Kunden, Interessenten und Besuchern dieses
         Onlineangebotes auf Grundlage unserer berechtigten Interessen an einer
         effizienten und sicheren Zurverfügungstellung dieses Onlineangebotes
         gem. Art. 6 Abs. 1 lit. f DSGVO i.V.m. Art. 28 DSGVO (Abschluss
-        Auftragsverarbeitungsvertrag).</span>
+        Auftragsverarbeitungsvertrag).</span
+      >
     </p>
     <p />
     <h3 id="dsg-cdn-cloudflare">
@@ -2578,34 +2559,36 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen ein so genanntes "Content Delivery Network" (CDN), angeboten
+      <span class="ts-muster-content"
+        >Wir setzen ein so genanntes "Content Delivery Network" (CDN), angeboten
         von Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, USA,
         ein. Cloudflare ist unter dem Privacy-Shield-Abkommen zertifiziert und
         bietet hierdurch eine Garantie, das europäische Datenschutzrecht
         einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0&amp;status=Active</a>).<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0&amp;status=Active</a
+        >).<br />
+        <br />
         Ein CDN ist ein Dienst, mit dessen Hilfe Inhalte unseres
         Onlineangebotes, insbesondere große Mediendateien, wie Grafiken oder
         Skripte mit Hilfe regional verteilter und über das Internet verbundener
         Server, schneller ausgeliefert werden. Die Verarbeitung der Daten der
         Nutzer erfolgt alleine zu den vorgenannten Zwecken und der
-        Aufrechterhaltung der Sicherheit und Funktionsfähigkeit des CDN.<br>
-        <br>
+        Aufrechterhaltung der Sicherheit und Funktionsfähigkeit des CDN.<br />
+        <br />
         Die Nutzung erfolgt auf Grundlage unserer berechtigten Interessen, d.h.
         Interesse an einer sicheren und effizienten Bereitstellung, Analyse
         sowie Optimierung unseres Onlineangebotes gem. Art. 6 Abs. 1 lit. f.
-        DSGVO. <br>
-        <br>
+        DSGVO. <br />
+        <br />
         Weitere Informationen erhalten Sie in der Datenschutzerklärung von
         Cloudflare:&nbsp;<a
           target="_blank"
           href="https://www.cloudflare.com/security-policy"
-        >https://www.cloudflare.com/security-policy</a>.</span>
+          >https://www.cloudflare.com/security-policy</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-tracking-tagmanager">
@@ -2613,9 +2596,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Google Tag Manager ist eine Lösung, mit der wir sog. Website-Tags über
+      <span class="ts-muster-content"
+        >Google Tag Manager ist eine Lösung, mit der wir sog. Website-Tags über
         eine Oberfläche verwalten können (und so z.B. Google Analytics sowie
         andere Google-Marketing-Dienste in unser Onlineangebot einbinden). Der
         Tag Manager selbst (welches die Tags implementiert) verarbeitet keine
@@ -2625,7 +2607,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <a
           target="_blank"
           href="https://www.google.com/intl/de/tagmanager/use-policy.html"
-        >https://www.google.com/intl/de/tagmanager/use-policy.html</a>.<br>
+          >https://www.google.com/intl/de/tagmanager/use-policy.html</a
+        >.<br />
       </span>
     </p>
     <p />
@@ -2634,29 +2617,27 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir nutzen die Entwicklerplattform „Google Firebase“ und die mit ihr
+      <span class="ts-muster-content"
+        >Wir nutzen die Entwicklerplattform „Google Firebase“ und die mit ihr
         verbundenen Funktionen und Dienste, angeboten von Google Ireland
-        Limited, Gordon House, Barrow Street, Dublin 4, Irland.<br>
-        <br>
+        Limited, Gordon House, Barrow Street, Dublin 4, Irland.<br />
+        <br />
         Bei Google Firebase handelt es sich um eine Plattform für Entwickler von
         Applikationen (kurz „Apps“) für mobile Geräte und Webseiten. Google
         Firebase bietet eine Vielzahl von Funktionen, die auf der folgenden
         Übersichtsseite dargestellt werden:
-        <a
-          target="_blank"
-          href="https://firebase.google.com/products/"
-        >https://firebase.google.com/products/</a>.<br>
-        <br>
+        <a target="_blank" href="https://firebase.google.com/products/"
+          >https://firebase.google.com/products/</a
+        >.<br />
+        <br />
         Die Funktionen umfassen unter anderem die Speicherung von Apps inklusive
         personenbezogener Daten der Applikationsnutzer, wie z.B. von ihnen
         erstellter Inhalte oder Informationen betreffend ihre Interaktion mit
         den Apps (sog. „Cloud Computing“). Google Firebase bietet daneben
         Schnittstellen, die eine Interaktion zwischen den Nutzern der App und
         anderen Diensten erlauben, z.B. die Authentifizierung mittels Diensten
-        wie Facebook, Twitter oder mittels einer E-Mail-Passwort-Kombination.<br>
-        <br>
+        wie Facebook, Twitter oder mittels einer E-Mail-Passwort-Kombination.<br />
+        <br />
         Die Auswertung der Interaktionen der Nutzer kann mithilfe des
         Analyse-Dienstes „Firebase Analytics“ erfolgen. Firebase Analytics ist
         darauf gerichtet zu erfassen, wie Nutzer mit einer App interagieren.
@@ -2666,50 +2647,51 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         z.B. für bestimmte Funktionen der Applikationen oder bestimmte
         Themengebiete erfasst werden. Hierdurch können auch Nutzerprofile
         erstellt werden, die z.B. als Grundlage für die Darstellung von auf
-        Nutzer zugeschnittenen Werbehinweisen, verwendet werden können.<br>
-        <br>
+        Nutzer zugeschnittenen Werbehinweisen, verwendet werden können.<br />
+        <br />
         Google Firebase und die mittels von Google Firebase verarbeiteten
         personenbezogenen Daten der Nutzer können ferner zusammen mit weiteren
         Diensten von Google, wie z.B. Google Analytics und den
         Google-Marketing-Diensten und Google Analytics verwendet werden (in
         diesem Fall werden auch gerätebezogene Informationen, wie „Android
         Advertising ID“ and „Advertising Identifier for iOS“ verarbeitet, um
-        mobile Geräte der Nutzer zu identifizieren).<br>
-        <br>
+        mobile Geräte der Nutzer zu identifizieren).<br />
+        <br />
         Sofern wir die Nutzer um eine Einwilligung bitten (z.B. im Rahmen einer
         Cookie-Einwilligung), ist die Rechtsgrundlage dieser Verarbeitung Art. 6
         Abs. 1 lit. a. DSGVO. Ansonsten werden die personenbezogenen Daten der
         Nutzer auf Grundlage unserer berechtigten Interessen (d.h. Interesse an
         der Analyse, Optimierung und wirtschaftlichem Betrieb unseres
         Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO)
-        verarbeitet.<br>
-        <br>
+        verarbeitet.<br />
+        <br />
         Soweit Daten in den USA verarbeitet werden, weisen wir daraufhin, dass
         Google unter dem Privacy-Shield-Abkommen zertifiziert ist und hierdurch
         zusichert, das europäische Datenschutzrecht einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a>).<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a
+        >).<br />
+        <br />
         Die Datenschutzerklärung von Google ist unter
-        <a
-          target="_blank"
-          href="https://policies.google.com/privacy"
-        >https://policies.google.com/privacy</a>
+        <a target="_blank" href="https://policies.google.com/privacy"
+          >https://policies.google.com/privacy</a
+        >
         abrufbar. Weitere Informationen zur Datennutzung zu Marketingzwecken
         durch Google, erfahren Nutzer auf der Übersichtsseite:
         <a
           target="_blank"
           href="https://policies.google.com/technologies/ads?hl=de"
-        >https://policies.google.com/technologies/ads?hl=de</a>,<br>
-        <br>
+          >https://policies.google.com/technologies/ads?hl=de</a
+        >,<br />
+        <br />
         Wenn Nutzer der interessensbezogenen Werbung durch
         Google-Marketing-Dienste widersprechen möchten, können Nutzer die von
         Google gestellten Einstellungs- und Opt-Out-Möglichkeiten nutzen:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/"
-        >https://adssettings.google.com/</a></span>
+        <a target="_blank" href="https://adssettings.google.com/"
+          >https://adssettings.google.com/</a
+        ></span
+      >
     </p>
     <p />
     <h3 id="dsg-socialmedia">
@@ -2717,21 +2699,20 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und
+      <span class="ts-muster-content"
+        >Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und
         Plattformen, um mit den dort aktiven Kunden, Interessenten und Nutzern
         kommunizieren und sie dort über unsere Leistungen informieren zu
-        können.<br>
-        <br>
+        können.<br />
+        <br />
         Wir weisen darauf hin, dass dabei Daten der Nutzer außerhalb des Raumes
         der Europäischen Union verarbeitet werden können. Hierdurch können sich
         für die Nutzer Risiken ergeben, weil so z.B. die Durchsetzung der Rechte
         der Nutzer erschwert werden könnte. Im Hinblick auf US-Anbieter die
         unter dem Privacy-Shield zertifiziert sind, weisen wir darauf hin, dass
         sie sich damit verpflichten, die Datenschutzstandards der EU
-        einzuhalten.<br>
-        <br>
+        einzuhalten.<br />
+        <br />
         Ferner werden die Daten der Nutzer im Regelfall für Marktforschungs- und
         Werbezwecke verarbeitet. So können z.B. aus dem Nutzungsverhalten und
         sich daraus ergebenden Interessen der Nutzer Nutzungsprofile erstellt
@@ -2743,135 +2724,134 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         werden. Ferner können in den Nutzungsprofilen auch Daten unabhängig der
         von den Nutzern verwendeten Geräte gespeichert werden (insbesondere wenn
         die Nutzer Mitglieder der jeweiligen Plattformen sind und bei diesen
-        eingeloggt sind).<br>
-        <br>
+        eingeloggt sind).<br />
+        <br />
         Die Verarbeitung der personenbezogenen Daten der Nutzer erfolgt auf
         Grundlage unserer berechtigten Interessen an einer effektiven
         Information der Nutzer und Kommunikation mit den Nutzern gem. Art. 6
         Abs. 1 lit. f. DSGVO. Falls die Nutzer von den jeweiligen Anbietern der
         Plattformen um eine Einwilligung in die vorbeschriebene
         Datenverarbeitung gebeten werden, ist die Rechtsgrundlage der
-        Verarbeitung Art. 6 Abs. 1 lit. a., Art. 7 DSGVO.<br>
-        <br>
+        Verarbeitung Art. 6 Abs. 1 lit. a., Art. 7 DSGVO.<br />
+        <br />
         Für eine detaillierte Darstellung der jeweiligen Verarbeitungen und der
         Widerspruchsmöglichkeiten (Opt-Out), verweisen wir auf die nachfolgend
-        verlinkten Angaben der Anbieter.<br>
-        <br>
+        verlinkten Angaben der Anbieter.<br />
+        <br />
         Auch im Fall von Auskunftsanfragen und der Geltendmachung von
         Nutzerrechten, weisen wir darauf hin, dass diese am effektivsten bei den
         Anbietern geltend gemacht werden können. Nur die Anbieter haben jeweils
         Zugriff auf die Daten der Nutzer und können direkt entsprechende
         Maßnahmen ergreifen und Auskünfte geben. Sollten Sie dennoch Hilfe
-        benötigen, dann können Sie sich an uns wenden.<br>
-        <br>
+        benötigen, dann können Sie sich an uns wenden.<br />
+        <br />
         - Facebook, -Seiten, -Gruppen, (Facebook Ireland Ltd., 4 Grand Canal
         Square, Grand Canal Harbour, Dublin 2, Irland) auf Grundlage einer
         <a
           target="_blank"
           href="https://www.facebook.com/legal/terms/page_controller_addendum"
-        >Vereinbarung über gemeinsame Verarbeitung personenbezogener Daten</a>
+          >Vereinbarung über gemeinsame Verarbeitung personenbezogener Daten</a
+        >
         - Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.facebook.com/about/privacy/"
-        >https://www.facebook.com/about/privacy/</a>, speziell für Seiten:
+        <a target="_blank" href="https://www.facebook.com/about/privacy/"
+          >https://www.facebook.com/about/privacy/</a
+        >, speziell für Seiten:
         <a
           target="_blank"
           href="https://www.facebook.com/legal/terms/information_about_page_insights_data"
-        >https://www.facebook.com/legal/terms/information_about_page_insights_data</a>
+          >https://www.facebook.com/legal/terms/information_about_page_insights_data</a
+        >
         , Opt-Out:
-        <a
-          target="_blank"
-          href="https://www.facebook.com/settings?tab=ads"
-        >https://www.facebook.com/settings?tab=ads</a>
+        <a target="_blank" href="https://www.facebook.com/settings?tab=ads"
+          >https://www.facebook.com/settings?tab=ads</a
+        >
         und
-        <a
-          target="_blank"
-          href="http://www.youronlinechoices.com"
-        >http://www.youronlinechoices.com</a>, Privacy Shield:
+        <a target="_blank" href="http://www.youronlinechoices.com"
+          >http://www.youronlinechoices.com</a
+        >, Privacy Shield:
         <a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&amp;status=Active</a
+        >.<br />
+        <br />
         - Google/ YouTube (Google Ireland Limited, Gordon House, Barrow Street,
         Dublin 4, Irland) – Datenschutzerklärung: &nbsp;<a
           target="_blank"
           href="https://policies.google.com/privacy"
-        >https://policies.google.com/privacy</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/authenticated"
-        >https://adssettings.google.com/authenticated</a>, Privacy Shield:
+          >https://policies.google.com/privacy</a
+        >, Opt-Out:
+        <a target="_blank" href="https://adssettings.google.com/authenticated"
+          >https://adssettings.google.com/authenticated</a
+        >, Privacy Shield:
         <a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a
+        >.<br />
+        <br />
         - Instagram (Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025,
         USA) – Datenschutzerklärung/ Opt-Out:
-        <a
-          target="_blank"
-          href="http://instagram.com/about/legal/privacy/"
-        >http://instagram.com/about/legal/privacy/</a>.<br>
-        <br>
+        <a target="_blank" href="http://instagram.com/about/legal/privacy/"
+          >http://instagram.com/about/legal/privacy/</a
+        >.<br />
+        <br />
         - Twitter (Twitter Inc., 1355 Market Street, Suite 900, San Francisco,
         CA 94103, USA) - Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://twitter.com/de/privacy"
-        >https://twitter.com/de/privacy</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://twitter.com/personalization"
-        >https://twitter.com/personalization</a>, Privacy Shield:
+        <a target="_blank" href="https://twitter.com/de/privacy"
+          >https://twitter.com/de/privacy</a
+        >, Opt-Out:
+        <a target="_blank" href="https://twitter.com/personalization"
+          >https://twitter.com/personalization</a
+        >, Privacy Shield:
         <a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active</a
+        >.<br />
+        <br />
         - Pinterest (Pinterest Inc., 635 High Street, Palo Alto, CA, 94301, USA)
         – Datenschutzerklärung/ Opt-Out:
-        <a
-          target="_blank"
-          href="https://about.pinterest.com/de/privacy-policy"
-        >https://about.pinterest.com/de/privacy-policy</a>.<br>
-        <br>
+        <a target="_blank" href="https://about.pinterest.com/de/privacy-policy"
+          >https://about.pinterest.com/de/privacy-policy</a
+        >.<br />
+        <br />
         - LinkedIn (LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2,
         Irland) - Datenschutzerklärung
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/legal/privacy-policy"
-        >https://www.linkedin.com/legal/privacy-policy</a>
+        <a target="_blank" href="https://www.linkedin.com/legal/privacy-policy"
+          >https://www.linkedin.com/legal/privacy-policy</a
+        >
         , Opt-Out:
         <a
           target="_blank"
           href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out"
-        >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a>, Privacy Shield:&nbsp;<a
+          >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a
+        >, Privacy Shield:&nbsp;<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a>.<br>
-        <br>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a
+        >.<br />
+        <br />
         - Xing (XING AG, Dammtorstraße 29-32, 20354 Hamburg, Deutschland) -
         Datenschutzerklärung/ Opt-Out:
         <a
           target="_blank"
           href="https://privacy.xing.com/de/datenschutzerklaerung"
-        >https://privacy.xing.com/de/datenschutzerklaerung</a>.<br>
-        <br>
+          >https://privacy.xing.com/de/datenschutzerklaerung</a
+        >.<br />
+        <br />
         - Wakalet (Wakelet Limited, 76 Quay Street, Manchester, M3 4PR, United
         Kingdom) - Datenschutzerklärung/ Opt-Out:
-        <a
-          target="_blank"
-          href="https://wakelet.com/privacy.html"
-        >https://wakelet.com/privacy.html</a>.<br>
-        <br>
+        <a target="_blank" href="https://wakelet.com/privacy.html"
+          >https://wakelet.com/privacy.html</a
+        >.<br />
+        <br />
         - Soundcloud (SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin,
         Deutschland) - Datenschutzerklärung/ Opt-Out:
-        <a
-          target="_blank"
-          href="https://soundcloud.com/pages/privacy"
-        >https://soundcloud.com/pages/privacy</a>.</span>
+        <a target="_blank" href="https://soundcloud.com/pages/privacy"
+          >https://soundcloud.com/pages/privacy</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-einleitung">
@@ -2879,15 +2859,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer
+      <span class="ts-muster-content"
+        >Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer
         berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und
         wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6
         Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern
         ein, um deren Inhalte und Services, wie z.B. Videos oder Schriftarten
-        einzubinden (nachfolgend einheitlich bezeichnet als “Inhalte”). <br>
-        <br>
+        einzubinden (nachfolgend einheitlich bezeichnet als “Inhalte”). <br />
+        <br />
         Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die
         IP-Adresse der Nutzer wahrnehmen, da sie ohne die IP-Adresse die Inhalte
         nicht an deren Browser senden könnten. Die IP-Adresse ist damit für die
@@ -2902,7 +2881,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         unter anderem technische Informationen zum Browser und Betriebssystem,
         verweisende Webseiten, Besuchszeit sowie weitere Angaben zur Nutzung
         unseres Onlineangebotes enthalten, als auch mit solchen Informationen
-        aus anderen Quellen verbunden werden.</span>
+        aus anderen Quellen verbunden werden.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-vimeo">
@@ -2910,26 +2890,28 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir können die Videos der Plattform “Vimeo” des Anbieters Vimeo Inc.,
+      <span class="ts-muster-content"
+        >Wir können die Videos der Plattform “Vimeo” des Anbieters Vimeo Inc.,
         Attention: Legal Department, 555 West 18th Street New York, New York
         10011, USA, einbinden. Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://vimeo.com/privacy"
-        >https://vimeo.com/privacy</a>. Wir weisen darauf hin, dass Vimeo Google Analytics einsetzen kann und
+        <a target="_blank" href="https://vimeo.com/privacy"
+          >https://vimeo.com/privacy</a
+        >. Wir weisen darauf hin, dass Vimeo Google Analytics einsetzen kann und
         verweisen hierzu auf die Datenschutzerklärung (<a
           target="_blank"
           href="https://policies.google.com/privacy"
-        >https://policies.google.com/privacy</a>) sowie Opt-Out-Möglichkeiten für Google-Analytics (<a
+          >https://policies.google.com/privacy</a
+        >) sowie Opt-Out-Möglichkeiten für Google-Analytics (<a
           target="_blank"
           href="http://tools.google.com/dlpage/gaoptout?hl=de"
-        >http://tools.google.com/dlpage/gaoptout?hl=de</a>) oder die Einstellungen von Google für die Datennutzung zu
+          >http://tools.google.com/dlpage/gaoptout?hl=de</a
+        >) oder die Einstellungen von Google für die Datennutzung zu
         Marketingzwecken (<a
           target="_blank"
           href="https://adssettings.google.com/"
-        >https://adssettings.google.com/</a>).</span>
+          >https://adssettings.google.com/</a
+        >).</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-youtube">
@@ -2937,19 +2919,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir binden die Videos der Plattform “YouTube” des Anbieters Google
+      <span class="ts-muster-content"
+        >Wir binden die Videos der Plattform “YouTube” des Anbieters Google
         Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, ein.
         Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.google.com/policies/privacy/"
-        >https://www.google.com/policies/privacy/</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/authenticated"
-        >https://adssettings.google.com/authenticated</a>.</span>
+        <a target="_blank" href="https://www.google.com/policies/privacy/"
+          >https://www.google.com/policies/privacy/</a
+        >, Opt-Out:
+        <a target="_blank" href="https://adssettings.google.com/authenticated"
+          >https://adssettings.google.com/authenticated</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-googlefonts">
@@ -2957,9 +2937,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir binden die Schriftarten ("Google Fonts") des Anbieters Google
+      <span class="ts-muster-content"
+        >Wir binden die Schriftarten ("Google Fonts") des Anbieters Google
         Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, ein.
         Nach Angaben von Google werden die Daten der Nutzer allein zu Zwecken
         der Darstellung der Schriftarten im Browser der Nutzer verwendet. Die
@@ -2968,10 +2947,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Schriftarten, deren einheitlicher Darstellung sowie Berücksichtigung
         möglicher lizenzrechtlicher Restriktionen für deren Einbindung.
         Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.google.com/policies/privacy/"
-        >https://www.google.com/policies/privacy/</a>.</span>
+        <a target="_blank" href="https://www.google.com/policies/privacy/"
+          >https://www.google.com/policies/privacy/</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-googlerecaptcha">
@@ -2979,20 +2958,18 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir binden die Funktion zur Erkennung von Bots, z.B. bei Eingaben in
+      <span class="ts-muster-content"
+        >Wir binden die Funktion zur Erkennung von Bots, z.B. bei Eingaben in
         Onlineformularen ("ReCaptcha") des Anbieters GGoogle Ireland Limited,
         Gordon House, Barrow Street, Dublin 4, Irland, ein.
         Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.google.com/policies/privacy/"
-        >https://www.google.com/policies/privacy/</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/authenticated"
-        >https://adssettings.google.com/authenticated</a>.</span>
+        <a target="_blank" href="https://www.google.com/policies/privacy/"
+          >https://www.google.com/policies/privacy/</a
+        >, Opt-Out:
+        <a target="_blank" href="https://adssettings.google.com/authenticated"
+          >https://adssettings.google.com/authenticated</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-googlemaps">
@@ -3000,23 +2977,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Wir binden die Landkarten des Dienstes “Google Maps” des Anbieters
+      <span class="ts-muster-content"
+        >Wir binden die Landkarten des Dienstes “Google Maps” des Anbieters
         Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland,
         ein. Zu den verarbeiteten Daten können insbesondere IP-Adressen und
         Standortdaten der Nutzer gehören, die jedoch nicht ohne deren
         Einwilligung (im Regelfall im Rahmen der Einstellungen ihrer Mobilgeräte
         vollzogen), erhoben werden. Die Daten können in den USA verarbeitet
         werden. Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.google.com/policies/privacy/"
-        >https://www.google.com/policies/privacy/</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://adssettings.google.com/authenticated"
-        >https://adssettings.google.com/authenticated</a>.</span>
+        <a target="_blank" href="https://www.google.com/policies/privacy/"
+          >https://www.google.com/policies/privacy/</a
+        >, Opt-Out:
+        <a target="_blank" href="https://adssettings.google.com/authenticated"
+          >https://adssettings.google.com/authenticated</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-twitter">
@@ -3024,14 +2999,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
         Dienstes Twitter, angeboten durch die Twitter Inc., 1355 Market Street,
         Suite 900, San Francisco, CA 94103, USA, eingebunden werden. Hierzu
         können z.B. Inhalte wie Bilder, Videos oder Texte und Schaltflächen
         gehören, mit denen Nutzer Inhalte dieses Onlineangebotes innerhalb von
-        Twitter teilen können.<br>
+        Twitter teilen können.<br />
         Sofern die Nutzer Mitglieder der Plattform Twitter sind, kann Twitter
         den Aufruf der o.g. Inhalte und Funktionen den dortigen Profilen der
         Nutzer zuordnen. Twitter ist unter dem Privacy-Shield-Abkommen
@@ -3039,15 +3013,15 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         Datenschutzrecht einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active</a>). Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://twitter.com/de/privacy"
-        >https://twitter.com/de/privacy</a>, Opt-Out:
-        <a
-          target="_blank"
-          href="https://twitter.com/personalization"
-        >https://twitter.com/personalization</a>.</span>
+          >https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&amp;status=Active</a
+        >). Datenschutzerklärung:
+        <a target="_blank" href="https://twitter.com/de/privacy"
+          >https://twitter.com/de/privacy</a
+        >, Opt-Out:
+        <a target="_blank" href="https://twitter.com/personalization"
+          >https://twitter.com/personalization</a
+        >.</span
+      >
     </p>
     <p />
     <h3 id="dsg-thirdparty-instagram">
@@ -3055,9 +3029,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
         Dienstes Instagram, angeboten durch die Instagram Inc., 1601 Willow
         Road, Menlo Park, CA, 94025, USA, eingebunden werden. Hierzu können z.B.
         Inhalte wie Bilder, Videos oder Texte und Schaltflächen gehören, mit
@@ -3066,10 +3039,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         sind, kann Instagram den Aufruf der o.g. Inhalte und Funktionen den
         dortigen Profilen der Nutzer zuordnen. Datenschutzerklärung von
         Instagram:
-        <a
-          target="_blank"
-          href="http://instagram.com/about/legal/privacy/"
-        >http://instagram.com/about/legal/privacy/</a>.
+        <a target="_blank" href="http://instagram.com/about/legal/privacy/"
+          >http://instagram.com/about/legal/privacy/</a
+        >.
       </span>
     </p>
     <p />
@@ -3078,9 +3050,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
         Dienstes Pinterest, angeboten durch die Pinterest Inc., 635 High Street,
         Palo Alto, CA, 94301, USA, eingebunden werden. Hierzu können z.B.
         Inhalte wie Bilder, Videos oder Texte und Schaltflächen gehören, mit
@@ -3089,10 +3060,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         sind, kann Pinterest den Aufruf der o.g. Inhalte und Funktionen den
         dortigen Profilen der Nutzer zuordnen. Datenschutzerklärung von
         Pinterest:
-        <a
-          target="_blank"
-          href="https://about.pinterest.com/de/privacy-policy"
-        >https://about.pinterest.com/de/privacy-policy</a>.
+        <a target="_blank" href="https://about.pinterest.com/de/privacy-policy"
+          >https://about.pinterest.com/de/privacy-policy</a
+        >.
       </span>
     </p>
     <p />
@@ -3101,9 +3071,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </h3>
     <p />
     <p>
-      <span
-        class="ts-muster-content"
-      >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
+      <span class="ts-muster-content"
+        >Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des
         Dienstes LinkedIn, angeboten durch die LinkedIn Ireland Unlimited
         Company Wilton Place, Dublin 2, Irland, eingebunden werden. Hierzu
         können z.B. Inhalte wie Bilder, Videos oder Texte und Schaltflächen
@@ -3112,48 +3081,43 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         LinkedIn sind, kann LinkedIn den Aufruf der o.g. Inhalte und Funktionen
         den dortigen Profilen der Nutzer zuordnen. Datenschutzerklärung von
         LinkedIn:
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/legal/privacy-policy"
-        >https://www.linkedin.com/legal/privacy-policy.</a>. LinkedIn ist unter dem Privacy-Shield-Abkommen zertifiziert und
+        <a target="_blank" href="https://www.linkedin.com/legal/privacy-policy"
+          >https://www.linkedin.com/legal/privacy-policy.</a
+        >. LinkedIn ist unter dem Privacy-Shield-Abkommen zertifiziert und
         bietet hierdurch eine Garantie, das europäische Datenschutzrecht
         einzuhalten (<a
           target="_blank"
           href="https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active"
-        >https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a>). Datenschutzerklärung:
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/legal/privacy-policy"
-        >https://www.linkedin.com/legal/privacy-policy</a>, Opt-Out:
+          >https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&amp;status=Active</a
+        >). Datenschutzerklärung:
+        <a target="_blank" href="https://www.linkedin.com/legal/privacy-policy"
+          >https://www.linkedin.com/legal/privacy-policy</a
+        >, Opt-Out:
         <a
           target="_blank"
           href="https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out"
-        >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a>.</span>
+          >https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out</a
+        >.</span
+      >
     </p>
     <a
       href="https://datenschutz-generator.de"
       class="dsg1-6"
       rel="nofollow"
       target="_blank"
-    >Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a>
-    <Footer bottom="auto !important" />
+      >Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke</a
+    >
+    <Footer />
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
-    Header,
     Footer
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.container {
-  padding-top: 1rem;
-}
-</style>
+<style scoped lang="scss"></style>

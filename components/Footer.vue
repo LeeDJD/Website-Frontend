@@ -1,56 +1,109 @@
+<!--
+Leon Kappes Homepage
+Copyright (C) 2019  Leon Kappes
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
 <template>
-  <footer class="custom-footer" :style="{ bottom: bottom }">
-    <p class="mainline">
-      <strong class="has-text-white">© Copyright(2019)</strong>
-      <a href="/">Leon Kappes</a> available on
-      <a
-        href="https://github.com/LeeDJD/Website-Frontend"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <strong>Github</strong> </a>.
-      <nuxt-link to="/legal">
-        <strong>Legals</strong>
-      </nuxt-link>
-    </p>
-  </footer>
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="container">
+        <footer>
+          <section class="col-xs-12 col-sm-12 col-md-8">
+            <h4>Who am I?</h4>
+            <p>
+              I'm a Developer from Germany. In my freetime I develop mostly
+              public API examples and wrappers for API's! I also like to educate
+              in Informatics.
+            </p>
+            <p id="copyright">
+              &copy; 2019 - Leon Kappes | Made with
+              <i class="fa fa-heart"></i> by Lee available on
+              <a
+                href="https://github.com/LeeDJD/Website-Frontend"
+                target="_blank"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </p>
+          </section>
+
+          <section class="col-xs-12 col-sm-12 col-md-4 links-footer">
+            <ul class="">
+              <li>
+                <a href="https://github.com/LeeDJD" target="_blank"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://discord.gg/tyB74AZ" target="_blank"
+                  ><i class="fab fa-discord fa-2x"></i
+                ></a>
+              </li>
+              <li>
+                <nuxt-link to="impressum">
+                  Impressum
+                </nuxt-link>
+              </li>
+            </ul>
+          </section>
+        </footer>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Footer',
-  props: { bottom:String  } //eslint-disable-line
+  name: 'Footer'
 }
 </script>
 
-<style lang="scss" scoped>
-.custom-footer {
-  background: hsl(0, 0%, 21%);
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
+<style>
+.footer {
+  padding: 15px 0 15px 0;
+  background-color: #363636;
+  color: #fff;
+  overflow: hidden;
+}
+#copyright {
+  font-size: 12px;
+}
+#copyright a {
+  color: #fff;
+}
 
-  @media screen and (max-height: 700px) {
-    bottom: auto !important;
-  }
+.links-footer ul li a {
+  font-size: 12px;
+}
+.links-footer ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.links-footer ul li a:active,
+.links-footer ul li a:focus {
+  text-decoration: none;
+}
 
-  .mainline {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.9);
+.fa-2x,
+.links-footer ul li a {
+  color: #fff;
+}
 
-    a {
-      color: rgba(255, 255, 255, 0.8);
-      transition-duration: 300ms;
-      &:hover {
-        color: white;
-        transition-duration: 300ms;
-      }
-    }
-  }
+.links-footer ul li {
+  clear: right;
+  float: left;
+}
+.links-footer ul li {
+  padding-left: 0;
+  padding-right: 25px;
 }
 </style>
