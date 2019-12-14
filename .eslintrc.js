@@ -15,5 +15,12 @@ module.exports = {
     'prettier'
   ],
   // add your custom rules here
-  rules: {}
-}
+  rules: {
+    "vue/html-self-closing": "off",
+    "vue/html-closing-bracket-newline": "off",
+    "vue/html-indent": "off",
+    "vue/max-attributes-per-line": "off",
+    "no-new": "off",
+    "vue/require-component-is": "off"
+  }
+};
