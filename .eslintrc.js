@@ -1,18 +1,11 @@
 module.exports = {
   root: true,
-  env: {
-    browser: true,
-    node: true
-  },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
+    sourceType: "module"
   },
   extends: [
-    '@nuxtjs',
-    'plugin:prettier/recommended',
-  ],
-  plugins: [
-    'prettier'
+    '@nuxtjs'
   ],
   // add your custom rules here
   rules: {
