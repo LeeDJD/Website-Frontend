@@ -48,6 +48,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                   ><i class="fab fa-discord fa-2x"></i
                 ></a>
               </li>
+              <li>
+                <nuxt-link to="impressum">
+                  Impressum
+                </nuxt-link>
+              </li>
             </ul>
           </section>
         </footer>

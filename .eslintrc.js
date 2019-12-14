@@ -20,6 +20,7 @@ module.exports = {
     "vue/html-closing-bracket-newline": "off",
     "vue/html-indent": "off",
     "vue/max-attributes-per-line": "off",
-    "no-new": "off"
+    "no-new": "off",
+    "vue/require-component-is": "off"
   }
 };

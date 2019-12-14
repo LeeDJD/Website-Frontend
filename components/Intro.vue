@@ -19,19 +19,22 @@
       <div class="row">
         <section class="col-xs-12 col-sm-12 col-md-12 projects">
           <h2>More of me</h2>
-
           <ul>
-            <li class="col-xs-12 col-sm-12 col-md-4">
-              <nuxt-link to="/">
-                <div class="container-img">
-                  <img
-                    src="https://via.placeholder.com/1920x1080.png"
-                    alt="Projects"
-                  />
-                </div>
-                <h3>My Projects</h3>
-              </nuxt-link>
-            </li>
+            <Card
+              title="My Projects"
+              img="https://assets.t3n.sc/news/wp-content/uploads/2017/11/github.jpg"
+              link="https://github.com/LeeDJD"
+            ></Card>
+            <Card
+              title="Check this project"
+              img="https://assets.t3n.sc/news/wp-content/uploads/2017/11/github.jpg"
+              link="https://github.com/thurl"
+            ></Card>
+            <Card
+              title="Connect with me"
+              img="https://www.esportsportal.com/wp-content/uploads/2019/09/discord-banner-3-750x366.png"
+              link="https://discord.gg/tyB74AZ"
+            ></Card>
           </ul>
         </section>
       </div>
@@ -41,14 +44,19 @@
 
 <script>
 import Typewriter from 'typewriter-effect/dist/core'
+import Card from '~/components/Card.vue'
+
 if (process.browser) {
   require('particles.js')
 }
 export default {
   name: 'Intro',
+  components: {
+    Card
+  },
   mounted() {
     const app = document.getElementById('typewriter')
-    const typewriter = new Typewriter(app, { // eslint-disable-line
+      const typewriter = new Typewriter(app, { // eslint-disable-line
       loop: true
     })
     if (process.browser) {
@@ -193,80 +201,64 @@ export default {
   background-size: cover;
   height: 100vh;
 }
+
 .type div {
   font-size: 60px;
   text-align: center;
 }
+
 // Title
 .home h1,
 .home h2 {
   color: #fff;
   text-align: center;
 }
+
 .home h1 {
   font-size: 120px;
   margin: 150px 0 50px 0;
 }
+
 .home h2 {
   font-size: 100px;
 }
+
 .home hr {
   width: 50px;
   margin-bottom: 100px;
 }
+
 @media (max-width: 991px) {
   .home h1 {
     font-size: 74px;
     margin: 80px 0 0 0;
   }
+
   .type div {
     font-size: 50px;
   }
 }
+
 // Projects
 .projects h2 {
   font-size: 26px;
   margin: 0 0 30px 0;
   opacity: 1;
 }
-.projects li {
-  margin-bottom: 50px;
-  padding: 20px;
-  background-color: #363636;
-  border: 2px solid #444444;
-  border-radius: 12px;
-}
-.projects img {
-  width: 100%;
-  border-radius: 3px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-}
-.projects img:hover {
-  transform: scale(1.07);
-  opacity: 0.8;
-}
-.projects .container-img {
-  overflow: hidden;
-}
 
-.projects h3 {
-  color: #fff;
-  font-size: 18px;
-  text-align: center;
-  padding-bottom: 15px;
-  padding-top: 20px;
-}
 .projects h4 {
   color: #fff;
   font-size: 12px;
   text-align: center;
   opacity: 0.6;
 }
+
 .projects-btn {
   margin: 0;
   padding: 0 5%;
   margin-bottom: 180px;
 }
+
 .projects .btn {
   width: 100%;
   font-size: 16px;
@@ -274,9 +266,11 @@ export default {
   margin: 0 auto;
   outline: none;
 }
+
 .projects a {
   text-decoration: none;
 }
+
 // Misc
 #particles-js {
   width: 100%;
