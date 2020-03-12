@@ -1,15 +1,14 @@
-apiVersion: extensions/v1beta1
-kind: Ingress
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
 metadata:
-  annotations:
-    kubernetes.io/ingress.class: traefik
   name: kappes-space-ingress
+
 spec:
-  rules:
-  - host: kappes.space
-    http:
-      paths:
-      - path: /
-        backend:
-          serviceName: kappes-space-service
-          servicePort: 80
+  entryPoints:
+    - http
+  routes:
+  - match: Host(`kappes.space`)
+    kind: Rule
+    services:
+    - name: kappes-space-service
+      port: 80
