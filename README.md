@@ -3,7 +3,6 @@
     <strong>Source code of my personal website</strong><br><br>
     <img src="https://forthebadge.com/images/badges/made-with-vue.svg" height="30" />&nbsp;
     <a href="https://discord.gg/tyB74AZ"><img src="https://img.shields.io/discord/652898771436568586.svg?logo=discord&style=for-the-badge" height="30"><a>
-    <img alt="Gitlab pipeline status" src="https://img.shields.io/gitlab/pipeline/LeeDJD/Website-frontend?logo=gitlab&style=for-the-badge">
 </div>
 
 ## Installation
