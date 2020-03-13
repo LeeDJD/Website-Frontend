@@ -1,43 +1,28 @@
 {
-  "name": "frontend",
+  "name": "Website-Frontend",
   "version": "1.0.0",
-  "description": "Home Page and Portfolio",
+  "description": "Leon Kappes | Hobbyist Developer",
   "author": "Leon Kappes",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "cross-env NODE_ENV=production NUXT_PORT=5000 NUXT_HOST=0.0.0.0 node server/index.js",
+    "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.6.0",
-    "bootstrap": "^4.4.1",
-    "cross-env": "^5.2.0",
-    "express": "^4.16.4",
-    "nuxt": "^2.4.0",
-    "particles.js": "^2.0.0",
-    "typewriter-effect": "^2.12.1"
+    "nuxt": "^2.0.0",
+    "@nuxtjs/bulma": "^1.2.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/dotenv": "^1.4.0"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^0.0.1",
-    "babel-eslint": "^8.2.1",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-config-standard": ">=12.0.0",
-    "eslint-loader": "^3.0.3",
-    "eslint-plugin-import": ">=2.14.0",
-    "eslint-plugin-jest": ">=21.24.1",
-    "eslint-plugin-node": ">=7.0.1",
-    "eslint-plugin-prettier": "3.1.1",
-    "eslint-plugin-promise": ">=4.0.1",
-    "eslint-plugin-standard": ">=4.0.0",
-    "eslint-plugin-vue": "^6.0.1",
-    "node-sass": "^4.11.0",
-    "nodemon": "^1.18.9",
-    "prettier": "^1.14.3",
-    "sass-loader": "^7.1.0"
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
   }
 }

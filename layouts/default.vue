@@ -5,42 +5,51 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-body {
-  background-color: #272727;
-  font-family: 'Roboto', sans-serif;
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
-ul {
-  padding: 0;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
 }
-li {
-  list-style-type: none;
+
+.button--green {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #3b8070;
+  color: #3b8070;
+  text-decoration: none;
+  padding: 10px 30px;
 }
-.navbar-brand img,
-.navbar-default .navbar-nav li a,
-.navbar-default .navbar-toggle,
-.projects img,
-.episoden-container ul li input,
-.project-files ul li,
-.nav-pills li a,
-.btn,
-.navbar-footer ul li a,
-.fa-2x {
-  transition: all 300ms;
-  -webkit-transition: all 300ms;
-  -moz-transition: all 300ms;
-  -o-transition: all 300ms;
+
+.button--green:hover {
+  color: #fff;
+  background-color: #3b8070;
 }
-::-webkit-scrollbar-thumb {
-  background-color: #2a2c2e;
-  border-radius: 30px;
+
+.button--grey {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #35495e;
+  color: #35495e;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
 }
-::-webkit-scrollbar-corner {
-  background-color: #181a1b;
-}
-::-webkit-scrollbar {
-  background-color: #1c1e1f;
-  color: #c5c1b9;
-  width: 7px;
+
+.button--grey:hover {
+  color: #fff;
+  background-color: #35495e;
 }
 </style>

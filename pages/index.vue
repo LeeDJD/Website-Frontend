@@ -1,34 +1,39 @@
-<!--
-Leon Kappes Homepage
-Copyright (C) 2019  Leon Kappes
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published
-by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
--->
-
 <template>
   <div>
-    <Intro />
-    <Footer />
+    <Navbar />
+    <section class="hero is-white has-text-centered animate-fadeUp">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column">
+              <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
+                Hobbyist Programmer
+              </h1>
+              <h2 class="subtitle is-size-4-desktop">
+                LOREM IPSUM
+              </h2><img class="avatar" src="img/mf-avatar.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="container">
+          <img class="is-bottom" src="img/hero.svg">
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-import Intro from '~/components/Intro.vue'
-import Footer from '~/components/Footer.vue'
-
+import Navbar from '~/components/Navbar'
 export default {
   components: {
-    Intro,
-    Footer
+    Navbar
   }
 }
 </script>
-<style scoped lang="scss"></style>
+
+<style>
+
+</style>
