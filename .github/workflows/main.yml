@@ -16,9 +16,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '13.x'
-    - run: yarn
+    - run: npm ci
     - name: Run linting
-      run: yarn run lint
+      run: npm run lint
     - name: Build docker image
       env:
         DOCKER_PASS: ${{ secrets.HUB_PASSWORD }}
