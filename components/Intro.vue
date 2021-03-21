@@ -54,7 +54,7 @@ export default {
   components: {
     Card
   },
-  mounted() {
+  mounted () {
     const app = document.getElementById('typewriter')
       const typewriter = new Typewriter(app, { // eslint-disable-line
       loop: true
@@ -190,8 +190,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-// Hero
+<style lang="css" scoped>
 .jumbotron {
   color: white;
   background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)),
@@ -207,7 +206,6 @@ export default {
   text-align: center;
 }
 
-// Title
 .home h1,
 .home h2 {
   color: #fff;
@@ -239,7 +237,6 @@ export default {
   }
 }
 
-// Projects
 .projects h2 {
   font-size: 26px;
   margin: 0 0 30px 0;
@@ -271,7 +268,6 @@ export default {
   text-decoration: none;
 }
 
-// Misc
 #particles-js {
   width: 100%;
   position: absolute;

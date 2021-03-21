@@ -26,7 +26,7 @@ export default {
     }
   },
   methods: {
-    linkProps(url) {
+    linkProps (url) {
       if (url.match(/^(http(s)?|ftp):\/\//)) {
         return {
           is: 'a',
@@ -43,7 +43,7 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
+<style lang="css" scoped>
 .container-img {
   overflow: hidden;
 }
